@@ -50,8 +50,6 @@
                 'Controls("Button" & i.ToString).BackgroundImageLayout = ImageLayout.Stretch
             Else
                 Controls("Button" & (i).ToString).BackColor = Color.PeachPuff
-                'Controls("Button" & i.ToString).BackgroundImage = Image.FromFile("E:\Dev\Visual Studio 2017\Projects\Le Gasp\Ressources\blanc.png")
-                'Controls("Button" & i.ToString).BackgroundImageLayout = ImageLayout.Stretch
             End If
         Next
 
@@ -284,6 +282,7 @@
     End Sub
 
     Private Sub Button19_Click(sender As Object, e As EventArgs) Handles Button19.Click
+
         aide.Visible = True
 
     End Sub

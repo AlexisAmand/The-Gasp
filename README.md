@@ -6,4 +6,6 @@ La régle de ce jeu en solitaire est simple.
 - On désigne ensuite un pion quelconque, tous ses voisins sont retournés sauf lui.
 - Le but est de retourner tous les pions.
 
+![alt text](https://raw.githubusercontent.com/AlexisAmand/TheGasp/master/Docs/JetS-38-02.jpg)
+
 

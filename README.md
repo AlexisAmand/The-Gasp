@@ -1,5 +1,7 @@
 # TheGasp
 
+(version pour VB.net)
+
 La régle de ce jeu en solitaire est simple.
 
 - Sur une grille 4x4, on dispose des 16 pions dont les faces sont de couleurs différentes.

@@ -32,3 +32,8 @@ E:\Dev\Visual Studio 2017\Projects\Le Gasp\The Gasp\obj\Debug\The Gasp.exe
 E:\Dev\Visual Studio 2017\Projects\Le Gasp\The Gasp\obj\Debug\The Gasp.xml
 E:\Dev\Visual Studio 2017\Projects\Le Gasp\The Gasp\obj\Debug\The Gasp.pdb
 E:\Dev\Visual Studio 2017\Projects\Le Gasp\The Gasp\obj\Debug\The_Gasp.Resource1.resources
+E:\Dev\Visual Studio 2017\Projects\Le Gasp\The Gasp\bin\Debug\The Gasp.exe.manifest
+E:\Dev\Visual Studio 2017\Projects\Le Gasp\The Gasp\bin\Debug\The Gasp.application
+E:\Dev\Visual Studio 2017\Projects\Le Gasp\The Gasp\obj\Debug\The Gasp.TrustInfo.xml
+E:\Dev\Visual Studio 2017\Projects\Le Gasp\The Gasp\obj\Debug\The Gasp.exe.manifest
+E:\Dev\Visual Studio 2017\Projects\Le Gasp\The Gasp\obj\Debug\The Gasp.application

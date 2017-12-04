@@ -43,6 +43,7 @@ Partial Class Form1
         Me.Button17 = New System.Windows.Forms.Button()
         Me.Button18 = New System.Windows.Forms.Button()
         Me.Label2 = New System.Windows.Forms.Label()
+        Me.Button19 = New System.Windows.Forms.Button()
         Me.GroupBox1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -197,7 +198,7 @@ Partial Class Form1
         '
         'Button17
         '
-        Me.Button17.Location = New System.Drawing.Point(604, 384)
+        Me.Button17.Location = New System.Drawing.Point(604, 328)
         Me.Button17.Name = "Button17"
         Me.Button17.Size = New System.Drawing.Size(193, 50)
         Me.Button17.TabIndex = 20
@@ -224,12 +225,22 @@ Partial Class Form1
         Me.Label2.Text = "Label2"
         Me.Label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
+        'Button19
+        '
+        Me.Button19.Location = New System.Drawing.Point(604, 384)
+        Me.Button19.Name = "Button19"
+        Me.Button19.Size = New System.Drawing.Size(193, 50)
+        Me.Button19.TabIndex = 22
+        Me.Button19.Text = "Button19"
+        Me.Button19.UseVisualStyleBackColor = True
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImage = Global.The_Gasp.My.Resources.Resource1.fond
         Me.ClientSize = New System.Drawing.Size(809, 563)
+        Me.Controls.Add(Me.Button19)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Button18)
         Me.Controls.Add(Me.Button17)
@@ -280,4 +291,5 @@ Partial Class Form1
     Friend WithEvents Button17 As Button
     Friend WithEvents Button18 As Button
     Friend WithEvents Label2 As Label
+    Friend WithEvents Button19 As Button
 End Class

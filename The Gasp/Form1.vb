@@ -1,6 +1,6 @@
 ﻿Public Class Form1
 
-    Dim version = "0.1.0" 'version du jeu
+    Dim version = "0.2.0" 'version du jeu
 
     Dim Damier(5, 5) As Char 'le damier 
     Dim NombreCoups = 0 'nombre de coups 
@@ -114,6 +114,7 @@
         MinimizeBox = vbFalse
 
         Button17.Text = "Nouvelle partie"
+        Button19.Text = "Régles"
         Button18.Text = "Quitter"
         GroupBox1.Text = "Nombre de coups"
 
@@ -279,6 +280,11 @@
     Private Sub Button18_Click(sender As Object, e As EventArgs) Handles Button18.Click
 
         Me.Close()
+
+    End Sub
+
+    Private Sub Button19_Click(sender As Object, e As EventArgs) Handles Button19.Click
+        aide.Visible = True
 
     End Sub
 End Class

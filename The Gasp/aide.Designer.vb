@@ -29,7 +29,7 @@ Partial Class aide
         '
         Me.RichTextBox1.Location = New System.Drawing.Point(12, 12)
         Me.RichTextBox1.Name = "RichTextBox1"
-        Me.RichTextBox1.Size = New System.Drawing.Size(334, 216)
+        Me.RichTextBox1.Size = New System.Drawing.Size(573, 647)
         Me.RichTextBox1.TabIndex = 0
         Me.RichTextBox1.Text = "Il s'agit de retourner tous les pions en respectant la règle suivante : " & Global.Microsoft.VisualBasic.ChrW(10) & "Désignez" &
     " un pion et tous ces voisins, sauf lui même seront retournés. "
@@ -38,9 +38,10 @@ Partial Class aide
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(358, 240)
+        Me.ClientSize = New System.Drawing.Size(597, 671)
         Me.Controls.Add(Me.RichTextBox1)
         Me.Name = "aide"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Form2"
         Me.ResumeLayout(False)
 

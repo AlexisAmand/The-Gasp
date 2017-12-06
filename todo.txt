@@ -1,0 +1,21 @@
+BUGS
+----
+
+grille 4x4
+----------
+
+- le apropos de la grille 4x4 n'est pas centré
+
+grille 5x5
+----------
+
+- le apropos de la grille 5x5 n'est pas centré
+
+Mise à jour
+-----------
+
+- sur le bouton n°20 de la grille 5x5, il y a le texte 4x4 [RESOLU]
+- quand on passe à la grille 5x5, la grille 4x4 est toujours là [RESOLU]
+- la grille 5x5 est redimensionnable [RESOLU]
+- les casses ne sont pas super alignées [RESOLU] 
+- ajout d'un nom pour la form "apropos"

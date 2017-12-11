@@ -9,8 +9,6 @@
 
         RichTextBox1.Text = "Il s'agit de retourner toutes les cartes sachant que quand une carte est choisie, toutes ses voisines, sauf elle-même seront retournées."
 
-
     End Sub
-
 
 End Class

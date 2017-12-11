@@ -192,6 +192,7 @@
   <ItemGroup>
     <Content Include="icone.ico" />
     <Content Include="icone2.ico" />
+    <None Include="Resources\carte05.png" />
     <None Include="Resources\carte11.png" />
     <None Include="Resources\carte10.png" />
     <None Include="Resources\carte09.png" />

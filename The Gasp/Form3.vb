@@ -10,6 +10,12 @@
     Dim xbouton As Integer
     Dim ybouton As Integer
 
+    ' ce tableau stocke les versos des cartes
+    ' TODO : ajouter un s à TableauDesImage
+
+    Dim TableauDesImage(17) As Image
+
+
     ' Cette fonctione retourne les pions
 
     Private Sub retourne(xb, yb)
@@ -51,9 +57,8 @@
 
             Else
 
-                Dim NomImage = "carte" & (i).ToString
+                Controls("PictureBox" & (i).ToString).BackgroundImage = TableauDesImage(i)
 
-                Controls("PictureBox" & (i).ToString).BackgroundImage = The_Gasp.My.Resources.Resource1.carte01
             End If
 
             ' afficher les pions de la 2e ligne
@@ -63,7 +68,7 @@
                 Controls("PictureBox" & (i + 4).ToString).BackgroundImage = The_Gasp.My.Resources.Resource1.carte
 
             Else
-                Controls("PictureBox" & (i + 4).ToString).BackgroundImage = The_Gasp.My.Resources.Resource1.carte02
+                Controls("PictureBox" & (i + 4).ToString).BackgroundImage = TableauDesImage(i + 4)
             End If
 
             ' afficher les pions de la 3e ligne
@@ -73,7 +78,7 @@
                 Controls("PictureBox" & (i + 8).ToString).BackgroundImage = The_Gasp.My.Resources.Resource1.carte
 
             Else
-                Controls("PictureBox" & (i + 8).ToString).BackgroundImage = The_Gasp.My.Resources.Resource1.carte03
+                Controls("PictureBox" & (i + 8).ToString).BackgroundImage = TableauDesImage(i + 8)
             End If
 
             ' afficher les pions de la 4e ligne
@@ -83,7 +88,7 @@
                 Controls("PictureBox" & (i + 12).ToString).BackgroundImage = The_Gasp.My.Resources.Resource1.carte
 
             Else
-                Controls("PictureBox" & (i + 12).ToString).BackgroundImage = The_Gasp.My.Resources.Resource1.carte04
+                Controls("PictureBox" & (i + 12).ToString).BackgroundImage = TableauDesImage(i + 12)
             End If
 
         Next
@@ -101,8 +106,6 @@
                 Damier(c, l) = "X"
             Next
         Next
-
-        'Label1.Text = NombreCoups
 
         afficher()
 
@@ -150,8 +153,6 @@
 
         ToolStripStatusLabel1.Text = "Nombre de coups : " & NombreCoups
 
-        ' GroupBox1.Text = "Nombre de coups"
-
         MaximizeBox = vbFalse
         MinimizeBox = vbFalse
 
@@ -159,6 +160,25 @@
 
         Me.Width = 629
         Me.Height = 766
+
+        ' On met le verso des cartes dans le tableau pour pouvoir les récupérer dans la boucle for 
+
+        TableauDesImage(1) = My.Resources.Resource1.carte01
+        TableauDesImage(2) = My.Resources.Resource1.carte02
+        TableauDesImage(3) = My.Resources.Resource1.carte03
+        TableauDesImage(4) = My.Resources.Resource1.carte04
+        TableauDesImage(5) = My.Resources.Resource1.carte05
+        TableauDesImage(6) = My.Resources.Resource1.carte06
+        TableauDesImage(7) = My.Resources.Resource1.carte07
+        TableauDesImage(8) = My.Resources.Resource1.carte08
+        TableauDesImage(9) = My.Resources.Resource1.carte09
+        TableauDesImage(10) = My.Resources.Resource1.carte10
+        TableauDesImage(11) = My.Resources.Resource1.carte11
+        TableauDesImage(12) = My.Resources.Resource1.carte12
+        TableauDesImage(13) = My.Resources.Resource1.carte13
+        TableauDesImage(14) = My.Resources.Resource1.carte14
+        TableauDesImage(15) = My.Resources.Resource1.carte15
+        TableauDesImage(16) = My.Resources.Resource1.carte16
 
         ' hop ! On lance une nouvelle partie
 

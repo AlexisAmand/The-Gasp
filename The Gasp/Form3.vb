@@ -11,9 +11,8 @@
     Dim ybouton As Integer
 
     ' ce tableau stocke les versos des cartes
-    ' TODO : ajouter un s à TableauDesImage
 
-    Dim TableauDesImage(17) As Image
+    Dim TableauDesImages(17) As Image
 
 
     ' Cette fonctione retourne les pions
@@ -57,7 +56,7 @@
 
             Else
 
-                Controls("PictureBox" & (i).ToString).BackgroundImage = TableauDesImage(i)
+                Controls("PictureBox" & (i).ToString).BackgroundImage = TableauDesImages(i)
 
             End If
 
@@ -68,7 +67,7 @@
                 Controls("PictureBox" & (i + 4).ToString).BackgroundImage = The_Gasp.My.Resources.Resource1.carte
 
             Else
-                Controls("PictureBox" & (i + 4).ToString).BackgroundImage = TableauDesImage(i + 4)
+                Controls("PictureBox" & (i + 4).ToString).BackgroundImage = TableauDesImages(i + 4)
             End If
 
             ' afficher les pions de la 3e ligne
@@ -78,7 +77,7 @@
                 Controls("PictureBox" & (i + 8).ToString).BackgroundImage = The_Gasp.My.Resources.Resource1.carte
 
             Else
-                Controls("PictureBox" & (i + 8).ToString).BackgroundImage = TableauDesImage(i + 8)
+                Controls("PictureBox" & (i + 8).ToString).BackgroundImage = TableauDesImages(i + 8)
             End If
 
             ' afficher les pions de la 4e ligne
@@ -88,7 +87,7 @@
                 Controls("PictureBox" & (i + 12).ToString).BackgroundImage = The_Gasp.My.Resources.Resource1.carte
 
             Else
-                Controls("PictureBox" & (i + 12).ToString).BackgroundImage = TableauDesImage(i + 12)
+                Controls("PictureBox" & (i + 12).ToString).BackgroundImage = TableauDesImages(i + 12)
             End If
 
         Next
@@ -163,22 +162,22 @@
 
         ' On met le verso des cartes dans le tableau pour pouvoir les récupérer dans la boucle for 
 
-        TableauDesImage(1) = My.Resources.Resource1.carte01
-        TableauDesImage(2) = My.Resources.Resource1.carte02
-        TableauDesImage(3) = My.Resources.Resource1.carte03
-        TableauDesImage(4) = My.Resources.Resource1.carte04
-        TableauDesImage(5) = My.Resources.Resource1.carte05
-        TableauDesImage(6) = My.Resources.Resource1.carte06
-        TableauDesImage(7) = My.Resources.Resource1.carte07
-        TableauDesImage(8) = My.Resources.Resource1.carte08
-        TableauDesImage(9) = My.Resources.Resource1.carte09
-        TableauDesImage(10) = My.Resources.Resource1.carte10
-        TableauDesImage(11) = My.Resources.Resource1.carte11
-        TableauDesImage(12) = My.Resources.Resource1.carte12
-        TableauDesImage(13) = My.Resources.Resource1.carte13
-        TableauDesImage(14) = My.Resources.Resource1.carte14
-        TableauDesImage(15) = My.Resources.Resource1.carte15
-        TableauDesImage(16) = My.Resources.Resource1.carte16
+        TableauDesImages(1) = My.Resources.Resource1.carte01
+        TableauDesImages(2) = My.Resources.Resource1.carte02
+        TableauDesImages(3) = My.Resources.Resource1.carte03
+        TableauDesImages(4) = My.Resources.Resource1.carte04
+        TableauDesImages(5) = My.Resources.Resource1.carte05
+        TableauDesImages(6) = My.Resources.Resource1.carte06
+        TableauDesImages(7) = My.Resources.Resource1.carte07
+        TableauDesImages(8) = My.Resources.Resource1.carte08
+        TableauDesImages(9) = My.Resources.Resource1.carte09
+        TableauDesImages(10) = My.Resources.Resource1.carte10
+        TableauDesImages(11) = My.Resources.Resource1.carte11
+        TableauDesImages(12) = My.Resources.Resource1.carte12
+        TableauDesImages(13) = My.Resources.Resource1.carte13
+        TableauDesImages(14) = My.Resources.Resource1.carte14
+        TableauDesImages(15) = My.Resources.Resource1.carte15
+        TableauDesImages(16) = My.Resources.Resource1.carte16
 
         ' hop ! On lance une nouvelle partie
 

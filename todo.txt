@@ -11,8 +11,14 @@ grille 5x5
 
 - le apropos de la grille 5x5 n'est pas centré
 
-Mise à jour
------------
+todo
+----
+
+- mettre un titre sur la fenêtre de l'aide
+- refaire le texte de l'aide et soigner la présentation du texte (gras, couleurs,..etc.)
+
+Mise à jour 06/12/2017
+----------------------
 
 - sur le bouton n°20 de la grille 5x5, il y a le texte 4x4 [RESOLU]
 - quand on passe à la grille 5x5, la grille 4x4 est toujours là [RESOLU]

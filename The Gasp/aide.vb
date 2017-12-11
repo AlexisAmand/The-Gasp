@@ -1,14 +1,5 @@
 ﻿Public Class aide
 
-    ' résolution de l'écran
-
-    Dim ResWidth As Short = Screen.PrimaryScreen.Bounds.Width
-    Dim ResHeight As Short = Screen.PrimaryScreen.Bounds.Height
-
-    Private Sub Label1_Click(sender As Object, e As EventArgs)
-
-    End Sub
-
     Private Sub aide_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
         ' dimensions de la fenêtre
@@ -16,5 +7,10 @@
         Me.Width = 613
         Me.Height = 709
 
+        RichTextBox1.Text = "Il s'agit de retourner toutes les cartes sachant que quand une carte est choisie, toutes ses voisines, sauf elle-même seront retournées."
+
+
     End Sub
+
+
 End Class

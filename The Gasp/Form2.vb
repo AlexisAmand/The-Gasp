@@ -1,6 +1,6 @@
 ﻿Public Class Form2
 
-    Dim version = "0.2.0" 'version du jeu
+    ' Dim version = "0.2.0" 'version du jeu
 
     Dim Damier(6, 6) As Char 'le damier 
     Dim NombreCoups = 0 'nombre de coups 
@@ -10,12 +10,7 @@
     Dim xbouton As Integer
     Dim ybouton As Integer
 
-    ' résolution de l'écran
-
-    Dim ResWidth As Short = Screen.PrimaryScreen.Bounds.Width
-    Dim ResHeight As Short = Screen.PrimaryScreen.Bounds.Height
-
-    ' Cette fonctione retourne les pions
+    ' fonction qui retourne les pions
 
     Private Sub retourne(xb, yb)
 
@@ -393,7 +388,7 @@
 
     Private Sub Grille4X4ToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles Grille4X4ToolStripMenuItem.Click
 
-        Form1.Visible = vbTrue
+        Form3.Visible = vbTrue
         Me.Visible = vbFalse
 
     End Sub

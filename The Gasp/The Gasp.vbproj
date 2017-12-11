@@ -63,6 +63,9 @@
   <PropertyGroup>
     <OptionInfer>On</OptionInfer>
   </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>icone2.ico</ApplicationIcon>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Data" />
@@ -93,13 +96,6 @@
       <DependentUpon>AboutBox1.vb</DependentUpon>
     </Compile>
     <Compile Include="AboutBox1.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Form1.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Form1.Designer.vb">
-      <DependentUpon>Form1.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="aide.Designer.vb">
@@ -145,9 +141,6 @@
     <EmbeddedResource Include="AboutBox1.resx">
       <DependentUpon>AboutBox1.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.vb</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="aide.resx">
       <DependentUpon>aide.vb</DependentUpon>
     </EmbeddedResource>
@@ -165,7 +158,7 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Resource1.resx">
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
-      <Generator>ResXFileCodeGenerator</Generator>
+      <Generator>PublicResXFileCodeGenerator</Generator>
       <LastGenOutput>Resource1.Designer.vb</LastGenOutput>
     </EmbeddedResource>
   </ItemGroup>
@@ -189,6 +182,31 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\wood1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\carte.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2_of_clubs.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="icone.ico" />
+    <Content Include="icone2.ico" />
+    <None Include="Resources\carte11.png" />
+    <None Include="Resources\carte10.png" />
+    <None Include="Resources\carte09.png" />
+    <None Include="Resources\carte08.png" />
+    <None Include="Resources\carte07.png" />
+    <None Include="Resources\carte06.png" />
+    <None Include="Resources\carte04.png" />
+    <None Include="Resources\carte03.png" />
+    <None Include="Resources\carte02.png" />
+    <None Include="Resources\carte01.png" />
+    <None Include="Resources\carte16.png" />
+    <None Include="Resources\carte15.png" />
+    <None Include="Resources\carte14.png" />
+    <None Include="Resources\carte13.png" />
+    <None Include="Resources\carte12.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

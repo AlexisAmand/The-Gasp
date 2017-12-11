@@ -43,6 +43,16 @@ The Gasp
   les recherches de ressources à l'aide de cette classe de ressource fortement typée.
 </summary>
 </member>
+<member name="P:The_Gasp.My.Resources.Resource1._2_of_clubs">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:The_Gasp.My.Resources.Resource1.carte">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
 <member name="P:The_Gasp.My.Resources.Resource1.fond">
 <summary>
   Recherche une ressource localisée de type System.Drawing.Bitmap.

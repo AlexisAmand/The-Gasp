@@ -14,3 +14,4 @@ E:\Dev\Visual Studio 2017\Projects\Le Gasp\The Gasp\obj\Release\The_Gasp.AboutBo
 E:\Dev\Visual Studio 2017\Projects\Le Gasp\The Gasp\obj\Release\The_Gasp.aide.resources
 E:\Dev\Visual Studio 2017\Projects\Le Gasp\The Gasp\obj\Release\The_Gasp.Form2.resources
 E:\Dev\Visual Studio 2017\Projects\Le Gasp\The Gasp\obj\Release\The Gasp.vbproj.CoreCompileInputs.cache
+E:\Dev\Visual Studio 2017\Projects\Le Gasp\The Gasp\obj\Release\The_Gasp.Form3.resources

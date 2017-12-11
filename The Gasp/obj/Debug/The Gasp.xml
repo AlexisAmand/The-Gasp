@@ -43,6 +43,86 @@ The Gasp
   les recherches de ressources à l'aide de cette classe de ressource fortement typée.
 </summary>
 </member>
+<member name="P:The_Gasp.My.Resources.Resource1.carte">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:The_Gasp.My.Resources.Resource1.carte01">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:The_Gasp.My.Resources.Resource1.carte02">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:The_Gasp.My.Resources.Resource1.carte03">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:The_Gasp.My.Resources.Resource1.carte04">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:The_Gasp.My.Resources.Resource1.carte06">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:The_Gasp.My.Resources.Resource1.carte07">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:The_Gasp.My.Resources.Resource1.carte08">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:The_Gasp.My.Resources.Resource1.carte09">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:The_Gasp.My.Resources.Resource1.carte10">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:The_Gasp.My.Resources.Resource1.carte11">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:The_Gasp.My.Resources.Resource1.carte12">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:The_Gasp.My.Resources.Resource1.carte13">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:The_Gasp.My.Resources.Resource1.carte14">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:The_Gasp.My.Resources.Resource1.carte15">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:The_Gasp.My.Resources.Resource1.carte16">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
 <member name="P:The_Gasp.My.Resources.Resource1.fond">
 <summary>
   Recherche une ressource localisée de type System.Drawing.Bitmap.

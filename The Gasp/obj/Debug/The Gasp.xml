@@ -22,11 +22,6 @@ The Gasp
   les recherches de ressources à l'aide de cette classe de ressource fortement typée.
 </summary>
 </member>
-<member name="P:The_Gasp.My.Resources.Resources.wood">
-<summary>
-  Recherche une ressource localisée de type System.Drawing.Bitmap.
-</summary>
-</member>
 <member name="T:The_Gasp.My.Resources.Resource1">
 <summary>
   Une classe de ressource fortement typée destinée, entre autres, à la consultation des chaînes localisées.
@@ -41,6 +36,21 @@ The Gasp
 <summary>
   Remplace la propriété CurrentUICulture du thread actuel pour toutes
   les recherches de ressources à l'aide de cette classe de ressource fortement typée.
+</summary>
+</member>
+<member name="P:The_Gasp.My.Resources.Resource1.apropos">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:The_Gasp.My.Resources.Resource1.back_railways">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:The_Gasp.My.Resources.Resource1.bateau_vintage">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
 </summary>
 </member>
 <member name="P:The_Gasp.My.Resources.Resource1.carte">
@@ -124,6 +134,11 @@ The Gasp
 </summary>
 </member>
 <member name="P:The_Gasp.My.Resources.Resource1.carte16">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:The_Gasp.My.Resources.Resource1.fond">
 <summary>
   Recherche une ressource localisée de type System.Drawing.Bitmap.
 </summary>

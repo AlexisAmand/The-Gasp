@@ -67,6 +67,36 @@ Namespace My.Resources
         '''<summary>
         '''  Recherche une ressource localisée de type System.Drawing.Bitmap.
         '''</summary>
+        Public Shared ReadOnly Property apropos() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("apropos", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Recherche une ressource localisée de type System.Drawing.Bitmap.
+        '''</summary>
+        Public Shared ReadOnly Property back_railways() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("back_railways", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Recherche une ressource localisée de type System.Drawing.Bitmap.
+        '''</summary>
+        Public Shared ReadOnly Property bateau_vintage() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("bateau_vintage", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Recherche une ressource localisée de type System.Drawing.Bitmap.
+        '''</summary>
         Public Shared ReadOnly Property carte() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("carte", resourceCulture)
@@ -230,6 +260,16 @@ Namespace My.Resources
         Public Shared ReadOnly Property carte16() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("carte16", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Recherche une ressource localisée de type System.Drawing.Bitmap.
+        '''</summary>
+        Public Shared ReadOnly Property fond() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("fond", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property

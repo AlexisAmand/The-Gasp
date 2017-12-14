@@ -1,4 +1,13 @@
-﻿Public Class Form2
+﻿' Jeu en 5 x 5
+
+Option Strict Off
+
+Public Class Form2
+
+    ' TODO: Changer les cartes 10 et 11 et les remplacer par les figures qui correspondent
+    ' TODO: Vérifier qu 'il n'y a pas de cartes en double
+    ' TODO: finir l 'icone
+    ' TODO: dans form > propriétés > style de la fenêtres > icon : mettre l 'icone
 
     ' Dim version = "0.2.0" 'version du jeu
 
@@ -9,6 +18,10 @@
 
     Dim xbouton As Integer
     Dim ybouton As Integer
+
+    ' ce tableau stocke les versos des cartes
+
+    Dim TableauDesImages(27) As Image
 
     ' fonction qui retourne les pions
 
@@ -31,58 +44,56 @@
         End If
 
         NombreCoups = NombreCoups + 1
-        Label1.Text = NombreCoups
+        ToolStripStatusLabel1.Text = "Nombre de coups : " & NombreCoups
 
-        afficher()
+        afficher(VersoCarte)
 
     End Sub
 
     ' Cette fonction affiche les pions
 
-    Private Sub afficher()
+    Public Sub afficher(VersoCarte)
 
         For i = 1 To 5
 
             ' afficher les pions de la 1ere ligne
 
             If Damier(i, 1) = "X" Then
-                Controls("Button" & (i).ToString).BackColor = Color.Sienna
-                'Controls("Button" & i.ToString).BackgroundImage = Image.FromFile("E:\Dev\Visual Studio 2017\Projects\Le Gasp\Ressources\noir.png")
-                'Controls("Button" & i.ToString).BackgroundImageLayout = ImageLayout.Stretch
+                Controls("PictureBox" & (i).ToString).BackgroundImage = VersoCarte
             Else
-                Controls("Button" & (i).ToString).BackColor = Color.PeachPuff
+                Controls("PictureBox" & (i).ToString).BackgroundImage = TableauDesImages(i)
             End If
 
             ' afficher les pions de la 2e ligne
 
             If Damier(i, 2) = "X" Then
-                Controls("Button" & (i + 5).ToString).BackColor = Color.Sienna
+                Controls("PictureBox" & (i + 5).ToString).BackgroundImage = VersoCarte
             Else
-                Controls("Button" & (i + 5).ToString).BackColor = Color.PeachPuff
+                Controls("PictureBox" & (i + 5).ToString).BackgroundImage = TableauDesImages(i + 5)
             End If
 
             ' afficher les pions de la 3e ligne
 
             If Damier(i, 3) = "X" Then
-                Controls("Button" & (i + 10).ToString).BackColor = Color.Sienna
+                Controls("PictureBox" & (i + 10).ToString).BackgroundImage = VersoCarte
             Else
-                Controls("Button" & (i + 10).ToString).BackColor = Color.PeachPuff
+                Controls("PictureBox" & (i + 10).ToString).BackgroundImage = TableauDesImages(i + 10)
             End If
 
             ' afficher les pions de la 4e ligne
 
             If Damier(i, 4) = "X" Then
-                Controls("Button" & (i + 15).ToString).BackColor = Color.Sienna
+                Controls("PictureBox" & (i + 15).ToString).BackgroundImage = VersoCarte
             Else
-                Controls("Button" & (i + 15).ToString).BackColor = Color.PeachPuff
+                Controls("PictureBox" & (i + 15).ToString).BackgroundImage = TableauDesImages(i + 15)
             End If
 
             ' afficher les pions de la 5e ligne
 
             If Damier(i, 5) = "X" Then
-                Controls("Button" & (i + 20).ToString).BackColor = Color.Sienna
+                Controls("PictureBox" & (i + 20).ToString).BackgroundImage = VersoCarte
             Else
-                Controls("Button" & (i + 20).ToString).BackColor = Color.PeachPuff
+                Controls("PictureBox" & (i + 20).ToString).BackgroundImage = TableauDesImages(i + 20)
             End If
 
         Next
@@ -101,9 +112,9 @@
             Next
         Next
 
-        Label1.Text = NombreCoups
+        'Label1.Text = NombreCoups
 
-        afficher()
+        afficher(VersoCarte)
 
     End Sub
 
@@ -111,21 +122,44 @@
 
         Me.Text = "The Gasp"
 
-        GroupBox1.Text = "Nombre de coups"
+        ToolStripStatusLabel1.Text = "Nombre de coups : " & NombreCoups
 
         MaximizeBox = vbFalse
         MinimizeBox = vbFalse
 
         ' dimensions de la fenêtre
 
-        Me.Width = 613
-        Me.Height = 709
+        ' Me.Width = 613
+        ' Me.Height = 709
 
-        ' on enléve les textes des boutons
+        ' On met le verso des cartes dans le tableau pour pouvoir les récupérer dans la boucle for 
 
-        For i = 1 To 25
-            Controls("Button" & (i).ToString).Text = ""
-        Next
+        TableauDesImages(1) = My.Resources.Resource1.carte01
+        TableauDesImages(2) = My.Resources.Resource1.carte02
+        TableauDesImages(3) = My.Resources.Resource1.carte03
+        TableauDesImages(4) = My.Resources.Resource1.carte04
+        TableauDesImages(5) = My.Resources.Resource1.carte05
+        TableauDesImages(6) = My.Resources.Resource1.carte06
+        TableauDesImages(7) = My.Resources.Resource1.carte07
+        TableauDesImages(8) = My.Resources.Resource1.carte08
+        TableauDesImages(9) = My.Resources.Resource1.carte09
+        TableauDesImages(10) = My.Resources.Resource1.carte10
+        TableauDesImages(11) = My.Resources.Resource1.carte11
+        TableauDesImages(12) = My.Resources.Resource1.carte12
+        TableauDesImages(13) = My.Resources.Resource1.carte13
+        TableauDesImages(14) = My.Resources.Resource1.carte14
+        TableauDesImages(15) = My.Resources.Resource1.carte15
+        TableauDesImages(16) = My.Resources.Resource1.carte16
+        TableauDesImages(17) = My.Resources.Resource1.carte01
+        TableauDesImages(18) = My.Resources.Resource1.carte02
+        TableauDesImages(19) = My.Resources.Resource1.carte03
+        TableauDesImages(20) = My.Resources.Resource1.carte04
+        TableauDesImages(21) = My.Resources.Resource1.carte05
+        TableauDesImages(22) = My.Resources.Resource1.carte06
+        TableauDesImages(23) = My.Resources.Resource1.carte07
+        TableauDesImages(24) = My.Resources.Resource1.carte08
+        TableauDesImages(25) = My.Resources.Resource1.carte09
+        TableauDesImages(26) = My.Resources.Resource1.carte10
 
         ' hop ! On lance une nouvelle partie
 
@@ -133,7 +167,7 @@
 
     End Sub
 
-    Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
+    Private Sub Button2_Click(sender As Object, e As EventArgs)
 
         xbouton = 2
         ybouton = 1
@@ -142,7 +176,7 @@
 
     End Sub
 
-    Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
+    Private Sub Button3_Click(sender As Object, e As EventArgs)
 
         xbouton = 3
         ybouton = 1
@@ -150,7 +184,7 @@
         retourne(xbouton, ybouton)
     End Sub
 
-    Private Sub Button4_Click(sender As Object, e As EventArgs) Handles Button4.Click
+    Private Sub Button4_Click(sender As Object, e As EventArgs)
 
         xbouton = 4
         ybouton = 1
@@ -159,7 +193,7 @@
 
     End Sub
 
-    Private Sub Button5_Click(sender As Object, e As EventArgs) Handles Button5.Click
+    Private Sub Button5_Click(sender As Object, e As EventArgs)
 
         xbouton = 5
         ybouton = 1
@@ -168,7 +202,7 @@
 
     End Sub
 
-    Private Sub Button6_Click(sender As Object, e As EventArgs) Handles Button6.Click
+    Private Sub Button6_Click(sender As Object, e As EventArgs)
 
         xbouton = 1
         ybouton = 2
@@ -176,7 +210,7 @@
         retourne(xbouton, ybouton)
     End Sub
 
-    Private Sub Button7_Click(sender As Object, e As EventArgs) Handles Button7.Click
+    Private Sub Button7_Click(sender As Object, e As EventArgs)
 
         xbouton = 2
         ybouton = 2
@@ -185,7 +219,7 @@
 
     End Sub
 
-    Private Sub Button8_Click(sender As Object, e As EventArgs) Handles Button8.Click
+    Private Sub Button8_Click(sender As Object, e As EventArgs)
 
         xbouton = 3
         ybouton = 2
@@ -194,7 +228,7 @@
 
     End Sub
 
-    Private Sub Button9_Click(sender As Object, e As EventArgs) Handles Button9.Click
+    Private Sub Button9_Click(sender As Object, e As EventArgs)
 
         xbouton = 4
         ybouton = 2
@@ -209,7 +243,7 @@
 
     End Sub
 
-    Private Sub Button10_Click(sender As Object, e As EventArgs) Handles Button10.Click
+    Private Sub Button10_Click(sender As Object, e As EventArgs)
 
         xbouton = 5
         ybouton = 2
@@ -218,7 +252,7 @@
 
     End Sub
 
-    Private Sub Button11_Click(sender As Object, e As EventArgs) Handles Button11.Click
+    Private Sub Button11_Click(sender As Object, e As EventArgs)
 
         xbouton = 1
         ybouton = 3
@@ -227,7 +261,7 @@
 
     End Sub
 
-    Private Sub Button12_Click(sender As Object, e As EventArgs) Handles Button12.Click
+    Private Sub Button12_Click(sender As Object, e As EventArgs)
 
         xbouton = 2
         ybouton = 3
@@ -236,7 +270,7 @@
 
     End Sub
 
-    Private Sub Button13_Click(sender As Object, e As EventArgs) Handles Button13.Click
+    Private Sub Button13_Click(sender As Object, e As EventArgs)
 
         xbouton = 3
         ybouton = 3
@@ -245,7 +279,7 @@
 
     End Sub
 
-    Private Sub Button14_Click(sender As Object, e As EventArgs) Handles Button14.Click
+    Private Sub Button14_Click(sender As Object, e As EventArgs)
 
         xbouton = 4
         ybouton = 3
@@ -254,7 +288,7 @@
 
     End Sub
 
-    Private Sub Button15_Click(sender As Object, e As EventArgs) Handles Button15.Click
+    Private Sub Button15_Click(sender As Object, e As EventArgs)
 
         xbouton = 5
         ybouton = 3
@@ -263,7 +297,7 @@
 
     End Sub
 
-    Private Sub Button16_Click(sender As Object, e As EventArgs) Handles Button16.Click
+    Private Sub Button16_Click(sender As Object, e As EventArgs)
 
         xbouton = 1
         ybouton = 4
@@ -272,7 +306,7 @@
 
     End Sub
 
-    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+    Private Sub Button1_Click(sender As Object, e As EventArgs)
 
         xbouton = 1
         ybouton = 1
@@ -281,7 +315,7 @@
 
     End Sub
 
-    Private Sub Button17_Click_1(sender As Object, e As EventArgs) Handles Button17.Click
+    Private Sub Button17_Click_1(sender As Object, e As EventArgs)
 
         xbouton = 2
         ybouton = 4
@@ -290,7 +324,7 @@
 
     End Sub
 
-    Private Sub Button18_Click(sender As Object, e As EventArgs) Handles Button18.Click
+    Private Sub Button18_Click(sender As Object, e As EventArgs)
 
         xbouton = 3
         ybouton = 4
@@ -299,7 +333,7 @@
 
     End Sub
 
-    Private Sub Button19_Click(sender As Object, e As EventArgs) Handles Button19.Click
+    Private Sub Button19_Click(sender As Object, e As EventArgs)
 
         xbouton = 4
         ybouton = 4
@@ -308,7 +342,7 @@
 
     End Sub
 
-    Private Sub Button20_Click(sender As Object, e As EventArgs) Handles Button20.Click
+    Private Sub Button20_Click(sender As Object, e As EventArgs)
 
         xbouton = 5
         ybouton = 4
@@ -323,7 +357,7 @@
 
     End Sub
 
-    Private Sub Button21_Click(sender As Object, e As EventArgs) Handles Button21.Click
+    Private Sub Button21_Click(sender As Object, e As EventArgs)
 
         xbouton = 1
         ybouton = 5
@@ -332,7 +366,7 @@
 
     End Sub
 
-    Private Sub Button22_Click(sender As Object, e As EventArgs) Handles Button22.Click
+    Private Sub Button22_Click(sender As Object, e As EventArgs)
 
         xbouton = 2
         ybouton = 5
@@ -341,7 +375,7 @@
 
     End Sub
 
-    Private Sub Button23_Click(sender As Object, e As EventArgs) Handles Button23.Click
+    Private Sub Button23_Click(sender As Object, e As EventArgs)
 
         xbouton = 3
         ybouton = 5
@@ -350,7 +384,7 @@
 
     End Sub
 
-    Private Sub Button24_Click(sender As Object, e As EventArgs) Handles Button24.Click
+    Private Sub Button24_Click(sender As Object, e As EventArgs)
 
         xbouton = 4
         ybouton = 5
@@ -359,7 +393,7 @@
 
     End Sub
 
-    Private Sub Button25_Click(sender As Object, e As EventArgs) Handles Button25.Click
+    Private Sub Button25_Click(sender As Object, e As EventArgs)
 
         xbouton = 5
         ybouton = 5
@@ -396,6 +430,237 @@
     Private Sub QuitterToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles QuitterToolStripMenuItem.Click
 
         Me.Close()
+
+    End Sub
+
+    Private Sub OptionsToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles OptionsToolStripMenuItem.Click
+
+        Form1.Visible = vbTrue
+
+    End Sub
+
+    Private Sub PictureBox1_Click(sender As Object, e As EventArgs) Handles PictureBox1.Click
+
+        xbouton = 1
+        ybouton = 1
+
+        retourne(xbouton, ybouton)
+
+    End Sub
+
+    Private Sub PictureBox2_Click(sender As Object, e As EventArgs) Handles PictureBox2.Click
+
+        xbouton = 2
+        ybouton = 1
+
+        retourne(xbouton, ybouton)
+
+    End Sub
+
+    Private Sub PictureBox3_Click(sender As Object, e As EventArgs) Handles PictureBox3.Click
+
+        xbouton = 3
+        ybouton = 1
+
+        retourne(xbouton, ybouton)
+
+    End Sub
+
+    Private Sub PictureBox4_Click(sender As Object, e As EventArgs) Handles PictureBox4.Click
+
+        xbouton = 4
+        ybouton = 1
+
+        retourne(xbouton, ybouton)
+
+    End Sub
+
+    Private Sub PictureBox5_Click(sender As Object, e As EventArgs) Handles PictureBox5.Click
+
+        xbouton = 5
+        ybouton = 1
+
+        retourne(xbouton, ybouton)
+
+    End Sub
+
+    Private Sub PictureBox6_Click(sender As Object, e As EventArgs) Handles PictureBox6.Click
+
+        xbouton = 1
+        ybouton = 2
+
+        retourne(xbouton, ybouton)
+
+    End Sub
+
+    Private Sub PictureBox7_Click(sender As Object, e As EventArgs) Handles PictureBox7.Click
+
+        xbouton = 2
+        ybouton = 2
+
+        retourne(xbouton, ybouton)
+
+    End Sub
+
+    Private Sub PictureBox8_Click(sender As Object, e As EventArgs) Handles PictureBox8.Click
+
+        xbouton = 3
+        ybouton = 2
+
+        retourne(xbouton, ybouton)
+
+    End Sub
+
+    Private Sub PictureBox9_Click(sender As Object, e As EventArgs) Handles PictureBox9.Click
+
+        xbouton = 4
+        ybouton = 2
+
+        retourne(xbouton, ybouton)
+
+    End Sub
+
+    Private Sub PictureBox10_Click(sender As Object, e As EventArgs) Handles PictureBox10.Click
+
+        xbouton = 5
+        ybouton = 2
+
+        retourne(xbouton, ybouton)
+
+    End Sub
+
+    Private Sub PictureBox11_Click(sender As Object, e As EventArgs) Handles PictureBox11.Click
+
+        xbouton = 1
+        ybouton = 3
+
+        retourne(xbouton, ybouton)
+
+    End Sub
+
+    Private Sub PictureBox12_Click(sender As Object, e As EventArgs) Handles PictureBox12.Click
+
+        xbouton = 2
+        ybouton = 3
+
+        retourne(xbouton, ybouton)
+
+    End Sub
+
+    Private Sub PictureBox13_Click(sender As Object, e As EventArgs) Handles PictureBox13.Click
+
+        xbouton = 3
+        ybouton = 3
+
+        retourne(xbouton, ybouton)
+
+    End Sub
+
+    Private Sub PictureBox14_Click(sender As Object, e As EventArgs) Handles PictureBox14.Click
+
+        xbouton = 4
+        ybouton = 3
+
+        retourne(xbouton, ybouton)
+
+    End Sub
+
+    Private Sub PictureBox15_Click(sender As Object, e As EventArgs) Handles PictureBox15.Click
+
+        xbouton = 5
+        ybouton = 3
+
+        retourne(xbouton, ybouton)
+
+    End Sub
+
+    Private Sub PictureBox16_Click(sender As Object, e As EventArgs) Handles PictureBox16.Click
+
+        xbouton = 1
+        ybouton = 4
+
+        retourne(xbouton, ybouton)
+
+    End Sub
+
+    Private Sub PictureBox17_Click(sender As Object, e As EventArgs) Handles PictureBox17.Click
+
+        xbouton = 2
+        ybouton = 4
+
+        retourne(xbouton, ybouton)
+
+    End Sub
+
+    Private Sub PictureBox18_Click(sender As Object, e As EventArgs) Handles PictureBox18.Click
+
+        xbouton = 3
+        ybouton = 4
+
+        retourne(xbouton, ybouton)
+
+    End Sub
+
+    Private Sub PictureBox19_Click(sender As Object, e As EventArgs) Handles PictureBox19.Click
+
+        xbouton = 4
+        ybouton = 4
+
+        retourne(xbouton, ybouton)
+
+    End Sub
+
+    Private Sub PictureBox20_Click(sender As Object, e As EventArgs) Handles PictureBox20.Click
+
+        xbouton = 5
+        ybouton = 4
+
+        retourne(xbouton, ybouton)
+
+    End Sub
+
+    Private Sub PictureBox21_Click(sender As Object, e As EventArgs) Handles PictureBox21.Click
+
+        xbouton = 1
+        ybouton = 5
+
+        retourne(xbouton, ybouton)
+
+    End Sub
+
+    Private Sub PictureBox22_Click(sender As Object, e As EventArgs) Handles PictureBox22.Click
+
+        xbouton = 2
+        ybouton = 5
+
+        retourne(xbouton, ybouton)
+
+    End Sub
+
+    Private Sub PictureBox23_Click(sender As Object, e As EventArgs) Handles PictureBox23.Click
+
+        xbouton = 3
+        ybouton = 5
+
+        retourne(xbouton, ybouton)
+
+    End Sub
+
+    Private Sub PictureBox24_Click(sender As Object, e As EventArgs) Handles PictureBox24.Click
+
+        xbouton = 4
+        ybouton = 5
+
+        retourne(xbouton, ybouton)
+
+    End Sub
+
+    Private Sub PictureBox25_Click(sender As Object, e As EventArgs) Handles PictureBox25.Click
+
+        xbouton = 5
+        ybouton = 5
+
+        retourne(xbouton, ybouton)
 
     End Sub
 End Class

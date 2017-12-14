@@ -1,4 +1,14 @@
-﻿Public Class Form3
+﻿' Jeu en 4 x 4
+
+Option Strict Off
+
+Public Class Form3
+
+
+    ' TODO: Changer les cartes 10 et 11 et les remplacer par les figures qui correspondent
+    ' TODO: Vérifier qu 'il n'y a pas de cartes en double
+    ' TODO: finir l 'icone
+    ' TODO: dans form > propriétés > style de la fenêtres > icon : mettre l 'icone
 
     ' Dim version = "0.2.0" 'version du jeu
 
@@ -13,7 +23,6 @@
     ' ce tableau stocke les versos des cartes
 
     Dim TableauDesImages(17) As Image
-
 
     ' Cette fonctione retourne les pions
 
@@ -38,13 +47,13 @@
         NombreCoups = NombreCoups + 1
         ToolStripStatusLabel1.Text = "Nombre de coups : " & NombreCoups
 
-        afficher()
+        afficher(VersoCarte)
 
     End Sub
 
     ' Cette fonction affiche les pions
 
-    Private Sub afficher()
+    Public Sub afficher(VersoCarte)
 
         For i = 1 To 4
 
@@ -52,7 +61,7 @@
 
             If Damier(i, 1) = "X" Then
 
-                Controls("PictureBox" & (i).ToString).BackgroundImage = The_Gasp.My.Resources.Resource1.carte
+                Controls("PictureBox" & (i).ToString).BackgroundImage = VersoCarte
 
             Else
 
@@ -64,7 +73,7 @@
 
             If Damier(i, 2) = "X" Then
 
-                Controls("PictureBox" & (i + 4).ToString).BackgroundImage = The_Gasp.My.Resources.Resource1.carte
+                Controls("PictureBox" & (i + 4).ToString).BackgroundImage = VersoCarte
 
             Else
                 Controls("PictureBox" & (i + 4).ToString).BackgroundImage = TableauDesImages(i + 4)
@@ -74,7 +83,7 @@
 
             If Damier(i, 3) = "X" Then
 
-                Controls("PictureBox" & (i + 8).ToString).BackgroundImage = The_Gasp.My.Resources.Resource1.carte
+                Controls("PictureBox" & (i + 8).ToString).BackgroundImage = VersoCarte
 
             Else
                 Controls("PictureBox" & (i + 8).ToString).BackgroundImage = TableauDesImages(i + 8)
@@ -84,7 +93,7 @@
 
             If Damier(i, 4) = "X" Then
 
-                Controls("PictureBox" & (i + 12).ToString).BackgroundImage = The_Gasp.My.Resources.Resource1.carte
+                Controls("PictureBox" & (i + 12).ToString).BackgroundImage = VersoCarte
 
             Else
                 Controls("PictureBox" & (i + 12).ToString).BackgroundImage = TableauDesImages(i + 12)
@@ -106,7 +115,7 @@
             Next
         Next
 
-        afficher()
+        afficher(VersoCarte)
 
     End Sub
 
@@ -157,8 +166,8 @@
 
         ' dimensions de la fenêtre
 
-        Me.Width = 629
-        Me.Height = 766
+        ' Me.Width = 629
+        ' Me.Height = 766
 
         ' On met le verso des cartes dans le tableau pour pouvoir les récupérer dans la boucle for 
 
@@ -314,6 +323,13 @@
     Private Sub Grille5X5ToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles Grille5X5ToolStripMenuItem.Click
 
         Form2.Visible = vbTrue
+        Me.Visible = vbFalse
+
+    End Sub
+
+    Private Sub ToolStripMenuItem2_Click(sender As Object, e As EventArgs) Handles ToolStripMenuItem2.Click
+
+        Form1.Visible = vbTrue
 
     End Sub
 End Class

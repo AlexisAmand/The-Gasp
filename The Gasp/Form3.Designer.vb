@@ -42,11 +42,11 @@ Partial Class Form3
         Me.MenuStrip1 = New System.Windows.Forms.MenuStrip()
         Me.PartieToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.NouvellePartieToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ToolStripMenuItem2 = New System.Windows.Forms.ToolStripMenuItem()
         Me.QuitterToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.NiveauToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.Grille4X4ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.Grille5X5ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.ToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
         Me.AideToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.RéglesToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.AProposToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
@@ -77,7 +77,7 @@ Partial Class Form3
         Me.PictureBox1.BackColor = System.Drawing.Color.Transparent
         Me.PictureBox1.BackgroundImage = CType(resources.GetObject("PictureBox1.BackgroundImage"), System.Drawing.Image)
         Me.PictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.PictureBox1.Location = New System.Drawing.Point(15, 37)
+        Me.PictureBox1.Location = New System.Drawing.Point(-1, 47)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(142, 162)
         Me.PictureBox1.TabIndex = 0
@@ -88,7 +88,7 @@ Partial Class Form3
         Me.PictureBox2.BackColor = System.Drawing.Color.Transparent
         Me.PictureBox2.BackgroundImage = CType(resources.GetObject("PictureBox2.BackgroundImage"), System.Drawing.Image)
         Me.PictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.PictureBox2.Location = New System.Drawing.Point(163, 37)
+        Me.PictureBox2.Location = New System.Drawing.Point(147, 47)
         Me.PictureBox2.Name = "PictureBox2"
         Me.PictureBox2.Size = New System.Drawing.Size(142, 162)
         Me.PictureBox2.TabIndex = 1
@@ -99,7 +99,7 @@ Partial Class Form3
         Me.PictureBox3.BackColor = System.Drawing.Color.Transparent
         Me.PictureBox3.BackgroundImage = CType(resources.GetObject("PictureBox3.BackgroundImage"), System.Drawing.Image)
         Me.PictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.PictureBox3.Location = New System.Drawing.Point(311, 37)
+        Me.PictureBox3.Location = New System.Drawing.Point(295, 47)
         Me.PictureBox3.Name = "PictureBox3"
         Me.PictureBox3.Size = New System.Drawing.Size(142, 162)
         Me.PictureBox3.TabIndex = 2
@@ -110,7 +110,7 @@ Partial Class Form3
         Me.PictureBox4.BackColor = System.Drawing.Color.Transparent
         Me.PictureBox4.BackgroundImage = CType(resources.GetObject("PictureBox4.BackgroundImage"), System.Drawing.Image)
         Me.PictureBox4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.PictureBox4.Location = New System.Drawing.Point(459, 37)
+        Me.PictureBox4.Location = New System.Drawing.Point(443, 47)
         Me.PictureBox4.Name = "PictureBox4"
         Me.PictureBox4.Size = New System.Drawing.Size(142, 162)
         Me.PictureBox4.TabIndex = 3
@@ -121,7 +121,7 @@ Partial Class Form3
         Me.PictureBox5.BackColor = System.Drawing.Color.Transparent
         Me.PictureBox5.BackgroundImage = CType(resources.GetObject("PictureBox5.BackgroundImage"), System.Drawing.Image)
         Me.PictureBox5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.PictureBox5.Location = New System.Drawing.Point(15, 205)
+        Me.PictureBox5.Location = New System.Drawing.Point(-1, 215)
         Me.PictureBox5.Name = "PictureBox5"
         Me.PictureBox5.Size = New System.Drawing.Size(142, 162)
         Me.PictureBox5.TabIndex = 4
@@ -132,7 +132,7 @@ Partial Class Form3
         Me.PictureBox6.BackColor = System.Drawing.Color.Transparent
         Me.PictureBox6.BackgroundImage = CType(resources.GetObject("PictureBox6.BackgroundImage"), System.Drawing.Image)
         Me.PictureBox6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.PictureBox6.Location = New System.Drawing.Point(163, 205)
+        Me.PictureBox6.Location = New System.Drawing.Point(147, 215)
         Me.PictureBox6.Name = "PictureBox6"
         Me.PictureBox6.Size = New System.Drawing.Size(142, 162)
         Me.PictureBox6.TabIndex = 5
@@ -143,7 +143,7 @@ Partial Class Form3
         Me.PictureBox7.BackColor = System.Drawing.Color.Transparent
         Me.PictureBox7.BackgroundImage = CType(resources.GetObject("PictureBox7.BackgroundImage"), System.Drawing.Image)
         Me.PictureBox7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.PictureBox7.Location = New System.Drawing.Point(311, 205)
+        Me.PictureBox7.Location = New System.Drawing.Point(295, 215)
         Me.PictureBox7.Name = "PictureBox7"
         Me.PictureBox7.Size = New System.Drawing.Size(142, 162)
         Me.PictureBox7.TabIndex = 6
@@ -154,7 +154,7 @@ Partial Class Form3
         Me.PictureBox8.BackColor = System.Drawing.Color.Transparent
         Me.PictureBox8.BackgroundImage = CType(resources.GetObject("PictureBox8.BackgroundImage"), System.Drawing.Image)
         Me.PictureBox8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.PictureBox8.Location = New System.Drawing.Point(459, 205)
+        Me.PictureBox8.Location = New System.Drawing.Point(443, 215)
         Me.PictureBox8.Name = "PictureBox8"
         Me.PictureBox8.Size = New System.Drawing.Size(142, 162)
         Me.PictureBox8.TabIndex = 7
@@ -165,7 +165,7 @@ Partial Class Form3
         Me.PictureBox9.BackColor = System.Drawing.Color.Transparent
         Me.PictureBox9.BackgroundImage = CType(resources.GetObject("PictureBox9.BackgroundImage"), System.Drawing.Image)
         Me.PictureBox9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.PictureBox9.Location = New System.Drawing.Point(15, 373)
+        Me.PictureBox9.Location = New System.Drawing.Point(-1, 383)
         Me.PictureBox9.Name = "PictureBox9"
         Me.PictureBox9.Size = New System.Drawing.Size(142, 162)
         Me.PictureBox9.TabIndex = 8
@@ -176,7 +176,7 @@ Partial Class Form3
         Me.PictureBox10.BackColor = System.Drawing.Color.Transparent
         Me.PictureBox10.BackgroundImage = CType(resources.GetObject("PictureBox10.BackgroundImage"), System.Drawing.Image)
         Me.PictureBox10.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.PictureBox10.Location = New System.Drawing.Point(163, 373)
+        Me.PictureBox10.Location = New System.Drawing.Point(147, 383)
         Me.PictureBox10.Name = "PictureBox10"
         Me.PictureBox10.Size = New System.Drawing.Size(142, 162)
         Me.PictureBox10.TabIndex = 9
@@ -187,7 +187,7 @@ Partial Class Form3
         Me.PictureBox11.BackColor = System.Drawing.Color.Transparent
         Me.PictureBox11.BackgroundImage = CType(resources.GetObject("PictureBox11.BackgroundImage"), System.Drawing.Image)
         Me.PictureBox11.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.PictureBox11.Location = New System.Drawing.Point(311, 373)
+        Me.PictureBox11.Location = New System.Drawing.Point(295, 383)
         Me.PictureBox11.Name = "PictureBox11"
         Me.PictureBox11.Size = New System.Drawing.Size(142, 162)
         Me.PictureBox11.TabIndex = 10
@@ -198,7 +198,7 @@ Partial Class Form3
         Me.PictureBox12.BackColor = System.Drawing.Color.Transparent
         Me.PictureBox12.BackgroundImage = CType(resources.GetObject("PictureBox12.BackgroundImage"), System.Drawing.Image)
         Me.PictureBox12.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.PictureBox12.Location = New System.Drawing.Point(459, 373)
+        Me.PictureBox12.Location = New System.Drawing.Point(443, 383)
         Me.PictureBox12.Name = "PictureBox12"
         Me.PictureBox12.Size = New System.Drawing.Size(142, 162)
         Me.PictureBox12.TabIndex = 11
@@ -209,7 +209,7 @@ Partial Class Form3
         Me.PictureBox13.BackColor = System.Drawing.Color.Transparent
         Me.PictureBox13.BackgroundImage = CType(resources.GetObject("PictureBox13.BackgroundImage"), System.Drawing.Image)
         Me.PictureBox13.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.PictureBox13.Location = New System.Drawing.Point(15, 540)
+        Me.PictureBox13.Location = New System.Drawing.Point(0, 551)
         Me.PictureBox13.Name = "PictureBox13"
         Me.PictureBox13.Size = New System.Drawing.Size(142, 162)
         Me.PictureBox13.TabIndex = 12
@@ -220,7 +220,7 @@ Partial Class Form3
         Me.PictureBox14.BackColor = System.Drawing.Color.Transparent
         Me.PictureBox14.BackgroundImage = CType(resources.GetObject("PictureBox14.BackgroundImage"), System.Drawing.Image)
         Me.PictureBox14.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.PictureBox14.Location = New System.Drawing.Point(163, 540)
+        Me.PictureBox14.Location = New System.Drawing.Point(147, 551)
         Me.PictureBox14.Name = "PictureBox14"
         Me.PictureBox14.Size = New System.Drawing.Size(142, 162)
         Me.PictureBox14.TabIndex = 13
@@ -231,7 +231,7 @@ Partial Class Form3
         Me.PictureBox15.BackColor = System.Drawing.Color.Transparent
         Me.PictureBox15.BackgroundImage = CType(resources.GetObject("PictureBox15.BackgroundImage"), System.Drawing.Image)
         Me.PictureBox15.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.PictureBox15.Location = New System.Drawing.Point(311, 540)
+        Me.PictureBox15.Location = New System.Drawing.Point(295, 551)
         Me.PictureBox15.Name = "PictureBox15"
         Me.PictureBox15.Size = New System.Drawing.Size(142, 162)
         Me.PictureBox15.TabIndex = 14
@@ -242,7 +242,7 @@ Partial Class Form3
         Me.PictureBox16.BackColor = System.Drawing.Color.Transparent
         Me.PictureBox16.BackgroundImage = CType(resources.GetObject("PictureBox16.BackgroundImage"), System.Drawing.Image)
         Me.PictureBox16.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.PictureBox16.Location = New System.Drawing.Point(459, 540)
+        Me.PictureBox16.Location = New System.Drawing.Point(443, 551)
         Me.PictureBox16.Name = "PictureBox16"
         Me.PictureBox16.Size = New System.Drawing.Size(142, 162)
         Me.PictureBox16.TabIndex = 15
@@ -253,14 +253,15 @@ Partial Class Form3
         Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.PartieToolStripMenuItem, Me.NiveauToolStripMenuItem, Me.AideToolStripMenuItem})
         Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip1.Name = "MenuStrip1"
-        Me.MenuStrip1.Size = New System.Drawing.Size(613, 24)
+        Me.MenuStrip1.Size = New System.Drawing.Size(597, 24)
         Me.MenuStrip1.TabIndex = 57
         Me.MenuStrip1.Text = "MenuStrip1"
         '
         'PartieToolStripMenuItem
         '
-        Me.PartieToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.NouvellePartieToolStripMenuItem, Me.QuitterToolStripMenuItem})
+        Me.PartieToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.NouvellePartieToolStripMenuItem, Me.ToolStripMenuItem2, Me.QuitterToolStripMenuItem})
         Me.PartieToolStripMenuItem.Name = "PartieToolStripMenuItem"
+        Me.PartieToolStripMenuItem.ShortcutKeyDisplayString = ""
         Me.PartieToolStripMenuItem.Size = New System.Drawing.Size(49, 20)
         Me.PartieToolStripMenuItem.Text = "Partie"
         '
@@ -270,6 +271,12 @@ Partial Class Form3
         Me.NouvellePartieToolStripMenuItem.Size = New System.Drawing.Size(154, 22)
         Me.NouvellePartieToolStripMenuItem.Text = "Nouvelle partie"
         '
+        'ToolStripMenuItem2
+        '
+        Me.ToolStripMenuItem2.Name = "ToolStripMenuItem2"
+        Me.ToolStripMenuItem2.Size = New System.Drawing.Size(154, 22)
+        Me.ToolStripMenuItem2.Text = "Options"
+        '
         'QuitterToolStripMenuItem
         '
         Me.QuitterToolStripMenuItem.Name = "QuitterToolStripMenuItem"
@@ -278,7 +285,7 @@ Partial Class Form3
         '
         'NiveauToolStripMenuItem
         '
-        Me.NiveauToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.Grille4X4ToolStripMenuItem, Me.Grille5X5ToolStripMenuItem, Me.ToolStripMenuItem1})
+        Me.NiveauToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.Grille4X4ToolStripMenuItem, Me.Grille5X5ToolStripMenuItem})
         Me.NiveauToolStripMenuItem.Name = "NiveauToolStripMenuItem"
         Me.NiveauToolStripMenuItem.Size = New System.Drawing.Size(56, 20)
         Me.NiveauToolStripMenuItem.Text = "Niveau"
@@ -297,12 +304,6 @@ Partial Class Form3
         Me.Grille5X5ToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
         Me.Grille5X5ToolStripMenuItem.Text = "Grille 5 x 5"
         '
-        'ToolStripMenuItem1
-        '
-        Me.ToolStripMenuItem1.Name = "ToolStripMenuItem1"
-        Me.ToolStripMenuItem1.Size = New System.Drawing.Size(152, 22)
-        Me.ToolStripMenuItem1.Text = "Grille de test"
-        '
         'AideToolStripMenuItem
         '
         Me.AideToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.RéglesToolStripMenuItem, Me.AProposToolStripMenuItem})
@@ -313,21 +314,21 @@ Partial Class Form3
         'RéglesToolStripMenuItem
         '
         Me.RéglesToolStripMenuItem.Name = "RéglesToolStripMenuItem"
-        Me.RéglesToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.RéglesToolStripMenuItem.Size = New System.Drawing.Size(122, 22)
         Me.RéglesToolStripMenuItem.Text = "Régles"
         '
         'AProposToolStripMenuItem
         '
         Me.AProposToolStripMenuItem.Name = "AProposToolStripMenuItem"
-        Me.AProposToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.AProposToolStripMenuItem.Size = New System.Drawing.Size(122, 22)
         Me.AProposToolStripMenuItem.Text = "A propos"
         '
         'StatusStrip1
         '
         Me.StatusStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ToolStripStatusLabel1})
-        Me.StatusStrip1.Location = New System.Drawing.Point(0, 706)
+        Me.StatusStrip1.Location = New System.Drawing.Point(0, 733)
         Me.StatusStrip1.Name = "StatusStrip1"
-        Me.StatusStrip1.Size = New System.Drawing.Size(613, 22)
+        Me.StatusStrip1.Size = New System.Drawing.Size(597, 22)
         Me.StatusStrip1.TabIndex = 58
         '
         'ToolStripStatusLabel1
@@ -340,9 +341,9 @@ Partial Class Form3
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.BackgroundImage = Global.The_Gasp.My.Resources.Resources.wood
+        Me.BackgroundImage = Global.The_Gasp.My.Resources.Resource1.wood
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.ClientSize = New System.Drawing.Size(613, 728)
+        Me.ClientSize = New System.Drawing.Size(597, 755)
         Me.Controls.Add(Me.StatusStrip1)
         Me.Controls.Add(Me.MenuStrip1)
         Me.Controls.Add(Me.PictureBox16)
@@ -361,7 +362,9 @@ Partial Class Form3
         Me.Controls.Add(Me.PictureBox3)
         Me.Controls.Add(Me.PictureBox2)
         Me.Controls.Add(Me.PictureBox1)
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
         Me.Name = "Form3"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Form3"
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
@@ -411,10 +414,10 @@ Partial Class Form3
     Friend WithEvents NiveauToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents Grille4X4ToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents Grille5X5ToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents ToolStripMenuItem1 As ToolStripMenuItem
     Friend WithEvents AideToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents RéglesToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents AProposToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents StatusStrip1 As StatusStrip
     Friend WithEvents ToolStripStatusLabel1 As ToolStripStatusLabel
+    Friend WithEvents ToolStripMenuItem2 As ToolStripMenuItem
 End Class

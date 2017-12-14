@@ -36,3 +36,4 @@ E:\Dev\Visual Studio 2017\Projects\Le Gasp\The Gasp\obj\Debug\The_Gasp.Form2.res
 E:\Dev\Visual Studio 2017\Projects\Le Gasp\The Gasp\obj\Debug\The Gasp.vbproj.CoreCompileInputs.cache
 E:\Dev\Visual Studio 2017\Projects\Le Gasp\The Gasp\obj\Debug\The_Gasp.AboutBox1.resources
 E:\Dev\Visual Studio 2017\Projects\Le Gasp\The Gasp\obj\Debug\The_Gasp.Form3.resources
+E:\Dev\Visual Studio 2017\Projects\Le Gasp\The Gasp\obj\Debug\The_Gasp.Form1.resources

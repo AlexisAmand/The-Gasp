@@ -22,36 +22,11 @@ Partial Class Form2
     'Ne la modifiez pas à l'aide de l'éditeur de code.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.Button1 = New System.Windows.Forms.Button()
-        Me.GroupBox1 = New System.Windows.Forms.GroupBox()
-        Me.Label1 = New System.Windows.Forms.Label()
-        Me.Button2 = New System.Windows.Forms.Button()
-        Me.Button3 = New System.Windows.Forms.Button()
-        Me.Button4 = New System.Windows.Forms.Button()
-        Me.Button5 = New System.Windows.Forms.Button()
-        Me.Button6 = New System.Windows.Forms.Button()
-        Me.Button7 = New System.Windows.Forms.Button()
-        Me.Button8 = New System.Windows.Forms.Button()
-        Me.Button9 = New System.Windows.Forms.Button()
-        Me.Button10 = New System.Windows.Forms.Button()
-        Me.Button11 = New System.Windows.Forms.Button()
-        Me.Button12 = New System.Windows.Forms.Button()
-        Me.Button13 = New System.Windows.Forms.Button()
-        Me.Button14 = New System.Windows.Forms.Button()
-        Me.Button15 = New System.Windows.Forms.Button()
-        Me.Button16 = New System.Windows.Forms.Button()
-        Me.Button17 = New System.Windows.Forms.Button()
-        Me.Button18 = New System.Windows.Forms.Button()
-        Me.Button19 = New System.Windows.Forms.Button()
-        Me.Button20 = New System.Windows.Forms.Button()
-        Me.Button21 = New System.Windows.Forms.Button()
-        Me.Button22 = New System.Windows.Forms.Button()
-        Me.Button23 = New System.Windows.Forms.Button()
-        Me.Button24 = New System.Windows.Forms.Button()
-        Me.Button25 = New System.Windows.Forms.Button()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form2))
         Me.MenuStrip1 = New System.Windows.Forms.MenuStrip()
         Me.PartieToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.NouvellePartieToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.OptionsToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.QuitterToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.NiveauToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.Grille4X4ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
@@ -59,255 +34,61 @@ Partial Class Form2
         Me.AideToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.RéglesToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.AProposToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.GroupBox1.SuspendLayout()
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox2 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox3 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox4 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox5 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox6 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox7 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox8 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox9 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox10 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox11 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox12 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox13 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox14 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox15 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox16 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox17 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox18 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox19 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox20 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox21 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox22 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox23 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox24 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox25 = New System.Windows.Forms.PictureBox()
+        Me.StatusStrip1 = New System.Windows.Forms.StatusStrip()
+        Me.ToolStripStatusLabel1 = New System.Windows.Forms.ToolStripStatusLabel()
         Me.MenuStrip1.SuspendLayout()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox6, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox7, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox8, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox9, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox10, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox11, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox12, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox13, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox14, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox15, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox16, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox17, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox18, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox19, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox20, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox21, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox22, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox23, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox24, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox25, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.StatusStrip1.SuspendLayout()
         Me.SuspendLayout()
-        '
-        'Button1
-        '
-        Me.Button1.Location = New System.Drawing.Point(33, 50)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(101, 94)
-        Me.Button1.TabIndex = 0
-        Me.Button1.Text = "Button1"
-        Me.Button1.UseVisualStyleBackColor = True
-        '
-        'GroupBox1
-        '
-        Me.GroupBox1.Controls.Add(Me.Label1)
-        Me.GroupBox1.Location = New System.Drawing.Point(33, 575)
-        Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Size = New System.Drawing.Size(187, 84)
-        Me.GroupBox1.TabIndex = 25
-        Me.GroupBox1.TabStop = False
-        Me.GroupBox1.Text = "GroupBox1"
-        '
-        'Label1
-        '
-        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 36.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.ForeColor = System.Drawing.SystemColors.ControlText
-        Me.Label1.Location = New System.Drawing.Point(6, 16)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(169, 67)
-        Me.Label1.TabIndex = 17
-        Me.Label1.Text = "Label1"
-        Me.Label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'Button2
-        '
-        Me.Button2.Location = New System.Drawing.Point(140, 50)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(101, 94)
-        Me.Button2.TabIndex = 26
-        Me.Button2.Text = "Button2"
-        Me.Button2.UseVisualStyleBackColor = True
-        '
-        'Button3
-        '
-        Me.Button3.Location = New System.Drawing.Point(247, 50)
-        Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(101, 94)
-        Me.Button3.TabIndex = 27
-        Me.Button3.Text = "Button3"
-        Me.Button3.UseVisualStyleBackColor = True
-        '
-        'Button4
-        '
-        Me.Button4.Location = New System.Drawing.Point(354, 50)
-        Me.Button4.Name = "Button4"
-        Me.Button4.Size = New System.Drawing.Size(101, 94)
-        Me.Button4.TabIndex = 28
-        Me.Button4.Text = "Button4"
-        Me.Button4.UseVisualStyleBackColor = True
-        '
-        'Button5
-        '
-        Me.Button5.Location = New System.Drawing.Point(461, 50)
-        Me.Button5.Name = "Button5"
-        Me.Button5.Size = New System.Drawing.Size(101, 94)
-        Me.Button5.TabIndex = 29
-        Me.Button5.Text = "Button5"
-        Me.Button5.UseVisualStyleBackColor = True
-        '
-        'Button6
-        '
-        Me.Button6.Location = New System.Drawing.Point(33, 150)
-        Me.Button6.Name = "Button6"
-        Me.Button6.Size = New System.Drawing.Size(101, 94)
-        Me.Button6.TabIndex = 34
-        Me.Button6.Text = "Button6"
-        Me.Button6.UseVisualStyleBackColor = True
-        '
-        'Button7
-        '
-        Me.Button7.Location = New System.Drawing.Point(140, 150)
-        Me.Button7.Name = "Button7"
-        Me.Button7.Size = New System.Drawing.Size(101, 94)
-        Me.Button7.TabIndex = 33
-        Me.Button7.Text = "Button7"
-        Me.Button7.UseVisualStyleBackColor = True
-        '
-        'Button8
-        '
-        Me.Button8.Location = New System.Drawing.Point(247, 150)
-        Me.Button8.Name = "Button8"
-        Me.Button8.Size = New System.Drawing.Size(101, 94)
-        Me.Button8.TabIndex = 32
-        Me.Button8.Text = "Button8"
-        Me.Button8.UseVisualStyleBackColor = True
-        '
-        'Button9
-        '
-        Me.Button9.Location = New System.Drawing.Point(354, 150)
-        Me.Button9.Name = "Button9"
-        Me.Button9.Size = New System.Drawing.Size(101, 94)
-        Me.Button9.TabIndex = 31
-        Me.Button9.Text = "Button9"
-        Me.Button9.UseVisualStyleBackColor = True
-        '
-        'Button10
-        '
-        Me.Button10.Location = New System.Drawing.Point(461, 150)
-        Me.Button10.Name = "Button10"
-        Me.Button10.Size = New System.Drawing.Size(101, 94)
-        Me.Button10.TabIndex = 30
-        Me.Button10.Text = "Button10"
-        Me.Button10.UseVisualStyleBackColor = True
-        '
-        'Button11
-        '
-        Me.Button11.Location = New System.Drawing.Point(33, 250)
-        Me.Button11.Name = "Button11"
-        Me.Button11.Size = New System.Drawing.Size(101, 94)
-        Me.Button11.TabIndex = 35
-        Me.Button11.Text = "Button11"
-        Me.Button11.UseVisualStyleBackColor = True
-        '
-        'Button12
-        '
-        Me.Button12.Location = New System.Drawing.Point(140, 250)
-        Me.Button12.Name = "Button12"
-        Me.Button12.Size = New System.Drawing.Size(101, 94)
-        Me.Button12.TabIndex = 36
-        Me.Button12.Text = "Button12"
-        Me.Button12.UseVisualStyleBackColor = True
-        '
-        'Button13
-        '
-        Me.Button13.Location = New System.Drawing.Point(247, 250)
-        Me.Button13.Name = "Button13"
-        Me.Button13.Size = New System.Drawing.Size(101, 94)
-        Me.Button13.TabIndex = 37
-        Me.Button13.Text = "Button13"
-        Me.Button13.UseVisualStyleBackColor = True
-        '
-        'Button14
-        '
-        Me.Button14.Location = New System.Drawing.Point(354, 250)
-        Me.Button14.Name = "Button14"
-        Me.Button14.Size = New System.Drawing.Size(101, 94)
-        Me.Button14.TabIndex = 38
-        Me.Button14.Text = "Button14"
-        Me.Button14.UseVisualStyleBackColor = True
-        '
-        'Button15
-        '
-        Me.Button15.Location = New System.Drawing.Point(461, 250)
-        Me.Button15.Name = "Button15"
-        Me.Button15.Size = New System.Drawing.Size(101, 94)
-        Me.Button15.TabIndex = 39
-        Me.Button15.Text = "Button15"
-        Me.Button15.UseVisualStyleBackColor = True
-        '
-        'Button16
-        '
-        Me.Button16.Location = New System.Drawing.Point(33, 350)
-        Me.Button16.Name = "Button16"
-        Me.Button16.Size = New System.Drawing.Size(101, 94)
-        Me.Button16.TabIndex = 40
-        Me.Button16.Text = "Button16"
-        Me.Button16.UseVisualStyleBackColor = True
-        '
-        'Button17
-        '
-        Me.Button17.Location = New System.Drawing.Point(140, 350)
-        Me.Button17.Name = "Button17"
-        Me.Button17.Size = New System.Drawing.Size(101, 94)
-        Me.Button17.TabIndex = 41
-        Me.Button17.Text = "Button17"
-        Me.Button17.UseVisualStyleBackColor = True
-        '
-        'Button18
-        '
-        Me.Button18.Location = New System.Drawing.Point(247, 350)
-        Me.Button18.Name = "Button18"
-        Me.Button18.Size = New System.Drawing.Size(101, 94)
-        Me.Button18.TabIndex = 42
-        Me.Button18.Text = "Button18"
-        Me.Button18.UseVisualStyleBackColor = True
-        '
-        'Button19
-        '
-        Me.Button19.Location = New System.Drawing.Point(354, 350)
-        Me.Button19.Name = "Button19"
-        Me.Button19.Size = New System.Drawing.Size(101, 94)
-        Me.Button19.TabIndex = 43
-        Me.Button19.Text = "Button19"
-        Me.Button19.UseVisualStyleBackColor = True
-        '
-        'Button20
-        '
-        Me.Button20.Location = New System.Drawing.Point(461, 350)
-        Me.Button20.Name = "Button20"
-        Me.Button20.Size = New System.Drawing.Size(101, 94)
-        Me.Button20.TabIndex = 44
-        Me.Button20.Text = "Button20"
-        Me.Button20.UseVisualStyleBackColor = True
-        '
-        'Button21
-        '
-        Me.Button21.Location = New System.Drawing.Point(33, 450)
-        Me.Button21.Name = "Button21"
-        Me.Button21.Size = New System.Drawing.Size(101, 94)
-        Me.Button21.TabIndex = 45
-        Me.Button21.Text = "Button21"
-        Me.Button21.UseVisualStyleBackColor = True
-        '
-        'Button22
-        '
-        Me.Button22.Location = New System.Drawing.Point(140, 450)
-        Me.Button22.Name = "Button22"
-        Me.Button22.Size = New System.Drawing.Size(101, 94)
-        Me.Button22.TabIndex = 46
-        Me.Button22.Text = "Button22"
-        Me.Button22.UseVisualStyleBackColor = True
-        '
-        'Button23
-        '
-        Me.Button23.Location = New System.Drawing.Point(247, 450)
-        Me.Button23.Name = "Button23"
-        Me.Button23.Size = New System.Drawing.Size(101, 94)
-        Me.Button23.TabIndex = 47
-        Me.Button23.Text = "Button23"
-        Me.Button23.UseVisualStyleBackColor = True
-        '
-        'Button24
-        '
-        Me.Button24.Location = New System.Drawing.Point(354, 450)
-        Me.Button24.Name = "Button24"
-        Me.Button24.Size = New System.Drawing.Size(101, 94)
-        Me.Button24.TabIndex = 48
-        Me.Button24.Text = "Button24"
-        Me.Button24.UseVisualStyleBackColor = True
-        '
-        'Button25
-        '
-        Me.Button25.Location = New System.Drawing.Point(461, 450)
-        Me.Button25.Name = "Button25"
-        Me.Button25.Size = New System.Drawing.Size(101, 94)
-        Me.Button25.TabIndex = 49
-        Me.Button25.Text = "Button25"
-        Me.Button25.UseVisualStyleBackColor = True
         '
         'MenuStrip1
         '
@@ -320,7 +101,7 @@ Partial Class Form2
         '
         'PartieToolStripMenuItem
         '
-        Me.PartieToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.NouvellePartieToolStripMenuItem, Me.QuitterToolStripMenuItem})
+        Me.PartieToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.NouvellePartieToolStripMenuItem, Me.OptionsToolStripMenuItem, Me.QuitterToolStripMenuItem})
         Me.PartieToolStripMenuItem.Name = "PartieToolStripMenuItem"
         Me.PartieToolStripMenuItem.Size = New System.Drawing.Size(49, 20)
         Me.PartieToolStripMenuItem.Text = "Partie"
@@ -330,6 +111,12 @@ Partial Class Form2
         Me.NouvellePartieToolStripMenuItem.Name = "NouvellePartieToolStripMenuItem"
         Me.NouvellePartieToolStripMenuItem.Size = New System.Drawing.Size(154, 22)
         Me.NouvellePartieToolStripMenuItem.Text = "Nouvelle partie"
+        '
+        'OptionsToolStripMenuItem
+        '
+        Me.OptionsToolStripMenuItem.Name = "OptionsToolStripMenuItem"
+        Me.OptionsToolStripMenuItem.Size = New System.Drawing.Size(154, 22)
+        Me.OptionsToolStripMenuItem.Text = "Options"
         '
         'QuitterToolStripMenuItem
         '
@@ -377,80 +164,367 @@ Partial Class Form2
         Me.AProposToolStripMenuItem.Size = New System.Drawing.Size(122, 22)
         Me.AProposToolStripMenuItem.Text = "A propos"
         '
+        'PictureBox1
+        '
+        Me.PictureBox1.BackColor = System.Drawing.Color.Transparent
+        Me.PictureBox1.BackgroundImage = CType(resources.GetObject("PictureBox1.BackgroundImage"), System.Drawing.Image)
+        Me.PictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.PictureBox1.Location = New System.Drawing.Point(25, 36)
+        Me.PictureBox1.Name = "PictureBox1"
+        Me.PictureBox1.Size = New System.Drawing.Size(105, 130)
+        Me.PictureBox1.TabIndex = 56
+        Me.PictureBox1.TabStop = False
+        '
+        'PictureBox2
+        '
+        Me.PictureBox2.BackColor = System.Drawing.Color.Transparent
+        Me.PictureBox2.BackgroundImage = CType(resources.GetObject("PictureBox2.BackgroundImage"), System.Drawing.Image)
+        Me.PictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.PictureBox2.Location = New System.Drawing.Point(136, 36)
+        Me.PictureBox2.Name = "PictureBox2"
+        Me.PictureBox2.Size = New System.Drawing.Size(105, 130)
+        Me.PictureBox2.TabIndex = 57
+        Me.PictureBox2.TabStop = False
+        '
+        'PictureBox3
+        '
+        Me.PictureBox3.BackColor = System.Drawing.Color.Transparent
+        Me.PictureBox3.BackgroundImage = CType(resources.GetObject("PictureBox3.BackgroundImage"), System.Drawing.Image)
+        Me.PictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.PictureBox3.Location = New System.Drawing.Point(247, 36)
+        Me.PictureBox3.Name = "PictureBox3"
+        Me.PictureBox3.Size = New System.Drawing.Size(105, 130)
+        Me.PictureBox3.TabIndex = 58
+        Me.PictureBox3.TabStop = False
+        '
+        'PictureBox4
+        '
+        Me.PictureBox4.BackColor = System.Drawing.Color.Transparent
+        Me.PictureBox4.BackgroundImage = CType(resources.GetObject("PictureBox4.BackgroundImage"), System.Drawing.Image)
+        Me.PictureBox4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.PictureBox4.Location = New System.Drawing.Point(355, 36)
+        Me.PictureBox4.Name = "PictureBox4"
+        Me.PictureBox4.Size = New System.Drawing.Size(105, 130)
+        Me.PictureBox4.TabIndex = 59
+        Me.PictureBox4.TabStop = False
+        '
+        'PictureBox5
+        '
+        Me.PictureBox5.BackColor = System.Drawing.Color.Transparent
+        Me.PictureBox5.BackgroundImage = CType(resources.GetObject("PictureBox5.BackgroundImage"), System.Drawing.Image)
+        Me.PictureBox5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.PictureBox5.Location = New System.Drawing.Point(466, 36)
+        Me.PictureBox5.Name = "PictureBox5"
+        Me.PictureBox5.Size = New System.Drawing.Size(105, 130)
+        Me.PictureBox5.TabIndex = 59
+        Me.PictureBox5.TabStop = False
+        '
+        'PictureBox6
+        '
+        Me.PictureBox6.BackColor = System.Drawing.Color.Transparent
+        Me.PictureBox6.BackgroundImage = CType(resources.GetObject("PictureBox6.BackgroundImage"), System.Drawing.Image)
+        Me.PictureBox6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.PictureBox6.Location = New System.Drawing.Point(25, 172)
+        Me.PictureBox6.Name = "PictureBox6"
+        Me.PictureBox6.Size = New System.Drawing.Size(105, 130)
+        Me.PictureBox6.TabIndex = 60
+        Me.PictureBox6.TabStop = False
+        '
+        'PictureBox7
+        '
+        Me.PictureBox7.BackColor = System.Drawing.Color.Transparent
+        Me.PictureBox7.BackgroundImage = CType(resources.GetObject("PictureBox7.BackgroundImage"), System.Drawing.Image)
+        Me.PictureBox7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.PictureBox7.Location = New System.Drawing.Point(136, 172)
+        Me.PictureBox7.Name = "PictureBox7"
+        Me.PictureBox7.Size = New System.Drawing.Size(105, 130)
+        Me.PictureBox7.TabIndex = 61
+        Me.PictureBox7.TabStop = False
+        '
+        'PictureBox8
+        '
+        Me.PictureBox8.BackColor = System.Drawing.Color.Transparent
+        Me.PictureBox8.BackgroundImage = CType(resources.GetObject("PictureBox8.BackgroundImage"), System.Drawing.Image)
+        Me.PictureBox8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.PictureBox8.Location = New System.Drawing.Point(247, 172)
+        Me.PictureBox8.Name = "PictureBox8"
+        Me.PictureBox8.Size = New System.Drawing.Size(105, 130)
+        Me.PictureBox8.TabIndex = 62
+        Me.PictureBox8.TabStop = False
+        '
+        'PictureBox9
+        '
+        Me.PictureBox9.BackColor = System.Drawing.Color.Transparent
+        Me.PictureBox9.BackgroundImage = CType(resources.GetObject("PictureBox9.BackgroundImage"), System.Drawing.Image)
+        Me.PictureBox9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.PictureBox9.Location = New System.Drawing.Point(355, 172)
+        Me.PictureBox9.Name = "PictureBox9"
+        Me.PictureBox9.Size = New System.Drawing.Size(105, 130)
+        Me.PictureBox9.TabIndex = 63
+        Me.PictureBox9.TabStop = False
+        '
+        'PictureBox10
+        '
+        Me.PictureBox10.BackColor = System.Drawing.Color.Transparent
+        Me.PictureBox10.BackgroundImage = CType(resources.GetObject("PictureBox10.BackgroundImage"), System.Drawing.Image)
+        Me.PictureBox10.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.PictureBox10.Location = New System.Drawing.Point(466, 172)
+        Me.PictureBox10.Name = "PictureBox10"
+        Me.PictureBox10.Size = New System.Drawing.Size(105, 130)
+        Me.PictureBox10.TabIndex = 64
+        Me.PictureBox10.TabStop = False
+        '
+        'PictureBox11
+        '
+        Me.PictureBox11.BackColor = System.Drawing.Color.Transparent
+        Me.PictureBox11.BackgroundImage = CType(resources.GetObject("PictureBox11.BackgroundImage"), System.Drawing.Image)
+        Me.PictureBox11.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.PictureBox11.Location = New System.Drawing.Point(25, 308)
+        Me.PictureBox11.Name = "PictureBox11"
+        Me.PictureBox11.Size = New System.Drawing.Size(105, 130)
+        Me.PictureBox11.TabIndex = 65
+        Me.PictureBox11.TabStop = False
+        '
+        'PictureBox12
+        '
+        Me.PictureBox12.BackColor = System.Drawing.Color.Transparent
+        Me.PictureBox12.BackgroundImage = CType(resources.GetObject("PictureBox12.BackgroundImage"), System.Drawing.Image)
+        Me.PictureBox12.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.PictureBox12.Location = New System.Drawing.Point(136, 308)
+        Me.PictureBox12.Name = "PictureBox12"
+        Me.PictureBox12.Size = New System.Drawing.Size(105, 130)
+        Me.PictureBox12.TabIndex = 66
+        Me.PictureBox12.TabStop = False
+        '
+        'PictureBox13
+        '
+        Me.PictureBox13.BackColor = System.Drawing.Color.Transparent
+        Me.PictureBox13.BackgroundImage = CType(resources.GetObject("PictureBox13.BackgroundImage"), System.Drawing.Image)
+        Me.PictureBox13.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.PictureBox13.Location = New System.Drawing.Point(247, 308)
+        Me.PictureBox13.Name = "PictureBox13"
+        Me.PictureBox13.Size = New System.Drawing.Size(105, 130)
+        Me.PictureBox13.TabIndex = 67
+        Me.PictureBox13.TabStop = False
+        '
+        'PictureBox14
+        '
+        Me.PictureBox14.BackColor = System.Drawing.Color.Transparent
+        Me.PictureBox14.BackgroundImage = CType(resources.GetObject("PictureBox14.BackgroundImage"), System.Drawing.Image)
+        Me.PictureBox14.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.PictureBox14.Location = New System.Drawing.Point(355, 308)
+        Me.PictureBox14.Name = "PictureBox14"
+        Me.PictureBox14.Size = New System.Drawing.Size(105, 130)
+        Me.PictureBox14.TabIndex = 68
+        Me.PictureBox14.TabStop = False
+        '
+        'PictureBox15
+        '
+        Me.PictureBox15.BackColor = System.Drawing.Color.Transparent
+        Me.PictureBox15.BackgroundImage = CType(resources.GetObject("PictureBox15.BackgroundImage"), System.Drawing.Image)
+        Me.PictureBox15.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.PictureBox15.Location = New System.Drawing.Point(466, 308)
+        Me.PictureBox15.Name = "PictureBox15"
+        Me.PictureBox15.Size = New System.Drawing.Size(105, 130)
+        Me.PictureBox15.TabIndex = 69
+        Me.PictureBox15.TabStop = False
+        '
+        'PictureBox16
+        '
+        Me.PictureBox16.BackColor = System.Drawing.Color.Transparent
+        Me.PictureBox16.BackgroundImage = CType(resources.GetObject("PictureBox16.BackgroundImage"), System.Drawing.Image)
+        Me.PictureBox16.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.PictureBox16.Location = New System.Drawing.Point(25, 444)
+        Me.PictureBox16.Name = "PictureBox16"
+        Me.PictureBox16.Size = New System.Drawing.Size(105, 130)
+        Me.PictureBox16.TabIndex = 70
+        Me.PictureBox16.TabStop = False
+        '
+        'PictureBox17
+        '
+        Me.PictureBox17.BackColor = System.Drawing.Color.Transparent
+        Me.PictureBox17.BackgroundImage = CType(resources.GetObject("PictureBox17.BackgroundImage"), System.Drawing.Image)
+        Me.PictureBox17.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.PictureBox17.Location = New System.Drawing.Point(136, 444)
+        Me.PictureBox17.Name = "PictureBox17"
+        Me.PictureBox17.Size = New System.Drawing.Size(105, 130)
+        Me.PictureBox17.TabIndex = 71
+        Me.PictureBox17.TabStop = False
+        '
+        'PictureBox18
+        '
+        Me.PictureBox18.BackColor = System.Drawing.Color.Transparent
+        Me.PictureBox18.BackgroundImage = CType(resources.GetObject("PictureBox18.BackgroundImage"), System.Drawing.Image)
+        Me.PictureBox18.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.PictureBox18.Location = New System.Drawing.Point(247, 444)
+        Me.PictureBox18.Name = "PictureBox18"
+        Me.PictureBox18.Size = New System.Drawing.Size(105, 130)
+        Me.PictureBox18.TabIndex = 72
+        Me.PictureBox18.TabStop = False
+        '
+        'PictureBox19
+        '
+        Me.PictureBox19.BackColor = System.Drawing.Color.Transparent
+        Me.PictureBox19.BackgroundImage = CType(resources.GetObject("PictureBox19.BackgroundImage"), System.Drawing.Image)
+        Me.PictureBox19.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.PictureBox19.Location = New System.Drawing.Point(355, 444)
+        Me.PictureBox19.Name = "PictureBox19"
+        Me.PictureBox19.Size = New System.Drawing.Size(105, 130)
+        Me.PictureBox19.TabIndex = 73
+        Me.PictureBox19.TabStop = False
+        '
+        'PictureBox20
+        '
+        Me.PictureBox20.BackColor = System.Drawing.Color.Transparent
+        Me.PictureBox20.BackgroundImage = CType(resources.GetObject("PictureBox20.BackgroundImage"), System.Drawing.Image)
+        Me.PictureBox20.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.PictureBox20.Location = New System.Drawing.Point(466, 444)
+        Me.PictureBox20.Name = "PictureBox20"
+        Me.PictureBox20.Size = New System.Drawing.Size(105, 130)
+        Me.PictureBox20.TabIndex = 74
+        Me.PictureBox20.TabStop = False
+        '
+        'PictureBox21
+        '
+        Me.PictureBox21.BackColor = System.Drawing.Color.Transparent
+        Me.PictureBox21.BackgroundImage = CType(resources.GetObject("PictureBox21.BackgroundImage"), System.Drawing.Image)
+        Me.PictureBox21.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.PictureBox21.Location = New System.Drawing.Point(25, 580)
+        Me.PictureBox21.Name = "PictureBox21"
+        Me.PictureBox21.Size = New System.Drawing.Size(105, 130)
+        Me.PictureBox21.TabIndex = 75
+        Me.PictureBox21.TabStop = False
+        '
+        'PictureBox22
+        '
+        Me.PictureBox22.BackColor = System.Drawing.Color.Transparent
+        Me.PictureBox22.BackgroundImage = CType(resources.GetObject("PictureBox22.BackgroundImage"), System.Drawing.Image)
+        Me.PictureBox22.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.PictureBox22.Location = New System.Drawing.Point(136, 580)
+        Me.PictureBox22.Name = "PictureBox22"
+        Me.PictureBox22.Size = New System.Drawing.Size(105, 130)
+        Me.PictureBox22.TabIndex = 76
+        Me.PictureBox22.TabStop = False
+        '
+        'PictureBox23
+        '
+        Me.PictureBox23.BackColor = System.Drawing.Color.Transparent
+        Me.PictureBox23.BackgroundImage = CType(resources.GetObject("PictureBox23.BackgroundImage"), System.Drawing.Image)
+        Me.PictureBox23.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.PictureBox23.Location = New System.Drawing.Point(247, 580)
+        Me.PictureBox23.Name = "PictureBox23"
+        Me.PictureBox23.Size = New System.Drawing.Size(105, 130)
+        Me.PictureBox23.TabIndex = 77
+        Me.PictureBox23.TabStop = False
+        '
+        'PictureBox24
+        '
+        Me.PictureBox24.BackColor = System.Drawing.Color.Transparent
+        Me.PictureBox24.BackgroundImage = CType(resources.GetObject("PictureBox24.BackgroundImage"), System.Drawing.Image)
+        Me.PictureBox24.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.PictureBox24.Location = New System.Drawing.Point(358, 580)
+        Me.PictureBox24.Name = "PictureBox24"
+        Me.PictureBox24.Size = New System.Drawing.Size(105, 130)
+        Me.PictureBox24.TabIndex = 78
+        Me.PictureBox24.TabStop = False
+        '
+        'PictureBox25
+        '
+        Me.PictureBox25.BackColor = System.Drawing.Color.Transparent
+        Me.PictureBox25.BackgroundImage = CType(resources.GetObject("PictureBox25.BackgroundImage"), System.Drawing.Image)
+        Me.PictureBox25.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.PictureBox25.Location = New System.Drawing.Point(466, 580)
+        Me.PictureBox25.Name = "PictureBox25"
+        Me.PictureBox25.Size = New System.Drawing.Size(105, 130)
+        Me.PictureBox25.TabIndex = 79
+        Me.PictureBox25.TabStop = False
+        '
+        'StatusStrip1
+        '
+        Me.StatusStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ToolStripStatusLabel1})
+        Me.StatusStrip1.Location = New System.Drawing.Point(0, 733)
+        Me.StatusStrip1.Name = "StatusStrip1"
+        Me.StatusStrip1.Size = New System.Drawing.Size(597, 22)
+        Me.StatusStrip1.TabIndex = 80
+        '
+        'ToolStripStatusLabel1
+        '
+        Me.ToolStripStatusLabel1.Name = "ToolStripStatusLabel1"
+        Me.ToolStripStatusLabel1.Size = New System.Drawing.Size(121, 17)
+        Me.ToolStripStatusLabel1.Text = "ToolStripStatusLabel1"
+        '
         'Form2
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImage = Global.The_Gasp.My.Resources.Resource1.wood
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.ClientSize = New System.Drawing.Size(597, 671)
-        Me.Controls.Add(Me.Button25)
-        Me.Controls.Add(Me.Button24)
-        Me.Controls.Add(Me.Button23)
-        Me.Controls.Add(Me.Button22)
-        Me.Controls.Add(Me.Button21)
-        Me.Controls.Add(Me.Button20)
-        Me.Controls.Add(Me.Button19)
-        Me.Controls.Add(Me.Button18)
-        Me.Controls.Add(Me.Button17)
-        Me.Controls.Add(Me.Button16)
-        Me.Controls.Add(Me.Button15)
-        Me.Controls.Add(Me.Button14)
-        Me.Controls.Add(Me.Button13)
-        Me.Controls.Add(Me.Button12)
-        Me.Controls.Add(Me.Button11)
-        Me.Controls.Add(Me.Button6)
-        Me.Controls.Add(Me.Button7)
-        Me.Controls.Add(Me.Button8)
-        Me.Controls.Add(Me.Button9)
-        Me.Controls.Add(Me.Button10)
-        Me.Controls.Add(Me.Button5)
-        Me.Controls.Add(Me.Button4)
-        Me.Controls.Add(Me.Button3)
-        Me.Controls.Add(Me.Button2)
-        Me.Controls.Add(Me.GroupBox1)
-        Me.Controls.Add(Me.Button1)
+        Me.ClientSize = New System.Drawing.Size(597, 755)
+        Me.Controls.Add(Me.StatusStrip1)
+        Me.Controls.Add(Me.PictureBox25)
+        Me.Controls.Add(Me.PictureBox24)
+        Me.Controls.Add(Me.PictureBox23)
+        Me.Controls.Add(Me.PictureBox22)
+        Me.Controls.Add(Me.PictureBox21)
+        Me.Controls.Add(Me.PictureBox20)
+        Me.Controls.Add(Me.PictureBox19)
+        Me.Controls.Add(Me.PictureBox18)
+        Me.Controls.Add(Me.PictureBox17)
+        Me.Controls.Add(Me.PictureBox16)
+        Me.Controls.Add(Me.PictureBox15)
+        Me.Controls.Add(Me.PictureBox14)
+        Me.Controls.Add(Me.PictureBox13)
+        Me.Controls.Add(Me.PictureBox12)
+        Me.Controls.Add(Me.PictureBox11)
+        Me.Controls.Add(Me.PictureBox10)
+        Me.Controls.Add(Me.PictureBox9)
+        Me.Controls.Add(Me.PictureBox8)
+        Me.Controls.Add(Me.PictureBox7)
+        Me.Controls.Add(Me.PictureBox6)
+        Me.Controls.Add(Me.PictureBox5)
+        Me.Controls.Add(Me.PictureBox4)
+        Me.Controls.Add(Me.PictureBox3)
+        Me.Controls.Add(Me.PictureBox2)
+        Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.MenuStrip1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
         Me.MainMenuStrip = Me.MenuStrip1
         Me.Name = "Form2"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Form2"
-        Me.GroupBox1.ResumeLayout(False)
         Me.MenuStrip1.ResumeLayout(False)
         Me.MenuStrip1.PerformLayout()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox6, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox7, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox8, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox9, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox10, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox11, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox12, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox13, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox14, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox15, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox16, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox17, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox18, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox19, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox20, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox21, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox22, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox23, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox24, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox25, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.StatusStrip1.ResumeLayout(False)
+        Me.StatusStrip1.PerformLayout()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
     End Sub
-
-    Friend WithEvents Button1 As Button
-    Friend WithEvents GroupBox1 As GroupBox
-    Friend WithEvents Label1 As Label
-    Friend WithEvents Button2 As Button
-    Friend WithEvents Button3 As Button
-    Friend WithEvents Button4 As Button
-    Friend WithEvents Button5 As Button
-    Friend WithEvents Button6 As Button
-    Friend WithEvents Button7 As Button
-    Friend WithEvents Button8 As Button
-    Friend WithEvents Button9 As Button
-    Friend WithEvents Button10 As Button
-    Friend WithEvents Button11 As Button
-    Friend WithEvents Button12 As Button
-    Friend WithEvents Button13 As Button
-    Friend WithEvents Button14 As Button
-    Friend WithEvents Button15 As Button
-    Friend WithEvents Button16 As Button
-    Friend WithEvents Button17 As Button
-    Friend WithEvents Button18 As Button
-    Friend WithEvents Button19 As Button
-    Friend WithEvents Button20 As Button
-    Friend WithEvents Button21 As Button
-    Friend WithEvents Button22 As Button
-    Friend WithEvents Button23 As Button
-    Friend WithEvents Button24 As Button
-    Friend WithEvents Button25 As Button
     Friend WithEvents MenuStrip1 As MenuStrip
     Friend WithEvents PartieToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents NouvellePartieToolStripMenuItem As ToolStripMenuItem
@@ -461,4 +535,32 @@ Partial Class Form2
     Friend WithEvents AideToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents RéglesToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents AProposToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents OptionsToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents PictureBox1 As PictureBox
+    Friend WithEvents PictureBox2 As PictureBox
+    Friend WithEvents PictureBox3 As PictureBox
+    Friend WithEvents PictureBox4 As PictureBox
+    Friend WithEvents PictureBox5 As PictureBox
+    Friend WithEvents PictureBox6 As PictureBox
+    Friend WithEvents PictureBox7 As PictureBox
+    Friend WithEvents PictureBox8 As PictureBox
+    Friend WithEvents PictureBox9 As PictureBox
+    Friend WithEvents PictureBox10 As PictureBox
+    Friend WithEvents PictureBox11 As PictureBox
+    Friend WithEvents PictureBox12 As PictureBox
+    Friend WithEvents PictureBox13 As PictureBox
+    Friend WithEvents PictureBox14 As PictureBox
+    Friend WithEvents PictureBox15 As PictureBox
+    Friend WithEvents PictureBox16 As PictureBox
+    Friend WithEvents PictureBox17 As PictureBox
+    Friend WithEvents PictureBox18 As PictureBox
+    Friend WithEvents PictureBox19 As PictureBox
+    Friend WithEvents PictureBox20 As PictureBox
+    Friend WithEvents PictureBox21 As PictureBox
+    Friend WithEvents PictureBox22 As PictureBox
+    Friend WithEvents PictureBox23 As PictureBox
+    Friend WithEvents PictureBox24 As PictureBox
+    Friend WithEvents PictureBox25 As PictureBox
+    Friend WithEvents StatusStrip1 As StatusStrip
+    Friend WithEvents ToolStripStatusLabel1 As ToolStripStatusLabel
 End Class

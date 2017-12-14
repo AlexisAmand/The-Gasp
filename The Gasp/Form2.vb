@@ -5,11 +5,8 @@ Option Strict Off
 Public Class Form2
 
     ' TODO: Changer les cartes 10 et 11 et les remplacer par les figures qui correspondent
+    ' TODO: changer les cartes 17 à 25
     ' TODO: Vérifier qu 'il n'y a pas de cartes en double
-    ' TODO: finir l 'icone
-    ' TODO: dans form > propriétés > style de la fenêtres > icon : mettre l 'icone
-
-    ' Dim version = "0.2.0" 'version du jeu
 
     Dim Damier(6, 6) As Char 'le damier 
     Dim NombreCoups = 0 'nombre de coups 

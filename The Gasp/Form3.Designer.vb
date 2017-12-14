@@ -295,13 +295,13 @@ Partial Class Form3
         Me.Grille4X4ToolStripMenuItem.Checked = True
         Me.Grille4X4ToolStripMenuItem.CheckState = System.Windows.Forms.CheckState.Checked
         Me.Grille4X4ToolStripMenuItem.Name = "Grille4X4ToolStripMenuItem"
-        Me.Grille4X4ToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.Grille4X4ToolStripMenuItem.Size = New System.Drawing.Size(127, 22)
         Me.Grille4X4ToolStripMenuItem.Text = "Grille 4 x 4"
         '
         'Grille5X5ToolStripMenuItem
         '
         Me.Grille5X5ToolStripMenuItem.Name = "Grille5X5ToolStripMenuItem"
-        Me.Grille5X5ToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.Grille5X5ToolStripMenuItem.Size = New System.Drawing.Size(127, 22)
         Me.Grille5X5ToolStripMenuItem.Text = "Grille 5 x 5"
         '
         'AideToolStripMenuItem
@@ -363,6 +363,7 @@ Partial Class Form3
         Me.Controls.Add(Me.PictureBox2)
         Me.Controls.Add(Me.PictureBox1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "Form3"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Form3"

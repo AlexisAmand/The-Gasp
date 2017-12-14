@@ -64,7 +64,7 @@
     <OptionInfer>On</OptionInfer>
   </PropertyGroup>
   <PropertyGroup>
-    <ApplicationIcon>icone2.ico</ApplicationIcon>
+    <ApplicationIcon>cards.ico</ApplicationIcon>
   </PropertyGroup>
   <PropertyGroup>
     <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
@@ -201,7 +201,7 @@
     <None Include="Resources\2_of_clubs.png" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="icone2.ico" />
+    <Content Include="cards.ico" />
     <None Include="Resources\apropos.png" />
     <None Include="Resources\bateau-vintage.png" />
     <None Include="Resources\boat-o.png" />

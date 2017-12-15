@@ -95,7 +95,7 @@ Partial Class Form2
         Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.PartieToolStripMenuItem, Me.NiveauToolStripMenuItem, Me.AideToolStripMenuItem})
         Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip1.Name = "MenuStrip1"
-        Me.MenuStrip1.Size = New System.Drawing.Size(597, 24)
+        Me.MenuStrip1.Size = New System.Drawing.Size(539, 24)
         Me.MenuStrip1.TabIndex = 55
         Me.MenuStrip1.Text = "MenuStrip1"
         '
@@ -169,9 +169,9 @@ Partial Class Form2
         Me.PictureBox1.BackColor = System.Drawing.Color.Transparent
         Me.PictureBox1.BackgroundImage = CType(resources.GetObject("PictureBox1.BackgroundImage"), System.Drawing.Image)
         Me.PictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.PictureBox1.Location = New System.Drawing.Point(25, 36)
+        Me.PictureBox1.Location = New System.Drawing.Point(13, 36)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(105, 130)
+        Me.PictureBox1.Size = New System.Drawing.Size(98, 130)
         Me.PictureBox1.TabIndex = 56
         Me.PictureBox1.TabStop = False
         '
@@ -180,9 +180,9 @@ Partial Class Form2
         Me.PictureBox2.BackColor = System.Drawing.Color.Transparent
         Me.PictureBox2.BackgroundImage = CType(resources.GetObject("PictureBox2.BackgroundImage"), System.Drawing.Image)
         Me.PictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.PictureBox2.Location = New System.Drawing.Point(136, 36)
+        Me.PictureBox2.Location = New System.Drawing.Point(117, 36)
         Me.PictureBox2.Name = "PictureBox2"
-        Me.PictureBox2.Size = New System.Drawing.Size(105, 130)
+        Me.PictureBox2.Size = New System.Drawing.Size(98, 130)
         Me.PictureBox2.TabIndex = 57
         Me.PictureBox2.TabStop = False
         '
@@ -191,9 +191,9 @@ Partial Class Form2
         Me.PictureBox3.BackColor = System.Drawing.Color.Transparent
         Me.PictureBox3.BackgroundImage = CType(resources.GetObject("PictureBox3.BackgroundImage"), System.Drawing.Image)
         Me.PictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.PictureBox3.Location = New System.Drawing.Point(247, 36)
+        Me.PictureBox3.Location = New System.Drawing.Point(221, 36)
         Me.PictureBox3.Name = "PictureBox3"
-        Me.PictureBox3.Size = New System.Drawing.Size(105, 130)
+        Me.PictureBox3.Size = New System.Drawing.Size(98, 130)
         Me.PictureBox3.TabIndex = 58
         Me.PictureBox3.TabStop = False
         '
@@ -202,9 +202,9 @@ Partial Class Form2
         Me.PictureBox4.BackColor = System.Drawing.Color.Transparent
         Me.PictureBox4.BackgroundImage = CType(resources.GetObject("PictureBox4.BackgroundImage"), System.Drawing.Image)
         Me.PictureBox4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.PictureBox4.Location = New System.Drawing.Point(355, 36)
+        Me.PictureBox4.Location = New System.Drawing.Point(325, 36)
         Me.PictureBox4.Name = "PictureBox4"
-        Me.PictureBox4.Size = New System.Drawing.Size(105, 130)
+        Me.PictureBox4.Size = New System.Drawing.Size(98, 130)
         Me.PictureBox4.TabIndex = 59
         Me.PictureBox4.TabStop = False
         '
@@ -213,9 +213,9 @@ Partial Class Form2
         Me.PictureBox5.BackColor = System.Drawing.Color.Transparent
         Me.PictureBox5.BackgroundImage = CType(resources.GetObject("PictureBox5.BackgroundImage"), System.Drawing.Image)
         Me.PictureBox5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.PictureBox5.Location = New System.Drawing.Point(466, 36)
+        Me.PictureBox5.Location = New System.Drawing.Point(429, 36)
         Me.PictureBox5.Name = "PictureBox5"
-        Me.PictureBox5.Size = New System.Drawing.Size(105, 130)
+        Me.PictureBox5.Size = New System.Drawing.Size(98, 130)
         Me.PictureBox5.TabIndex = 59
         Me.PictureBox5.TabStop = False
         '
@@ -224,9 +224,9 @@ Partial Class Form2
         Me.PictureBox6.BackColor = System.Drawing.Color.Transparent
         Me.PictureBox6.BackgroundImage = CType(resources.GetObject("PictureBox6.BackgroundImage"), System.Drawing.Image)
         Me.PictureBox6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.PictureBox6.Location = New System.Drawing.Point(25, 172)
+        Me.PictureBox6.Location = New System.Drawing.Point(13, 172)
         Me.PictureBox6.Name = "PictureBox6"
-        Me.PictureBox6.Size = New System.Drawing.Size(105, 130)
+        Me.PictureBox6.Size = New System.Drawing.Size(98, 130)
         Me.PictureBox6.TabIndex = 60
         Me.PictureBox6.TabStop = False
         '
@@ -235,9 +235,9 @@ Partial Class Form2
         Me.PictureBox7.BackColor = System.Drawing.Color.Transparent
         Me.PictureBox7.BackgroundImage = CType(resources.GetObject("PictureBox7.BackgroundImage"), System.Drawing.Image)
         Me.PictureBox7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.PictureBox7.Location = New System.Drawing.Point(136, 172)
+        Me.PictureBox7.Location = New System.Drawing.Point(117, 172)
         Me.PictureBox7.Name = "PictureBox7"
-        Me.PictureBox7.Size = New System.Drawing.Size(105, 130)
+        Me.PictureBox7.Size = New System.Drawing.Size(98, 130)
         Me.PictureBox7.TabIndex = 61
         Me.PictureBox7.TabStop = False
         '
@@ -246,9 +246,9 @@ Partial Class Form2
         Me.PictureBox8.BackColor = System.Drawing.Color.Transparent
         Me.PictureBox8.BackgroundImage = CType(resources.GetObject("PictureBox8.BackgroundImage"), System.Drawing.Image)
         Me.PictureBox8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.PictureBox8.Location = New System.Drawing.Point(247, 172)
+        Me.PictureBox8.Location = New System.Drawing.Point(221, 172)
         Me.PictureBox8.Name = "PictureBox8"
-        Me.PictureBox8.Size = New System.Drawing.Size(105, 130)
+        Me.PictureBox8.Size = New System.Drawing.Size(98, 130)
         Me.PictureBox8.TabIndex = 62
         Me.PictureBox8.TabStop = False
         '
@@ -257,9 +257,9 @@ Partial Class Form2
         Me.PictureBox9.BackColor = System.Drawing.Color.Transparent
         Me.PictureBox9.BackgroundImage = CType(resources.GetObject("PictureBox9.BackgroundImage"), System.Drawing.Image)
         Me.PictureBox9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.PictureBox9.Location = New System.Drawing.Point(355, 172)
+        Me.PictureBox9.Location = New System.Drawing.Point(325, 172)
         Me.PictureBox9.Name = "PictureBox9"
-        Me.PictureBox9.Size = New System.Drawing.Size(105, 130)
+        Me.PictureBox9.Size = New System.Drawing.Size(98, 130)
         Me.PictureBox9.TabIndex = 63
         Me.PictureBox9.TabStop = False
         '
@@ -268,9 +268,9 @@ Partial Class Form2
         Me.PictureBox10.BackColor = System.Drawing.Color.Transparent
         Me.PictureBox10.BackgroundImage = CType(resources.GetObject("PictureBox10.BackgroundImage"), System.Drawing.Image)
         Me.PictureBox10.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.PictureBox10.Location = New System.Drawing.Point(466, 172)
+        Me.PictureBox10.Location = New System.Drawing.Point(429, 172)
         Me.PictureBox10.Name = "PictureBox10"
-        Me.PictureBox10.Size = New System.Drawing.Size(105, 130)
+        Me.PictureBox10.Size = New System.Drawing.Size(98, 130)
         Me.PictureBox10.TabIndex = 64
         Me.PictureBox10.TabStop = False
         '
@@ -279,9 +279,9 @@ Partial Class Form2
         Me.PictureBox11.BackColor = System.Drawing.Color.Transparent
         Me.PictureBox11.BackgroundImage = CType(resources.GetObject("PictureBox11.BackgroundImage"), System.Drawing.Image)
         Me.PictureBox11.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.PictureBox11.Location = New System.Drawing.Point(25, 308)
+        Me.PictureBox11.Location = New System.Drawing.Point(13, 308)
         Me.PictureBox11.Name = "PictureBox11"
-        Me.PictureBox11.Size = New System.Drawing.Size(105, 130)
+        Me.PictureBox11.Size = New System.Drawing.Size(98, 130)
         Me.PictureBox11.TabIndex = 65
         Me.PictureBox11.TabStop = False
         '
@@ -290,9 +290,9 @@ Partial Class Form2
         Me.PictureBox12.BackColor = System.Drawing.Color.Transparent
         Me.PictureBox12.BackgroundImage = CType(resources.GetObject("PictureBox12.BackgroundImage"), System.Drawing.Image)
         Me.PictureBox12.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.PictureBox12.Location = New System.Drawing.Point(136, 308)
+        Me.PictureBox12.Location = New System.Drawing.Point(117, 308)
         Me.PictureBox12.Name = "PictureBox12"
-        Me.PictureBox12.Size = New System.Drawing.Size(105, 130)
+        Me.PictureBox12.Size = New System.Drawing.Size(98, 130)
         Me.PictureBox12.TabIndex = 66
         Me.PictureBox12.TabStop = False
         '
@@ -301,9 +301,9 @@ Partial Class Form2
         Me.PictureBox13.BackColor = System.Drawing.Color.Transparent
         Me.PictureBox13.BackgroundImage = CType(resources.GetObject("PictureBox13.BackgroundImage"), System.Drawing.Image)
         Me.PictureBox13.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.PictureBox13.Location = New System.Drawing.Point(247, 308)
+        Me.PictureBox13.Location = New System.Drawing.Point(221, 308)
         Me.PictureBox13.Name = "PictureBox13"
-        Me.PictureBox13.Size = New System.Drawing.Size(105, 130)
+        Me.PictureBox13.Size = New System.Drawing.Size(98, 130)
         Me.PictureBox13.TabIndex = 67
         Me.PictureBox13.TabStop = False
         '
@@ -312,9 +312,9 @@ Partial Class Form2
         Me.PictureBox14.BackColor = System.Drawing.Color.Transparent
         Me.PictureBox14.BackgroundImage = CType(resources.GetObject("PictureBox14.BackgroundImage"), System.Drawing.Image)
         Me.PictureBox14.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.PictureBox14.Location = New System.Drawing.Point(355, 308)
+        Me.PictureBox14.Location = New System.Drawing.Point(325, 308)
         Me.PictureBox14.Name = "PictureBox14"
-        Me.PictureBox14.Size = New System.Drawing.Size(105, 130)
+        Me.PictureBox14.Size = New System.Drawing.Size(98, 130)
         Me.PictureBox14.TabIndex = 68
         Me.PictureBox14.TabStop = False
         '
@@ -323,9 +323,9 @@ Partial Class Form2
         Me.PictureBox15.BackColor = System.Drawing.Color.Transparent
         Me.PictureBox15.BackgroundImage = CType(resources.GetObject("PictureBox15.BackgroundImage"), System.Drawing.Image)
         Me.PictureBox15.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.PictureBox15.Location = New System.Drawing.Point(466, 308)
+        Me.PictureBox15.Location = New System.Drawing.Point(429, 308)
         Me.PictureBox15.Name = "PictureBox15"
-        Me.PictureBox15.Size = New System.Drawing.Size(105, 130)
+        Me.PictureBox15.Size = New System.Drawing.Size(98, 130)
         Me.PictureBox15.TabIndex = 69
         Me.PictureBox15.TabStop = False
         '
@@ -334,9 +334,9 @@ Partial Class Form2
         Me.PictureBox16.BackColor = System.Drawing.Color.Transparent
         Me.PictureBox16.BackgroundImage = CType(resources.GetObject("PictureBox16.BackgroundImage"), System.Drawing.Image)
         Me.PictureBox16.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.PictureBox16.Location = New System.Drawing.Point(25, 444)
+        Me.PictureBox16.Location = New System.Drawing.Point(13, 444)
         Me.PictureBox16.Name = "PictureBox16"
-        Me.PictureBox16.Size = New System.Drawing.Size(105, 130)
+        Me.PictureBox16.Size = New System.Drawing.Size(98, 130)
         Me.PictureBox16.TabIndex = 70
         Me.PictureBox16.TabStop = False
         '
@@ -345,9 +345,9 @@ Partial Class Form2
         Me.PictureBox17.BackColor = System.Drawing.Color.Transparent
         Me.PictureBox17.BackgroundImage = CType(resources.GetObject("PictureBox17.BackgroundImage"), System.Drawing.Image)
         Me.PictureBox17.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.PictureBox17.Location = New System.Drawing.Point(136, 444)
+        Me.PictureBox17.Location = New System.Drawing.Point(117, 444)
         Me.PictureBox17.Name = "PictureBox17"
-        Me.PictureBox17.Size = New System.Drawing.Size(105, 130)
+        Me.PictureBox17.Size = New System.Drawing.Size(98, 130)
         Me.PictureBox17.TabIndex = 71
         Me.PictureBox17.TabStop = False
         '
@@ -356,9 +356,9 @@ Partial Class Form2
         Me.PictureBox18.BackColor = System.Drawing.Color.Transparent
         Me.PictureBox18.BackgroundImage = CType(resources.GetObject("PictureBox18.BackgroundImage"), System.Drawing.Image)
         Me.PictureBox18.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.PictureBox18.Location = New System.Drawing.Point(247, 444)
+        Me.PictureBox18.Location = New System.Drawing.Point(221, 444)
         Me.PictureBox18.Name = "PictureBox18"
-        Me.PictureBox18.Size = New System.Drawing.Size(105, 130)
+        Me.PictureBox18.Size = New System.Drawing.Size(98, 130)
         Me.PictureBox18.TabIndex = 72
         Me.PictureBox18.TabStop = False
         '
@@ -367,9 +367,9 @@ Partial Class Form2
         Me.PictureBox19.BackColor = System.Drawing.Color.Transparent
         Me.PictureBox19.BackgroundImage = CType(resources.GetObject("PictureBox19.BackgroundImage"), System.Drawing.Image)
         Me.PictureBox19.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.PictureBox19.Location = New System.Drawing.Point(355, 444)
+        Me.PictureBox19.Location = New System.Drawing.Point(325, 444)
         Me.PictureBox19.Name = "PictureBox19"
-        Me.PictureBox19.Size = New System.Drawing.Size(105, 130)
+        Me.PictureBox19.Size = New System.Drawing.Size(98, 130)
         Me.PictureBox19.TabIndex = 73
         Me.PictureBox19.TabStop = False
         '
@@ -378,9 +378,9 @@ Partial Class Form2
         Me.PictureBox20.BackColor = System.Drawing.Color.Transparent
         Me.PictureBox20.BackgroundImage = CType(resources.GetObject("PictureBox20.BackgroundImage"), System.Drawing.Image)
         Me.PictureBox20.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.PictureBox20.Location = New System.Drawing.Point(466, 444)
+        Me.PictureBox20.Location = New System.Drawing.Point(429, 444)
         Me.PictureBox20.Name = "PictureBox20"
-        Me.PictureBox20.Size = New System.Drawing.Size(105, 130)
+        Me.PictureBox20.Size = New System.Drawing.Size(98, 130)
         Me.PictureBox20.TabIndex = 74
         Me.PictureBox20.TabStop = False
         '
@@ -389,9 +389,9 @@ Partial Class Form2
         Me.PictureBox21.BackColor = System.Drawing.Color.Transparent
         Me.PictureBox21.BackgroundImage = CType(resources.GetObject("PictureBox21.BackgroundImage"), System.Drawing.Image)
         Me.PictureBox21.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.PictureBox21.Location = New System.Drawing.Point(25, 580)
+        Me.PictureBox21.Location = New System.Drawing.Point(13, 580)
         Me.PictureBox21.Name = "PictureBox21"
-        Me.PictureBox21.Size = New System.Drawing.Size(105, 130)
+        Me.PictureBox21.Size = New System.Drawing.Size(98, 130)
         Me.PictureBox21.TabIndex = 75
         Me.PictureBox21.TabStop = False
         '
@@ -400,9 +400,9 @@ Partial Class Form2
         Me.PictureBox22.BackColor = System.Drawing.Color.Transparent
         Me.PictureBox22.BackgroundImage = CType(resources.GetObject("PictureBox22.BackgroundImage"), System.Drawing.Image)
         Me.PictureBox22.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.PictureBox22.Location = New System.Drawing.Point(136, 580)
+        Me.PictureBox22.Location = New System.Drawing.Point(117, 580)
         Me.PictureBox22.Name = "PictureBox22"
-        Me.PictureBox22.Size = New System.Drawing.Size(105, 130)
+        Me.PictureBox22.Size = New System.Drawing.Size(98, 130)
         Me.PictureBox22.TabIndex = 76
         Me.PictureBox22.TabStop = False
         '
@@ -411,9 +411,9 @@ Partial Class Form2
         Me.PictureBox23.BackColor = System.Drawing.Color.Transparent
         Me.PictureBox23.BackgroundImage = CType(resources.GetObject("PictureBox23.BackgroundImage"), System.Drawing.Image)
         Me.PictureBox23.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.PictureBox23.Location = New System.Drawing.Point(247, 580)
+        Me.PictureBox23.Location = New System.Drawing.Point(221, 580)
         Me.PictureBox23.Name = "PictureBox23"
-        Me.PictureBox23.Size = New System.Drawing.Size(105, 130)
+        Me.PictureBox23.Size = New System.Drawing.Size(98, 130)
         Me.PictureBox23.TabIndex = 77
         Me.PictureBox23.TabStop = False
         '
@@ -422,9 +422,9 @@ Partial Class Form2
         Me.PictureBox24.BackColor = System.Drawing.Color.Transparent
         Me.PictureBox24.BackgroundImage = CType(resources.GetObject("PictureBox24.BackgroundImage"), System.Drawing.Image)
         Me.PictureBox24.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.PictureBox24.Location = New System.Drawing.Point(358, 580)
+        Me.PictureBox24.Location = New System.Drawing.Point(325, 580)
         Me.PictureBox24.Name = "PictureBox24"
-        Me.PictureBox24.Size = New System.Drawing.Size(105, 130)
+        Me.PictureBox24.Size = New System.Drawing.Size(98, 130)
         Me.PictureBox24.TabIndex = 78
         Me.PictureBox24.TabStop = False
         '
@@ -433,18 +433,18 @@ Partial Class Form2
         Me.PictureBox25.BackColor = System.Drawing.Color.Transparent
         Me.PictureBox25.BackgroundImage = CType(resources.GetObject("PictureBox25.BackgroundImage"), System.Drawing.Image)
         Me.PictureBox25.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.PictureBox25.Location = New System.Drawing.Point(466, 580)
+        Me.PictureBox25.Location = New System.Drawing.Point(429, 580)
         Me.PictureBox25.Name = "PictureBox25"
-        Me.PictureBox25.Size = New System.Drawing.Size(105, 130)
+        Me.PictureBox25.Size = New System.Drawing.Size(98, 130)
         Me.PictureBox25.TabIndex = 79
         Me.PictureBox25.TabStop = False
         '
         'StatusStrip1
         '
         Me.StatusStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ToolStripStatusLabel1})
-        Me.StatusStrip1.Location = New System.Drawing.Point(0, 733)
+        Me.StatusStrip1.Location = New System.Drawing.Point(0, 735)
         Me.StatusStrip1.Name = "StatusStrip1"
-        Me.StatusStrip1.Size = New System.Drawing.Size(597, 22)
+        Me.StatusStrip1.Size = New System.Drawing.Size(539, 22)
         Me.StatusStrip1.TabIndex = 80
         '
         'ToolStripStatusLabel1
@@ -459,7 +459,7 @@ Partial Class Form2
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImage = Global.The_Gasp.My.Resources.Resource1.wood
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.ClientSize = New System.Drawing.Size(597, 755)
+        Me.ClientSize = New System.Drawing.Size(539, 757)
         Me.Controls.Add(Me.StatusStrip1)
         Me.Controls.Add(Me.PictureBox25)
         Me.Controls.Add(Me.PictureBox24)

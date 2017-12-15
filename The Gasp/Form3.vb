@@ -4,10 +4,6 @@ Option Strict Off
 
 Public Class Form3
 
-
-    ' TODO: Changer les cartes 10 et 11 et les remplacer par les figures qui correspondent
-    ' TODO: Vérifier qu 'il n'y a pas de cartes en double
-
     Dim Damier(5, 5) As Char 'le damier 
     Dim NombreCoups = 0 'nombre de coups 
 
@@ -159,11 +155,6 @@ Public Class Form3
 
         MaximizeBox = vbFalse
         MinimizeBox = vbFalse
-
-        ' dimensions de la fenêtre
-
-        ' Me.Width = 629
-        ' Me.Height = 766
 
         ' On met le verso des cartes dans le tableau pour pouvoir les récupérer dans la boucle for 
 
@@ -326,6 +317,12 @@ Public Class Form3
     Private Sub ToolStripMenuItem2_Click(sender As Object, e As EventArgs) Handles ToolStripMenuItem2.Click
 
         Form1.Visible = vbTrue
+
+    End Sub
+
+    Private Sub TestToolStripMenuItem_Click(sender As Object, e As EventArgs)
+
+        Form4.Visible = vbTrue
 
     End Sub
 End Class

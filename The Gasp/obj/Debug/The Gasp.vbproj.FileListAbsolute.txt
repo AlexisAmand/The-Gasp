@@ -37,3 +37,4 @@ E:\Dev\Visual Studio 2017\Projects\Le Gasp\The Gasp\obj\Debug\The Gasp.vbproj.Co
 E:\Dev\Visual Studio 2017\Projects\Le Gasp\The Gasp\obj\Debug\The_Gasp.AboutBox1.resources
 E:\Dev\Visual Studio 2017\Projects\Le Gasp\The Gasp\obj\Debug\The_Gasp.Form3.resources
 E:\Dev\Visual Studio 2017\Projects\Le Gasp\The Gasp\obj\Debug\The_Gasp.Form1.resources
+E:\Dev\Visual Studio 2017\Projects\Le Gasp\The Gasp\obj\Debug\The_Gasp.Form4.resources

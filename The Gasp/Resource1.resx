@@ -154,9 +154,6 @@
   <data name="wood" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\wood1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="carte10" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\carte10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="carte08" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\carte08.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -183,5 +180,8 @@
   </data>
   <data name="apropos" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\apropos.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="carte10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\carte10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

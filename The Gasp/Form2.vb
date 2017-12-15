@@ -4,10 +4,6 @@ Option Strict Off
 
 Public Class Form2
 
-    ' TODO: Changer les cartes 10 et 11 et les remplacer par les figures qui correspondent
-    ' TODO: changer les cartes 17 à 25
-    ' TODO: Vérifier qu 'il n'y a pas de cartes en double
-
     Dim Damier(6, 6) As Char 'le damier 
     Dim NombreCoups = 0 'nombre de coups 
 
@@ -124,12 +120,9 @@ Public Class Form2
         MaximizeBox = vbFalse
         MinimizeBox = vbFalse
 
-        ' dimensions de la fenêtre
-
-        ' Me.Width = 613
-        ' Me.Height = 709
-
         ' On met le verso des cartes dans le tableau pour pouvoir les récupérer dans la boucle for 
+
+        ' TODO: changer les cartes 17 à 25
 
         TableauDesImages(1) = My.Resources.Resource1.carte01
         TableauDesImages(2) = My.Resources.Resource1.carte02

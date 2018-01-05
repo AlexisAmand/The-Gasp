@@ -1,0 +1,86 @@
+﻿A l'origine de The Gasp, il y a quelques lignes de Basic parues dans une revue de 1986. Seize cartes sont placés sur la zone de jeu. Le but est simple, il s'agit de retourner toutes les cartes en respectant la règle suivante: Vous désignez une carte, en cliquant dessus. Alors ses huit voisines se retournent mais pas elle.
+
+Saurez-vous retourner toutes les cartes ?
+
+Mise à jour du 06/12/2017
+-------------------------
+
+- sur le bouton n°20 de la grille 5x5, il y a le texte 4x4 [RESOLU]
+- quand on passe à la grille 5x5, la grille 4x4 est toujours là [RESOLU]
+- la grille 5x5 est redimensionnable [RESOLU]
+- les casses ne sont pas super alignées [RESOLU] 
+- ajout d'un nom pour la form "apropos"
+
+Mises à jour du 14/12/2017
+--------------------------
+
+- interface avec les cartes pour la grille 5 x 5
+- centrage de toutes les fenêtres
+
+[mise sur github]
+
+version 0.4.4.6
+
+- ajout nouvelle icône
+- ajout de l'icône dans le coin en haut à gauche de toutes les fenêtres.
+
+VS indique 21 modifs : version 0.4.27.0
+
+- suppression de lignes inutiles dans le code
+- changement du nom de la fenêtre "A Propos"
+- la carte n°10 est remplacée par un autre modéle sur la grille 4 x 4
+- la carte n°11 est remplacée par un autre modéle sur la grille 4 x 4
+- la carte n°10 est remplacée par un autre modéle sur la grille 5 x 5
+- la carte n°11 est remplacée par un autre modéle sur la grille 5 x 5
+
+VS indique 23 modifs : version 0.4.50.0
+
+VS indique 31 modifs : version 0.4.81.0
+
+Mises à jour du 15/12/2017
+--------------------------
+
+[mise sur github]
+
+- centrage de cartes sur la grille 4 x 4
+- suppression de la form4 qui servait de test
+- la form3 est maintenant locked pour que son design ne puisse plus être modifié
+
+- centrage de cartes sur la grille 5 x 5
+
+VS indique 30 modifs : version 0.4.111.0
+
+- la form2 est maintenant locked pour que son design ne puisse plus être modifié
+
+[mise sur github]
+
+VS indique 1 modifs : version 0.4.112.0
+
+Mises à jour du 02/01/2018
+--------------------------
+
+- suppression de la form4 qui ne servait à rien
+
+VS indique 19 modifs
+
+
+[mise sur github] : version 0.4.131.0
+
+VS indique 0 modif
+
+Mises à jour du 05/01/2018
+--------------------------
+
+- remplacement de la carte n°17
+- remplacement de la carte n°18
+- remplacement de la carte n°19
+- remplacement de la carte n°20
+- remplacement de la carte n°21
+
+VS indique 49 modifs
+
+- remplacement de la carte n°21
+
+
+
+

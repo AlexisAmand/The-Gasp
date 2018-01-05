@@ -1,4 +1,6 @@
-﻿' Jeu en 5 x 5
+﻿' ----------------------
+' Grille de jeu en 5 x 5
+' ----------------------
 
 Option Strict Off
 
@@ -122,8 +124,6 @@ Public Class Form2
 
         ' On met le verso des cartes dans le tableau pour pouvoir les récupérer dans la boucle for 
 
-        ' TODO: changer les cartes 17 à 25
-
         TableauDesImages(1) = My.Resources.Resource1.carte01
         TableauDesImages(2) = My.Resources.Resource1.carte02
         TableauDesImages(3) = My.Resources.Resource1.carte03
@@ -140,12 +140,18 @@ Public Class Form2
         TableauDesImages(14) = My.Resources.Resource1.carte14
         TableauDesImages(15) = My.Resources.Resource1.carte15
         TableauDesImages(16) = My.Resources.Resource1.carte16
-        TableauDesImages(17) = My.Resources.Resource1.carte01
-        TableauDesImages(18) = My.Resources.Resource1.carte02
-        TableauDesImages(19) = My.Resources.Resource1.carte03
-        TableauDesImages(20) = My.Resources.Resource1.carte04
-        TableauDesImages(21) = My.Resources.Resource1.carte05
-        TableauDesImages(22) = My.Resources.Resource1.carte06
+
+        ' TODO : vérifier la taille des cartes 17 à 22
+
+        TableauDesImages(17) = My.Resources.Resource1.carte17
+        TableauDesImages(18) = My.Resources.Resource1.carte18
+        TableauDesImages(19) = My.Resources.Resource1.carte19
+        TableauDesImages(20) = My.Resources.Resource1.carte20
+        TableauDesImages(21) = My.Resources.Resource1.carte21
+        TableauDesImages(22) = My.Resources.Resource1.carte22
+
+        ' TODO: changer les cartes 23 à 26
+
         TableauDesImages(23) = My.Resources.Resource1.carte07
         TableauDesImages(24) = My.Resources.Resource1.carte08
         TableauDesImages(25) = My.Resources.Resource1.carte09

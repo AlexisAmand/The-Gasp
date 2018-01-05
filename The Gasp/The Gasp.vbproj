@@ -202,6 +202,13 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="cards.ico" />
+    <None Include="Resources\carte22.png" />
+    <None Include="Resources\carte21.png" />
+    <None Include="Resources\carte20.png" />
+    <None Include="Resources\carte19.png" />
+    <None Include="Resources\carte18.png" />
+    <None Include="Resources\carte17.png" />
+    <None Include="Resources\carte11.png" />
     <None Include="Resources\carte10.png" />
     <None Include="Resources\apropos.png" />
     <None Include="Resources\bateau-vintage.png" />
@@ -213,7 +220,6 @@
     <None Include="Resources\carte14.png" />
     <None Include="Resources\carte13.png" />
     <None Include="Resources\carte12.png" />
-    <None Include="Resources\carte11.png" />
     <None Include="Resources\carte09.png" />
     <None Include="Resources\carte08.png" />
     <None Include="Resources\carte07.png" />

@@ -1,4 +1,6 @@
-﻿' Jeu en 4 x 4
+﻿' ----------------------
+' Grille de jeu en 4 x 4
+' ----------------------
 
 Option Strict Off
 

@@ -1,4 +1,8 @@
-﻿Public Class Form1
+﻿' --------------
+' Options du jeu
+' --------------
+
+Public Class Form1
 
     Private Sub RadioButton1_CheckedChanged(sender As Object, e As EventArgs) Handles RadioButton1.CheckedChanged
 

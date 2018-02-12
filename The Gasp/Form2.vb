@@ -430,7 +430,7 @@ Public Class Form2
 
     End Sub
 
-    Private Sub OptionsToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles OptionsToolStripMenuItem.Click
+    Private Sub OptionsToolStripMenuItem_Click(sender As Object, e As EventArgs)
 
         Form1.Visible = vbTrue
 

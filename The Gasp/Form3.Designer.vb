@@ -42,7 +42,6 @@ Partial Class Form3
         Me.MenuStrip1 = New System.Windows.Forms.MenuStrip()
         Me.PartieToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.NouvellePartieToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.ToolStripMenuItem2 = New System.Windows.Forms.ToolStripMenuItem()
         Me.QuitterToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.NiveauToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.Grille4X4ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
@@ -259,7 +258,7 @@ Partial Class Form3
         '
         'PartieToolStripMenuItem
         '
-        Me.PartieToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.NouvellePartieToolStripMenuItem, Me.ToolStripMenuItem2, Me.QuitterToolStripMenuItem})
+        Me.PartieToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.NouvellePartieToolStripMenuItem, Me.QuitterToolStripMenuItem})
         Me.PartieToolStripMenuItem.Name = "PartieToolStripMenuItem"
         Me.PartieToolStripMenuItem.ShortcutKeyDisplayString = ""
         Me.PartieToolStripMenuItem.Size = New System.Drawing.Size(49, 20)
@@ -270,12 +269,6 @@ Partial Class Form3
         Me.NouvellePartieToolStripMenuItem.Name = "NouvellePartieToolStripMenuItem"
         Me.NouvellePartieToolStripMenuItem.Size = New System.Drawing.Size(154, 22)
         Me.NouvellePartieToolStripMenuItem.Text = "Nouvelle partie"
-        '
-        'ToolStripMenuItem2
-        '
-        Me.ToolStripMenuItem2.Name = "ToolStripMenuItem2"
-        Me.ToolStripMenuItem2.Size = New System.Drawing.Size(154, 22)
-        Me.ToolStripMenuItem2.Text = "Options"
         '
         'QuitterToolStripMenuItem
         '
@@ -420,5 +413,4 @@ Partial Class Form3
     Friend WithEvents AProposToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents StatusStrip1 As StatusStrip
     Friend WithEvents ToolStripStatusLabel1 As ToolStripStatusLabel
-    Friend WithEvents ToolStripMenuItem2 As ToolStripMenuItem
 End Class

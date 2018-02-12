@@ -26,7 +26,6 @@ Partial Class Form2
         Me.MenuStrip1 = New System.Windows.Forms.MenuStrip()
         Me.PartieToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.NouvellePartieToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.OptionsToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.QuitterToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.NiveauToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.Grille4X4ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
@@ -101,7 +100,7 @@ Partial Class Form2
         '
         'PartieToolStripMenuItem
         '
-        Me.PartieToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.NouvellePartieToolStripMenuItem, Me.OptionsToolStripMenuItem, Me.QuitterToolStripMenuItem})
+        Me.PartieToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.NouvellePartieToolStripMenuItem, Me.QuitterToolStripMenuItem})
         Me.PartieToolStripMenuItem.Name = "PartieToolStripMenuItem"
         Me.PartieToolStripMenuItem.Size = New System.Drawing.Size(49, 20)
         Me.PartieToolStripMenuItem.Text = "Partie"
@@ -111,12 +110,6 @@ Partial Class Form2
         Me.NouvellePartieToolStripMenuItem.Name = "NouvellePartieToolStripMenuItem"
         Me.NouvellePartieToolStripMenuItem.Size = New System.Drawing.Size(154, 22)
         Me.NouvellePartieToolStripMenuItem.Text = "Nouvelle partie"
-        '
-        'OptionsToolStripMenuItem
-        '
-        Me.OptionsToolStripMenuItem.Name = "OptionsToolStripMenuItem"
-        Me.OptionsToolStripMenuItem.Size = New System.Drawing.Size(154, 22)
-        Me.OptionsToolStripMenuItem.Text = "Options"
         '
         'QuitterToolStripMenuItem
         '
@@ -536,7 +529,6 @@ Partial Class Form2
     Friend WithEvents AideToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents RéglesToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents AProposToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents OptionsToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents PictureBox1 As PictureBox
     Friend WithEvents PictureBox2 As PictureBox
     Friend WithEvents PictureBox3 As PictureBox

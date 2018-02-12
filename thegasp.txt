@@ -91,6 +91,15 @@ VS indique 35 modifs
 
 - remplacement de la carte n°21
 
+[mise sur github] : version 0.4.215.0
+
+- ajout du dos "bateau vintage"
+
+VS indique 14 modifs
+
+- j'ai enlevé les options le temps que ce soit au point.
+
+VS indique 16 modifs
 
 
 

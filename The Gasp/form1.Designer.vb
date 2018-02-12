@@ -347,6 +347,7 @@ Partial Class Form1
         '
         'PictureBox3
         '
+        Me.PictureBox3.BackgroundImage = Global.The_Gasp.My.Resources.Resource1.bateau_vintage
         Me.PictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.PictureBox3.Location = New System.Drawing.Point(276, 6)
         Me.PictureBox3.Name = "PictureBox3"

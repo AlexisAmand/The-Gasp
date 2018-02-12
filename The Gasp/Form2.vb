@@ -150,12 +150,13 @@ Public Class Form2
         TableauDesImages(21) = My.Resources.Resource1.carte21
         TableauDesImages(22) = My.Resources.Resource1.carte22
 
-        ' TODO: changer les cartes 23 à 26
+        ' TODO: changer les cartes 23 à 25
 
-        TableauDesImages(23) = My.Resources.Resource1.carte07
-        TableauDesImages(24) = My.Resources.Resource1.carte08
-        TableauDesImages(25) = My.Resources.Resource1.carte09
-        TableauDesImages(26) = My.Resources.Resource1.carte10
+        TableauDesImages(23) = My.Resources.Resource1.carte23
+        TableauDesImages(24) = My.Resources.Resource1.carte24
+        TableauDesImages(25) = My.Resources.Resource1.carte25
+
+        ' TableauDesImages(26) = My.Resources.Resource1.carte10
 
         ' hop ! On lance une nouvelle partie
 

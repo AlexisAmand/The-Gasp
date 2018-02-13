@@ -10,6 +10,8 @@ La régle de ce jeu en solitaire est simple.
 
 Site (provisoire) : http://thegasp.genealexis.fr/
 
-![alt text](https://raw.githubusercontent.com/AlexisAmand/TheGasp/master/Docs/JetS-38-03.jpg)
+![alt text](http://thegasp.genealexis.fr/images/thumbs/thegasp-01.jpg)
+
+
 
 

@@ -140,23 +140,15 @@ Public Class Form2
         TableauDesImages(14) = My.Resources.Resource1.carte14
         TableauDesImages(15) = My.Resources.Resource1.carte15
         TableauDesImages(16) = My.Resources.Resource1.carte16
-
-        ' TODO : vérifier la taille des cartes 17 à 22
-
         TableauDesImages(17) = My.Resources.Resource1.carte17
         TableauDesImages(18) = My.Resources.Resource1.carte18
         TableauDesImages(19) = My.Resources.Resource1.carte19
         TableauDesImages(20) = My.Resources.Resource1.carte20
         TableauDesImages(21) = My.Resources.Resource1.carte21
         TableauDesImages(22) = My.Resources.Resource1.carte22
-
-        ' TODO: changer les cartes 23 à 25
-
         TableauDesImages(23) = My.Resources.Resource1.carte23
         TableauDesImages(24) = My.Resources.Resource1.carte24
         TableauDesImages(25) = My.Resources.Resource1.carte25
-
-        ' TableauDesImages(26) = My.Resources.Resource1.carte10
 
         ' hop ! On lance une nouvelle partie
 

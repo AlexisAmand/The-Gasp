@@ -105,9 +105,16 @@ VS indique 16 modifs
 
 VS indique 0 modifs
 
+Mises à jour du 13/02/2018
+--------------------------
 
+- affichage d'un message quand la personne a gagné sur la grille 4 x 4
 
+VS indique 22 modifs
 
+[mise sur github] : version 0.4.353.0
 
+TODO
+----
 
-
+-> message quand toutes les cartes sont retournées

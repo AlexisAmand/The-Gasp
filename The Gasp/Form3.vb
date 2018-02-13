@@ -8,6 +8,8 @@ Public Class Form3
 
     Dim Damier(5, 5) As Char 'le damier 
     Dim NombreCoups = 0 'nombre de coups 
+    Dim PartiePerdue As Boolean
+    Dim gg As Integer
 
     ' coordonnées du pion
 
@@ -113,6 +115,32 @@ Public Class Form3
 
     End Sub
 
+    Private Sub perdu()
+
+        ' TODO : Si tout le tableau contient des O, alors la personne a gagné.
+
+        ' TODO : Je pense qu'il faut compter le nombre de O du tableau si c'est 25 alors la personne a gagné
+
+        ' PartiePerdue = True
+        gg = 0
+
+        For l = 1 To 4
+            For c = 1 To 4
+                If Damier(c, l) = "0" Then
+
+                    gg = gg + 1
+
+                    ' PartiePerdue = False
+
+                End If
+            Next
+        Next
+
+        If gg = 16 Then
+            MsgBox("Bravo ! Vous avez gagné en " & NombreCoups & " coups !")
+        End If
+
+    End Sub
 
     Private Sub PictureBox1_Click(sender As Object, e As EventArgs) Handles PictureBox1.Click
 
@@ -120,6 +148,8 @@ Public Class Form3
         ybouton = 1
 
         retourne(xbouton, ybouton)
+
+        perdu()
 
     End Sub
 
@@ -130,6 +160,8 @@ Public Class Form3
 
         retourne(xbouton, ybouton)
 
+        perdu()
+
     End Sub
 
     Private Sub PictureBox3_Click(sender As Object, e As EventArgs) Handles PictureBox3.Click
@@ -138,6 +170,9 @@ Public Class Form3
         ybouton = 1
 
         retourne(xbouton, ybouton)
+
+        perdu()
+
     End Sub
 
     Private Sub PictureBox4_Click(sender As Object, e As EventArgs) Handles PictureBox4.Click
@@ -146,6 +181,8 @@ Public Class Form3
         ybouton = 1
 
         retourne(xbouton, ybouton)
+
+        perdu()
 
     End Sub
 
@@ -190,6 +227,8 @@ Public Class Form3
 
         retourne(xbouton, ybouton)
 
+        perdu()
+
     End Sub
 
     Private Sub PictureBox6_Click(sender As Object, e As EventArgs) Handles PictureBox6.Click
@@ -199,6 +238,8 @@ Public Class Form3
 
         retourne(xbouton, ybouton)
 
+        perdu()
+
     End Sub
 
     Private Sub PictureBox7_Click(sender As Object, e As EventArgs) Handles PictureBox7.Click
@@ -207,6 +248,8 @@ Public Class Form3
         ybouton = 2
 
         retourne(xbouton, ybouton)
+
+        perdu()
 
     End Sub
 
@@ -226,6 +269,8 @@ Public Class Form3
 
         retourne(xbouton, ybouton)
 
+        perdu()
+
     End Sub
 
     Private Sub PictureBox10_Click(sender As Object, e As EventArgs) Handles PictureBox10.Click
@@ -234,6 +279,8 @@ Public Class Form3
         ybouton = 3
 
         retourne(xbouton, ybouton)
+
+        perdu()
 
     End Sub
 
@@ -244,6 +291,8 @@ Public Class Form3
 
         retourne(xbouton, ybouton)
 
+        perdu()
+
     End Sub
 
     Private Sub PictureBox12_Click(sender As Object, e As EventArgs) Handles PictureBox12.Click
@@ -252,6 +301,8 @@ Public Class Form3
         ybouton = 3
 
         retourne(xbouton, ybouton)
+
+        perdu()
 
     End Sub
 
@@ -262,6 +313,8 @@ Public Class Form3
 
         retourne(xbouton, ybouton)
 
+        perdu()
+
     End Sub
 
     Private Sub PictureBox14_Click(sender As Object, e As EventArgs) Handles PictureBox14.Click
@@ -270,6 +323,8 @@ Public Class Form3
         ybouton = 4
 
         retourne(xbouton, ybouton)
+
+        perdu()
 
     End Sub
 
@@ -280,6 +335,8 @@ Public Class Form3
 
         retourne(xbouton, ybouton)
 
+        perdu()
+
     End Sub
 
     Private Sub PictureBox16_Click(sender As Object, e As EventArgs) Handles PictureBox16.Click
@@ -289,17 +346,23 @@ Public Class Form3
 
         retourne(xbouton, ybouton)
 
+        perdu()
+
     End Sub
 
     Private Sub Grille4X4ToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles Grille4X4ToolStripMenuItem.Click
 
         Me.Visible = vbTrue
 
+
+
     End Sub
 
     Private Sub RéglesToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles RéglesToolStripMenuItem.Click
 
         aide.Visible = vbTrue
+
+
 
     End Sub
 

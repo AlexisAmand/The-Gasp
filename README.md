@@ -12,6 +12,8 @@ Site (provisoire) : http://thegasp.genealexis.fr/
 
 ![alt text](http://thegasp.genealexis.fr/images/thumbs/thegasp-01.jpg)
 
+![alt text](http://thegasp.genealexis.fr/images/thumbs/thegasp-03.jpg)
+
 
 
 

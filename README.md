@@ -1,4 +1,4 @@
-# TheGasp
+# The Gasp
 
 Version pour VB.net, d'aprés un article sur le basic paru dans Jeux & Stratégie n°38 (Avril/Mai 1986).
 

@@ -120,7 +120,10 @@ VS indique 13 modifs
 
 [mise sur github] : version 0.4.366.0
 
-TODO
-----
+VS indique 0 modifs
 
--> message quand toutes les cartes sont retournées
+- resolution qq bugs
+
+VS indique 14 modifs
+
+[mise sur github] : version 0.4.380.0

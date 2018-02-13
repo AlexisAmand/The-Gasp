@@ -378,4 +378,9 @@ Public Class Form3
 
     End Sub
 
+    Private Sub NouvellePartieToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles NouvellePartieToolStripMenuItem.Click
+
+        nouvelle()
+
+    End Sub
 End Class

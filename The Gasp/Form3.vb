@@ -8,7 +8,7 @@ Public Class Form3
 
     Dim Damier(5, 5) As Char 'le damier 
     Dim NombreCoups = 0 'nombre de coups 
-    Dim PartiePerdue As Boolean
+
     Dim gg As Integer
 
     ' coordonnées du pion
@@ -117,11 +117,6 @@ Public Class Form3
 
     Private Sub perdu()
 
-        ' TODO : Si tout le tableau contient des O, alors la personne a gagné.
-
-        ' TODO : Je pense qu'il faut compter le nombre de O du tableau si c'est 25 alors la personne a gagné
-
-        ' PartiePerdue = True
         gg = 0
 
         For l = 1 To 4
@@ -129,8 +124,6 @@ Public Class Form3
                 If Damier(c, l) = "0" Then
 
                     gg = gg + 1
-
-                    ' PartiePerdue = False
 
                 End If
             Next

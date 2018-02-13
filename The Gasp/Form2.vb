@@ -9,6 +9,8 @@ Public Class Form2
     Dim Damier(6, 6) As Char 'le damier 
     Dim NombreCoups = 0 'nombre de coups 
 
+    Dim gg As Integer
+
     ' coordonnées du pion
 
     Dim xbouton As Integer
@@ -113,6 +115,27 @@ Public Class Form2
 
     End Sub
 
+    Private Sub perdu()
+
+        gg = 0
+
+        For l = 1 To 5
+            For c = 1 To 5
+                If Damier(c, l) = "0" Then
+
+                    gg = gg + 1
+
+                End If
+            Next
+        Next
+
+        If gg = 25 Then
+            MsgBox("Bravo ! Vous avez gagné en " & NombreCoups & " coups !")
+        End If
+
+    End Sub
+
+
     Private Sub Form2_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
         Me.Text = "The Gasp"
@@ -171,6 +194,9 @@ Public Class Form2
         ybouton = 1
 
         retourne(xbouton, ybouton)
+
+        perdu()
+
     End Sub
 
     Private Sub Button4_Click(sender As Object, e As EventArgs)
@@ -179,6 +205,8 @@ Public Class Form2
         ybouton = 1
 
         retourne(xbouton, ybouton)
+
+        perdu()
 
     End Sub
 
@@ -189,12 +217,16 @@ Public Class Form2
 
         retourne(xbouton, ybouton)
 
+        perdu()
+
     End Sub
 
     Private Sub Button6_Click(sender As Object, e As EventArgs)
 
         xbouton = 1
         ybouton = 2
+
+        perdu()
 
         retourne(xbouton, ybouton)
     End Sub
@@ -203,6 +235,8 @@ Public Class Form2
 
         xbouton = 2
         ybouton = 2
+
+        perdu()
 
         retourne(xbouton, ybouton)
 
@@ -213,6 +247,8 @@ Public Class Form2
         xbouton = 3
         ybouton = 2
 
+        perdu()
+
         retourne(xbouton, ybouton)
 
     End Sub
@@ -221,6 +257,8 @@ Public Class Form2
 
         xbouton = 4
         ybouton = 2
+
+        perdu()
 
         retourne(xbouton, ybouton)
 
@@ -239,6 +277,8 @@ Public Class Form2
 
         retourne(xbouton, ybouton)
 
+        perdu()
+
     End Sub
 
     Private Sub Button11_Click(sender As Object, e As EventArgs)
@@ -247,6 +287,8 @@ Public Class Form2
         ybouton = 3
 
         retourne(xbouton, ybouton)
+
+        perdu()
 
     End Sub
 
@@ -257,6 +299,8 @@ Public Class Form2
 
         retourne(xbouton, ybouton)
 
+        perdu()
+
     End Sub
 
     Private Sub Button13_Click(sender As Object, e As EventArgs)
@@ -265,6 +309,8 @@ Public Class Form2
         ybouton = 3
 
         retourne(xbouton, ybouton)
+
+        perdu()
 
     End Sub
 
@@ -275,6 +321,8 @@ Public Class Form2
 
         retourne(xbouton, ybouton)
 
+        perdu()
+
     End Sub
 
     Private Sub Button15_Click(sender As Object, e As EventArgs)
@@ -283,6 +331,8 @@ Public Class Form2
         ybouton = 3
 
         retourne(xbouton, ybouton)
+
+        perdu()
 
     End Sub
 
@@ -293,6 +343,8 @@ Public Class Form2
 
         retourne(xbouton, ybouton)
 
+        perdu()
+
     End Sub
 
     Private Sub Button1_Click(sender As Object, e As EventArgs)
@@ -301,6 +353,8 @@ Public Class Form2
         ybouton = 1
 
         retourne(xbouton, ybouton)
+
+        perdu()
 
     End Sub
 
@@ -311,6 +365,8 @@ Public Class Form2
 
         retourne(xbouton, ybouton)
 
+        perdu()
+
     End Sub
 
     Private Sub Button18_Click(sender As Object, e As EventArgs)
@@ -319,6 +375,8 @@ Public Class Form2
         ybouton = 4
 
         retourne(xbouton, ybouton)
+
+        perdu()
 
     End Sub
 
@@ -329,6 +387,8 @@ Public Class Form2
 
         retourne(xbouton, ybouton)
 
+        perdu()
+
     End Sub
 
     Private Sub Button20_Click(sender As Object, e As EventArgs)
@@ -337,6 +397,8 @@ Public Class Form2
         ybouton = 4
 
         retourne(xbouton, ybouton)
+
+        perdu()
 
     End Sub
 
@@ -353,6 +415,8 @@ Public Class Form2
 
         retourne(xbouton, ybouton)
 
+        perdu()
+
     End Sub
 
     Private Sub Button22_Click(sender As Object, e As EventArgs)
@@ -361,6 +425,8 @@ Public Class Form2
         ybouton = 5
 
         retourne(xbouton, ybouton)
+
+        perdu()
 
     End Sub
 
@@ -371,6 +437,8 @@ Public Class Form2
 
         retourne(xbouton, ybouton)
 
+        perdu()
+
     End Sub
 
     Private Sub Button24_Click(sender As Object, e As EventArgs)
@@ -380,6 +448,8 @@ Public Class Form2
 
         retourne(xbouton, ybouton)
 
+        perdu()
+
     End Sub
 
     Private Sub Button25_Click(sender As Object, e As EventArgs)
@@ -388,6 +458,8 @@ Public Class Form2
         ybouton = 5
 
         retourne(xbouton, ybouton)
+
+        perdu()
 
     End Sub
 
@@ -435,6 +507,8 @@ Public Class Form2
 
         retourne(xbouton, ybouton)
 
+        perdu()
+
     End Sub
 
     Private Sub PictureBox2_Click(sender As Object, e As EventArgs) Handles PictureBox2.Click
@@ -443,6 +517,8 @@ Public Class Form2
         ybouton = 1
 
         retourne(xbouton, ybouton)
+
+        perdu()
 
     End Sub
 
@@ -453,6 +529,8 @@ Public Class Form2
 
         retourne(xbouton, ybouton)
 
+        perdu()
+
     End Sub
 
     Private Sub PictureBox4_Click(sender As Object, e As EventArgs) Handles PictureBox4.Click
@@ -461,6 +539,8 @@ Public Class Form2
         ybouton = 1
 
         retourne(xbouton, ybouton)
+
+        perdu()
 
     End Sub
 
@@ -471,6 +551,8 @@ Public Class Form2
 
         retourne(xbouton, ybouton)
 
+        perdu()
+
     End Sub
 
     Private Sub PictureBox6_Click(sender As Object, e As EventArgs) Handles PictureBox6.Click
@@ -479,6 +561,8 @@ Public Class Form2
         ybouton = 2
 
         retourne(xbouton, ybouton)
+
+        perdu()
 
     End Sub
 
@@ -489,6 +573,8 @@ Public Class Form2
 
         retourne(xbouton, ybouton)
 
+        perdu()
+
     End Sub
 
     Private Sub PictureBox8_Click(sender As Object, e As EventArgs) Handles PictureBox8.Click
@@ -497,6 +583,8 @@ Public Class Form2
         ybouton = 2
 
         retourne(xbouton, ybouton)
+
+        perdu()
 
     End Sub
 
@@ -507,6 +595,8 @@ Public Class Form2
 
         retourne(xbouton, ybouton)
 
+        perdu()
+
     End Sub
 
     Private Sub PictureBox10_Click(sender As Object, e As EventArgs) Handles PictureBox10.Click
@@ -515,6 +605,8 @@ Public Class Form2
         ybouton = 2
 
         retourne(xbouton, ybouton)
+
+        perdu()
 
     End Sub
 
@@ -525,6 +617,8 @@ Public Class Form2
 
         retourne(xbouton, ybouton)
 
+        perdu()
+
     End Sub
 
     Private Sub PictureBox12_Click(sender As Object, e As EventArgs) Handles PictureBox12.Click
@@ -533,6 +627,8 @@ Public Class Form2
         ybouton = 3
 
         retourne(xbouton, ybouton)
+
+        perdu()
 
     End Sub
 
@@ -543,6 +639,8 @@ Public Class Form2
 
         retourne(xbouton, ybouton)
 
+        perdu()
+
     End Sub
 
     Private Sub PictureBox14_Click(sender As Object, e As EventArgs) Handles PictureBox14.Click
@@ -551,6 +649,8 @@ Public Class Form2
         ybouton = 3
 
         retourne(xbouton, ybouton)
+
+        perdu()
 
     End Sub
 
@@ -561,6 +661,8 @@ Public Class Form2
 
         retourne(xbouton, ybouton)
 
+        perdu()
+
     End Sub
 
     Private Sub PictureBox16_Click(sender As Object, e As EventArgs) Handles PictureBox16.Click
@@ -569,6 +671,8 @@ Public Class Form2
         ybouton = 4
 
         retourne(xbouton, ybouton)
+
+        perdu()
 
     End Sub
 
@@ -579,6 +683,8 @@ Public Class Form2
 
         retourne(xbouton, ybouton)
 
+        perdu()
+
     End Sub
 
     Private Sub PictureBox18_Click(sender As Object, e As EventArgs) Handles PictureBox18.Click
@@ -587,6 +693,8 @@ Public Class Form2
         ybouton = 4
 
         retourne(xbouton, ybouton)
+
+        perdu()
 
     End Sub
 
@@ -597,6 +705,8 @@ Public Class Form2
 
         retourne(xbouton, ybouton)
 
+        perdu()
+
     End Sub
 
     Private Sub PictureBox20_Click(sender As Object, e As EventArgs) Handles PictureBox20.Click
@@ -605,6 +715,8 @@ Public Class Form2
         ybouton = 4
 
         retourne(xbouton, ybouton)
+
+        perdu()
 
     End Sub
 
@@ -615,6 +727,8 @@ Public Class Form2
 
         retourne(xbouton, ybouton)
 
+        perdu()
+
     End Sub
 
     Private Sub PictureBox22_Click(sender As Object, e As EventArgs) Handles PictureBox22.Click
@@ -623,6 +737,8 @@ Public Class Form2
         ybouton = 5
 
         retourne(xbouton, ybouton)
+
+        perdu()
 
     End Sub
 
@@ -633,6 +749,8 @@ Public Class Form2
 
         retourne(xbouton, ybouton)
 
+        perdu()
+
     End Sub
 
     Private Sub PictureBox24_Click(sender As Object, e As EventArgs) Handles PictureBox24.Click
@@ -642,6 +760,8 @@ Public Class Form2
 
         retourne(xbouton, ybouton)
 
+        perdu()
+
     End Sub
 
     Private Sub PictureBox25_Click(sender As Object, e As EventArgs) Handles PictureBox25.Click
@@ -650,6 +770,8 @@ Public Class Form2
         ybouton = 5
 
         retourne(xbouton, ybouton)
+
+        perdu()
 
     End Sub
 End Class

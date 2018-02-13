@@ -114,6 +114,12 @@ VS indique 22 modifs
 
 [mise sur github] : version 0.4.353.0
 
+- affichage d'un message quand la personne a gagné sur la grille 5 x 5
+
+VS indique 13 modifs
+
+[mise sur github] : version 0.4.366.0
+
 TODO
 ----
 

@@ -261,18 +261,21 @@ Partial Class Form3
         Me.PartieToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.NouvellePartieToolStripMenuItem, Me.QuitterToolStripMenuItem})
         Me.PartieToolStripMenuItem.Name = "PartieToolStripMenuItem"
         Me.PartieToolStripMenuItem.ShortcutKeyDisplayString = ""
+        Me.PartieToolStripMenuItem.ShortcutKeys = CType((System.Windows.Forms.Keys.Alt Or System.Windows.Forms.Keys.P), System.Windows.Forms.Keys)
         Me.PartieToolStripMenuItem.Size = New System.Drawing.Size(49, 20)
         Me.PartieToolStripMenuItem.Text = "Partie"
         '
         'NouvellePartieToolStripMenuItem
         '
         Me.NouvellePartieToolStripMenuItem.Name = "NouvellePartieToolStripMenuItem"
-        Me.NouvellePartieToolStripMenuItem.Size = New System.Drawing.Size(154, 22)
+        Me.NouvellePartieToolStripMenuItem.ShortcutKeys = CType((System.Windows.Forms.Keys.Alt Or System.Windows.Forms.Keys.N), System.Windows.Forms.Keys)
+        Me.NouvellePartieToolStripMenuItem.Size = New System.Drawing.Size(193, 22)
         Me.NouvellePartieToolStripMenuItem.Text = "Nouvelle partie"
         '
         'QuitterToolStripMenuItem
         '
         Me.QuitterToolStripMenuItem.Name = "QuitterToolStripMenuItem"
+        Me.QuitterToolStripMenuItem.ShortcutKeys = CType((System.Windows.Forms.Keys.Alt Or System.Windows.Forms.Keys.Q), System.Windows.Forms.Keys)
         Me.QuitterToolStripMenuItem.Size = New System.Drawing.Size(154, 22)
         Me.QuitterToolStripMenuItem.Text = "Quitter"
         '
@@ -280,21 +283,21 @@ Partial Class Form3
         '
         Me.NiveauToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.Grille4X4ToolStripMenuItem, Me.Grille5X5ToolStripMenuItem})
         Me.NiveauToolStripMenuItem.Name = "NiveauToolStripMenuItem"
-        Me.NiveauToolStripMenuItem.Size = New System.Drawing.Size(56, 20)
-        Me.NiveauToolStripMenuItem.Text = "Niveau"
+        Me.NiveauToolStripMenuItem.Size = New System.Drawing.Size(61, 20)
+        Me.NiveauToolStripMenuItem.Text = "Niveaux"
         '
         'Grille4X4ToolStripMenuItem
         '
         Me.Grille4X4ToolStripMenuItem.Checked = True
         Me.Grille4X4ToolStripMenuItem.CheckState = System.Windows.Forms.CheckState.Checked
         Me.Grille4X4ToolStripMenuItem.Name = "Grille4X4ToolStripMenuItem"
-        Me.Grille4X4ToolStripMenuItem.Size = New System.Drawing.Size(127, 22)
+        Me.Grille4X4ToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
         Me.Grille4X4ToolStripMenuItem.Text = "Grille 4 x 4"
         '
         'Grille5X5ToolStripMenuItem
         '
         Me.Grille5X5ToolStripMenuItem.Name = "Grille5X5ToolStripMenuItem"
-        Me.Grille5X5ToolStripMenuItem.Size = New System.Drawing.Size(127, 22)
+        Me.Grille5X5ToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
         Me.Grille5X5ToolStripMenuItem.Text = "Grille 5 x 5"
         '
         'AideToolStripMenuItem
@@ -307,13 +310,15 @@ Partial Class Form3
         'RéglesToolStripMenuItem
         '
         Me.RéglesToolStripMenuItem.Name = "RéglesToolStripMenuItem"
-        Me.RéglesToolStripMenuItem.Size = New System.Drawing.Size(122, 22)
-        Me.RéglesToolStripMenuItem.Text = "Régles"
+        Me.RéglesToolStripMenuItem.ShortcutKeys = CType((System.Windows.Forms.Keys.Alt Or System.Windows.Forms.Keys.R), System.Windows.Forms.Keys)
+        Me.RéglesToolStripMenuItem.Size = New System.Drawing.Size(160, 22)
+        Me.RéglesToolStripMenuItem.Text = "Règles"
         '
         'AProposToolStripMenuItem
         '
         Me.AProposToolStripMenuItem.Name = "AProposToolStripMenuItem"
-        Me.AProposToolStripMenuItem.Size = New System.Drawing.Size(122, 22)
+        Me.AProposToolStripMenuItem.ShortcutKeys = CType((System.Windows.Forms.Keys.Alt Or System.Windows.Forms.Keys.A), System.Windows.Forms.Keys)
+        Me.AProposToolStripMenuItem.Size = New System.Drawing.Size(160, 22)
         Me.AProposToolStripMenuItem.Text = "A propos"
         '
         'StatusStrip1

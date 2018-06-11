@@ -121,8 +121,8 @@ Partial Class Form2
         '
         Me.NiveauToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.Grille4X4ToolStripMenuItem, Me.Grille5X5ToolStripMenuItem})
         Me.NiveauToolStripMenuItem.Name = "NiveauToolStripMenuItem"
-        Me.NiveauToolStripMenuItem.Size = New System.Drawing.Size(56, 20)
-        Me.NiveauToolStripMenuItem.Text = "Niveau"
+        Me.NiveauToolStripMenuItem.Size = New System.Drawing.Size(61, 20)
+        Me.NiveauToolStripMenuItem.Text = "Niveaux"
         '
         'Grille4X4ToolStripMenuItem
         '
@@ -148,13 +148,13 @@ Partial Class Form2
         'RéglesToolStripMenuItem
         '
         Me.RéglesToolStripMenuItem.Name = "RéglesToolStripMenuItem"
-        Me.RéglesToolStripMenuItem.Size = New System.Drawing.Size(122, 22)
-        Me.RéglesToolStripMenuItem.Text = "Régles"
+        Me.RéglesToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.RéglesToolStripMenuItem.Text = "Règles"
         '
         'AProposToolStripMenuItem
         '
         Me.AProposToolStripMenuItem.Name = "AProposToolStripMenuItem"
-        Me.AProposToolStripMenuItem.Size = New System.Drawing.Size(122, 22)
+        Me.AProposToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
         Me.AProposToolStripMenuItem.Text = "A propos"
         '
         'PictureBox1

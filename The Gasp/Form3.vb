@@ -111,6 +111,8 @@ Public Class Form3
             Next
         Next
 
+        ToolStripStatusLabel1.Text = "Nombre de coups : " & NombreCoups
+
         afficher(VersoCarte)
 
     End Sub

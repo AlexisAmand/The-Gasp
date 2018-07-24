@@ -357,8 +357,6 @@ Public Class Form3
 
         aide.Visible = vbTrue
 
-
-
     End Sub
 
     Private Sub AProposToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles AProposToolStripMenuItem.Click

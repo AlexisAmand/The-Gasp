@@ -109,8 +109,6 @@ Public Class Form2
             Next
         Next
 
-        'Label1.Text = NombreCoups
-
         afficher(VersoCarte)
 
     End Sub

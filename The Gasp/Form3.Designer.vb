@@ -49,6 +49,8 @@ Partial Class Form3
         Me.AideToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.RéglesToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.AProposToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.OptionsToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ChoixDuDeckToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.StatusStrip1 = New System.Windows.Forms.StatusStrip()
         Me.ToolStripStatusLabel1 = New System.Windows.Forms.ToolStripStatusLabel()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -249,7 +251,7 @@ Partial Class Form3
         '
         'MenuStrip1
         '
-        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.PartieToolStripMenuItem, Me.NiveauToolStripMenuItem, Me.AideToolStripMenuItem})
+        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.PartieToolStripMenuItem, Me.NiveauToolStripMenuItem, Me.OptionsToolStripMenuItem, Me.AideToolStripMenuItem})
         Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip1.Name = "MenuStrip1"
         Me.MenuStrip1.Size = New System.Drawing.Size(539, 24)
@@ -276,7 +278,7 @@ Partial Class Form3
         '
         Me.QuitterToolStripMenuItem.Name = "QuitterToolStripMenuItem"
         Me.QuitterToolStripMenuItem.ShortcutKeys = CType((System.Windows.Forms.Keys.Alt Or System.Windows.Forms.Keys.Q), System.Windows.Forms.Keys)
-        Me.QuitterToolStripMenuItem.Size = New System.Drawing.Size(154, 22)
+        Me.QuitterToolStripMenuItem.Size = New System.Drawing.Size(193, 22)
         Me.QuitterToolStripMenuItem.Text = "Quitter"
         '
         'NiveauToolStripMenuItem
@@ -291,13 +293,13 @@ Partial Class Form3
         Me.Grille4X4ToolStripMenuItem.Checked = True
         Me.Grille4X4ToolStripMenuItem.CheckState = System.Windows.Forms.CheckState.Checked
         Me.Grille4X4ToolStripMenuItem.Name = "Grille4X4ToolStripMenuItem"
-        Me.Grille4X4ToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.Grille4X4ToolStripMenuItem.Size = New System.Drawing.Size(127, 22)
         Me.Grille4X4ToolStripMenuItem.Text = "Grille 4 x 4"
         '
         'Grille5X5ToolStripMenuItem
         '
         Me.Grille5X5ToolStripMenuItem.Name = "Grille5X5ToolStripMenuItem"
-        Me.Grille5X5ToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.Grille5X5ToolStripMenuItem.Size = New System.Drawing.Size(127, 22)
         Me.Grille5X5ToolStripMenuItem.Text = "Grille 5 x 5"
         '
         'AideToolStripMenuItem
@@ -320,6 +322,19 @@ Partial Class Form3
         Me.AProposToolStripMenuItem.ShortcutKeys = CType((System.Windows.Forms.Keys.Alt Or System.Windows.Forms.Keys.A), System.Windows.Forms.Keys)
         Me.AProposToolStripMenuItem.Size = New System.Drawing.Size(160, 22)
         Me.AProposToolStripMenuItem.Text = "A propos"
+        '
+        'OptionsToolStripMenuItem
+        '
+        Me.OptionsToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ChoixDuDeckToolStripMenuItem})
+        Me.OptionsToolStripMenuItem.Name = "OptionsToolStripMenuItem"
+        Me.OptionsToolStripMenuItem.Size = New System.Drawing.Size(61, 20)
+        Me.OptionsToolStripMenuItem.Text = "Options"
+        '
+        'ChoixDuDeckToolStripMenuItem
+        '
+        Me.ChoixDuDeckToolStripMenuItem.Name = "ChoixDuDeckToolStripMenuItem"
+        Me.ChoixDuDeckToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.ChoixDuDeckToolStripMenuItem.Text = "Choix du deck"
         '
         'StatusStrip1
         '
@@ -418,4 +433,6 @@ Partial Class Form3
     Friend WithEvents AProposToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents StatusStrip1 As StatusStrip
     Friend WithEvents ToolStripStatusLabel1 As ToolStripStatusLabel
+    Friend WithEvents OptionsToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents ChoixDuDeckToolStripMenuItem As ToolStripMenuItem
 End Class

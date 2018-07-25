@@ -9,6 +9,9 @@ Public Class Form2
     Dim Damier(6, 6) As Char 'le damier 
     Dim NombreCoups = 0 'nombre de coups 
 
+    ' nombre de cartes retournées.
+    ' si ce nombre vaut 25, alors le joueur a gagné.
+
     Dim gg As Integer
 
     ' coordonnées du pion

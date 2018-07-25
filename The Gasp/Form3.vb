@@ -9,6 +9,9 @@ Public Class Form3
     Dim Damier(5, 5) As Char 'le damier 
     Dim NombreCoups = 0 'nombre de coups 
 
+    ' nombre de cartes retournées.
+    ' si ce nombre vaut 16, alors le joueur a gagné.
+
     Dim gg As Integer
 
     ' coordonnées du pion
@@ -381,6 +384,12 @@ Public Class Form3
     Private Sub NouvellePartieToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles NouvellePartieToolStripMenuItem.Click
 
         nouvelle()
+
+    End Sub
+
+    Private Sub ChoixDuDeckToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ChoixDuDeckToolStripMenuItem.Click
+
+        Form1.Visible = vbTrue
 
     End Sub
 End Class

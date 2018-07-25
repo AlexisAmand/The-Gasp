@@ -216,6 +216,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="cards.ico" />
+    <None Include="Resources\russian.png" />
+    <None Include="Resources\red.png" />
     <None Include="Resources\carte21.png" />
     <None Include="Resources\carte24.png" />
     <None Include="Resources\carte23.png" />

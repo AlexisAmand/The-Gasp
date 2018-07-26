@@ -43,6 +43,11 @@ The Gasp
   Recherche une ressource localisée de type System.Drawing.Bitmap.
 </summary>
 </member>
+<member name="P:The_Gasp.My.Resources.Resource1.back_atlas">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
 <member name="P:The_Gasp.My.Resources.Resource1.back_railways">
 <summary>
   Recherche une ressource localisée de type System.Drawing.Bitmap.
@@ -183,7 +188,17 @@ The Gasp
   Recherche une ressource localisée de type System.Drawing.Bitmap.
 </summary>
 </member>
+<member name="P:The_Gasp.My.Resources.Resource1.dos_disco_o">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
 <member name="P:The_Gasp.My.Resources.Resource1.fond">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:The_Gasp.My.Resources.Resource1.old">
 <summary>
   Recherche une ressource localisée de type System.Drawing.Bitmap.
 </summary>
@@ -194,6 +209,11 @@ The Gasp
 </summary>
 </member>
 <member name="P:The_Gasp.My.Resources.Resource1.russian">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:The_Gasp.My.Resources.Resource1.suisse">
 <summary>
   Recherche une ressource localisée de type System.Drawing.Bitmap.
 </summary>

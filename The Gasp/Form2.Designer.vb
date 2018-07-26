@@ -60,6 +60,8 @@ Partial Class Form2
         Me.PictureBox25 = New System.Windows.Forms.PictureBox()
         Me.StatusStrip1 = New System.Windows.Forms.StatusStrip()
         Me.ToolStripStatusLabel1 = New System.Windows.Forms.ToolStripStatusLabel()
+        Me.OptionsToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ChoixDuDeckToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.MenuStrip1.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -91,7 +93,7 @@ Partial Class Form2
         '
         'MenuStrip1
         '
-        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.PartieToolStripMenuItem, Me.NiveauToolStripMenuItem, Me.AideToolStripMenuItem})
+        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.PartieToolStripMenuItem, Me.NiveauToolStripMenuItem, Me.OptionsToolStripMenuItem, Me.AideToolStripMenuItem})
         Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip1.Name = "MenuStrip1"
         Me.MenuStrip1.Size = New System.Drawing.Size(539, 24)
@@ -108,13 +110,13 @@ Partial Class Form2
         'NouvellePartieToolStripMenuItem
         '
         Me.NouvellePartieToolStripMenuItem.Name = "NouvellePartieToolStripMenuItem"
-        Me.NouvellePartieToolStripMenuItem.Size = New System.Drawing.Size(154, 22)
+        Me.NouvellePartieToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.NouvellePartieToolStripMenuItem.Text = "Nouvelle partie"
         '
         'QuitterToolStripMenuItem
         '
         Me.QuitterToolStripMenuItem.Name = "QuitterToolStripMenuItem"
-        Me.QuitterToolStripMenuItem.Size = New System.Drawing.Size(154, 22)
+        Me.QuitterToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.QuitterToolStripMenuItem.Text = "Quitter"
         '
         'NiveauToolStripMenuItem
@@ -127,7 +129,7 @@ Partial Class Form2
         'Grille4X4ToolStripMenuItem
         '
         Me.Grille4X4ToolStripMenuItem.Name = "Grille4X4ToolStripMenuItem"
-        Me.Grille4X4ToolStripMenuItem.Size = New System.Drawing.Size(127, 22)
+        Me.Grille4X4ToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.Grille4X4ToolStripMenuItem.Text = "Grille 4 x 4"
         '
         'Grille5X5ToolStripMenuItem
@@ -135,7 +137,7 @@ Partial Class Form2
         Me.Grille5X5ToolStripMenuItem.Checked = True
         Me.Grille5X5ToolStripMenuItem.CheckState = System.Windows.Forms.CheckState.Checked
         Me.Grille5X5ToolStripMenuItem.Name = "Grille5X5ToolStripMenuItem"
-        Me.Grille5X5ToolStripMenuItem.Size = New System.Drawing.Size(127, 22)
+        Me.Grille5X5ToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.Grille5X5ToolStripMenuItem.Text = "Grille 5 x 5"
         '
         'AideToolStripMenuItem
@@ -148,13 +150,13 @@ Partial Class Form2
         'RéglesToolStripMenuItem
         '
         Me.RéglesToolStripMenuItem.Name = "RéglesToolStripMenuItem"
-        Me.RéglesToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.RéglesToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.RéglesToolStripMenuItem.Text = "Règles"
         '
         'AProposToolStripMenuItem
         '
         Me.AProposToolStripMenuItem.Name = "AProposToolStripMenuItem"
-        Me.AProposToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.AProposToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.AProposToolStripMenuItem.Text = "A propos"
         '
         'PictureBox1
@@ -446,6 +448,19 @@ Partial Class Form2
         Me.ToolStripStatusLabel1.Size = New System.Drawing.Size(121, 17)
         Me.ToolStripStatusLabel1.Text = "ToolStripStatusLabel1"
         '
+        'OptionsToolStripMenuItem
+        '
+        Me.OptionsToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ChoixDuDeckToolStripMenuItem})
+        Me.OptionsToolStripMenuItem.Name = "OptionsToolStripMenuItem"
+        Me.OptionsToolStripMenuItem.Size = New System.Drawing.Size(61, 20)
+        Me.OptionsToolStripMenuItem.Text = "Options"
+        '
+        'ChoixDuDeckToolStripMenuItem
+        '
+        Me.ChoixDuDeckToolStripMenuItem.Name = "ChoixDuDeckToolStripMenuItem"
+        Me.ChoixDuDeckToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.ChoixDuDeckToolStripMenuItem.Text = "Choix du deck"
+        '
         'Form2
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -556,4 +571,6 @@ Partial Class Form2
     Friend WithEvents PictureBox25 As PictureBox
     Friend WithEvents StatusStrip1 As StatusStrip
     Friend WithEvents ToolStripStatusLabel1 As ToolStripStatusLabel
+    Friend WithEvents OptionsToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents ChoixDuDeckToolStripMenuItem As ToolStripMenuItem
 End Class

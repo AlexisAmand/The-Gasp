@@ -32,46 +32,27 @@ Public Class Form1
     End Sub
     Private Sub RadioButton6_CheckedChanged(sender As Object, e As EventArgs) Handles RadioButton6.CheckedChanged
 
-        ' TODO: selection du verso n°6 dans les options
+        Module1.VersoCarte = The_Gasp.My.Resources.Resource1.old
 
     End Sub
 
     Private Sub RadioButton7_CheckedChanged(sender As Object, e As EventArgs) Handles RadioButton7.CheckedChanged
 
-        ' TODO: selection du verso n°7 dans les options
-
-    End Sub
-
-    Private Sub RadioButton8_CheckedChanged(sender As Object, e As EventArgs) Handles RadioButton8.CheckedChanged
-
-        ' TODO: selection du verso n°8 dans les options
+        Module1.VersoCarte = The_Gasp.My.Resources.Resource1.suisse
 
     End Sub
 
     Private Sub RadioButton9_CheckedChanged(sender As Object, e As EventArgs) Handles RadioButton9.CheckedChanged
 
-        ' TODO: selection du verso n°9 dans les options
+        Module1.VersoCarte = The_Gasp.My.Resources.Resource1.back_atlas
 
     End Sub
 
     Private Sub RadioButton10_CheckedChanged(sender As Object, e As EventArgs) Handles RadioButton10.CheckedChanged
 
-        ' TODO: selection du verso n°10 dans les options
+        Module1.VersoCarte = The_Gasp.My.Resources.Resource1.dos_disco_o
 
     End Sub
-
-    Private Sub RadioButton11_CheckedChanged(sender As Object, e As EventArgs) Handles RadioButton11.CheckedChanged
-
-        ' TODO: selection du verso n°11 dans les options
-
-    End Sub
-
-    Private Sub RadioButton12_CheckedChanged(sender As Object, e As EventArgs) Handles RadioButton12.CheckedChanged
-
-        ' TODO: selection du verso n°12 dans les options
-
-    End Sub
-
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
 

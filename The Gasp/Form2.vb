@@ -116,6 +116,9 @@ Public Class Form2
 
     End Sub
 
+    ' Cette fonction compte le nombre de cartes retournées
+    ' Si ce nombre atteind 25, alors le joueur a gagné
+
     Private Sub perdu()
 
         gg = 0
@@ -773,6 +776,12 @@ Public Class Form2
         retourne(xbouton, ybouton)
 
         perdu()
+
+    End Sub
+
+    Private Sub ChoixDuDeckToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ChoixDuDeckToolStripMenuItem.Click
+
+        Form1.Visible = vbTrue
 
     End Sub
 End Class

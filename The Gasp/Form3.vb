@@ -23,7 +23,7 @@ Public Class Form3
 
     Dim TableauDesImages(17) As Image
 
-    ' Cette fonctione retourne les pions
+    ' fonction qui retourne les pions
 
     Private Sub retourne(xb, yb)
 
@@ -119,6 +119,9 @@ Public Class Form3
         afficher(VersoCarte)
 
     End Sub
+
+    ' Cette fonction compte le nombre de cartes retournées
+    ' Si ce nombre atteind 25, alors le joueur a gagné
 
     Private Sub perdu()
 
@@ -351,8 +354,6 @@ Public Class Form3
     Private Sub Grille4X4ToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles Grille4X4ToolStripMenuItem.Click
 
         Me.Visible = vbTrue
-
-
 
     End Sub
 

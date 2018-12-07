@@ -1,6 +1,6 @@
-﻿' --------------
-' Options du jeu
-' --------------
+﻿' -----------------------
+' Choix du dos des cartes
+' -----------------------
 
 Public Class Form1
 

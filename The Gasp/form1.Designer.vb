@@ -57,7 +57,7 @@ Partial Class Form1
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(22, 449)
+        Me.Button1.Location = New System.Drawing.Point(25, 449)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(75, 23)
         Me.Button1.TabIndex = 0
@@ -66,7 +66,7 @@ Partial Class Form1
         '
         'Button2
         '
-        Me.Button2.Location = New System.Drawing.Point(263, 449)
+        Me.Button2.Location = New System.Drawing.Point(261, 449)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(75, 23)
         Me.Button2.TabIndex = 1
@@ -76,47 +76,48 @@ Partial Class Form1
         'RadioButton10
         '
         Me.RadioButton10.AutoSize = True
-        Me.RadioButton10.Location = New System.Drawing.Point(248, 415)
+        Me.RadioButton10.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.RadioButton10.Location = New System.Drawing.Point(272, 415)
         Me.RadioButton10.Name = "RadioButton10"
-        Me.RadioButton10.Size = New System.Drawing.Size(96, 17)
+        Me.RadioButton10.Size = New System.Drawing.Size(52, 17)
         Me.RadioButton10.TabIndex = 23
-        Me.RadioButton10.Text = "RadioButton10"
+        Me.RadioButton10.Text = "Disco"
         Me.RadioButton10.UseVisualStyleBackColor = True
         '
         'RadioButton9
         '
         Me.RadioButton9.AutoSize = True
-        Me.RadioButton9.Location = New System.Drawing.Point(129, 415)
+        Me.RadioButton9.Location = New System.Drawing.Point(149, 415)
         Me.RadioButton9.Name = "RadioButton9"
-        Me.RadioButton9.Size = New System.Drawing.Size(90, 17)
+        Me.RadioButton9.Size = New System.Drawing.Size(61, 17)
         Me.RadioButton9.TabIndex = 22
-        Me.RadioButton9.Text = "RadioButton9"
+        Me.RadioButton9.Text = "Vintage"
         Me.RadioButton9.UseVisualStyleBackColor = True
         '
         'RadioButton7
         '
         Me.RadioButton7.AutoSize = True
-        Me.RadioButton7.Location = New System.Drawing.Point(248, 273)
+        Me.RadioButton7.Location = New System.Drawing.Point(270, 273)
         Me.RadioButton7.Name = "RadioButton7"
-        Me.RadioButton7.Size = New System.Drawing.Size(90, 17)
+        Me.RadioButton7.Size = New System.Drawing.Size(56, 17)
         Me.RadioButton7.TabIndex = 16
-        Me.RadioButton7.Text = "RadioButton7"
+        Me.RadioButton7.Text = "Suisse"
         Me.RadioButton7.UseVisualStyleBackColor = True
         '
         'RadioButton6
         '
         Me.RadioButton6.AutoSize = True
-        Me.RadioButton6.Location = New System.Drawing.Point(129, 273)
+        Me.RadioButton6.Location = New System.Drawing.Point(148, 273)
         Me.RadioButton6.Name = "RadioButton6"
-        Me.RadioButton6.Size = New System.Drawing.Size(90, 17)
+        Me.RadioButton6.Size = New System.Drawing.Size(63, 17)
         Me.RadioButton6.TabIndex = 15
-        Me.RadioButton6.Text = "RadioButton6"
+        Me.RadioButton6.Text = "Meeting"
         Me.RadioButton6.UseVisualStyleBackColor = True
         '
         'RadioButton5
         '
         Me.RadioButton5.AutoSize = True
-        Me.RadioButton5.Location = New System.Drawing.Point(12, 415)
+        Me.RadioButton5.Location = New System.Drawing.Point(31, 415)
         Me.RadioButton5.Name = "RadioButton5"
         Me.RadioButton5.Size = New System.Drawing.Size(63, 17)
         Me.RadioButton5.TabIndex = 14
@@ -126,7 +127,7 @@ Partial Class Form1
         'RadioButton4
         '
         Me.RadioButton4.AutoSize = True
-        Me.RadioButton4.Location = New System.Drawing.Point(12, 273)
+        Me.RadioButton4.Location = New System.Drawing.Point(40, 273)
         Me.RadioButton4.Name = "RadioButton4"
         Me.RadioButton4.Size = New System.Drawing.Size(45, 17)
         Me.RadioButton4.TabIndex = 4
@@ -137,7 +138,7 @@ Partial Class Form1
         '
         Me.RadioButton1.AutoSize = True
         Me.RadioButton1.Checked = True
-        Me.RadioButton1.Location = New System.Drawing.Point(248, 131)
+        Me.RadioButton1.Location = New System.Drawing.Point(270, 131)
         Me.RadioButton1.Name = "RadioButton1"
         Me.RadioButton1.Size = New System.Drawing.Size(57, 17)
         Me.RadioButton1.TabIndex = 2
@@ -148,7 +149,7 @@ Partial Class Form1
         'RadioButton2
         '
         Me.RadioButton2.AutoSize = True
-        Me.RadioButton2.Location = New System.Drawing.Point(129, 131)
+        Me.RadioButton2.Location = New System.Drawing.Point(146, 131)
         Me.RadioButton2.Name = "RadioButton2"
         Me.RadioButton2.Size = New System.Drawing.Size(67, 17)
         Me.RadioButton2.TabIndex = 3
@@ -158,16 +159,16 @@ Partial Class Form1
         'RadioButton3
         '
         Me.RadioButton3.AutoSize = True
-        Me.RadioButton3.Location = New System.Drawing.Point(38, 131)
+        Me.RadioButton3.Location = New System.Drawing.Point(39, 131)
         Me.RadioButton3.Name = "RadioButton3"
-        Me.RadioButton3.Size = New System.Drawing.Size(59, 17)
+        Me.RadioButton3.Size = New System.Drawing.Size(47, 17)
         Me.RadioButton3.TabIndex = 19
-        Me.RadioButton3.Text = "Bateau"
+        Me.RadioButton3.Text = "Boat"
         Me.RadioButton3.UseVisualStyleBackColor = True
         '
         'Button3
         '
-        Me.Button3.Location = New System.Drawing.Point(144, 449)
+        Me.Button3.Location = New System.Drawing.Point(142, 449)
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(75, 23)
         Me.Button3.TabIndex = 26
@@ -238,6 +239,7 @@ Partial Class Form1
         '
         Me.PictureBox7.BackgroundImage = Global.The_Gasp.My.Resources.Resource1.suisse
         Me.PictureBox7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.PictureBox7.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.PictureBox7.Location = New System.Drawing.Point(248, 154)
         Me.PictureBox7.Name = "PictureBox7"
         Me.PictureBox7.Size = New System.Drawing.Size(100, 113)
@@ -268,7 +270,7 @@ Partial Class Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(365, 486)
+        Me.ClientSize = New System.Drawing.Size(360, 486)
         Me.Controls.Add(Me.Button3)
         Me.Controls.Add(Me.PictureBox3)
         Me.Controls.Add(Me.RadioButton3)

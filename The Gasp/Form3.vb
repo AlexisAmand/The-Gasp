@@ -191,6 +191,10 @@ Public Class Form3
 
         Me.Text = "The Gasp"
 
+        ' Background du jeu
+
+        Me.BackgroundImage = The_Gasp.My.Resources.Resource1.wood
+
         ToolStripStatusLabel1.Text = "Nombre de coups : " & NombreCoups
 
         MaximizeBox = vbFalse
@@ -391,6 +395,18 @@ Public Class Form3
     Private Sub ChoixDuDeckToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ChoixDuDeckToolStripMenuItem.Click
 
         Form1.Visible = vbTrue
+
+    End Sub
+
+    Private Sub ToolStripMenuItem1_Click(sender As Object, e As EventArgs) Handles ToolStripMenuItem1.Click
+
+        Form4.Visible = vbTrue
+
+    End Sub
+
+    Private Sub TestToolStripMenuItem_Click(sender As Object, e As EventArgs)
+
+        Form5.Visible = vbTrue
 
     End Sub
 End Class

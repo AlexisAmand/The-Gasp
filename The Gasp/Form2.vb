@@ -23,6 +23,9 @@ Public Class Form2
 
     Dim TableauDesImages(27) As Image
 
+
+
+
     ' fonction qui retourne les pions
 
     Private Sub retourne(xb, yb)

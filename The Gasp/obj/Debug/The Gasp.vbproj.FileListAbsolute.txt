@@ -41,3 +41,5 @@ E:\Dev\Visual Studio 2017\Projects\Le Gasp\The Gasp\bin\Debug\The Gasp.applicati
 E:\Dev\Visual Studio 2017\Projects\Le Gasp\The Gasp\obj\Debug\The Gasp.exe.manifest
 E:\Dev\Visual Studio 2017\Projects\Le Gasp\The Gasp\obj\Debug\The Gasp.application
 E:\Dev\Visual Studio 2017\Projects\Le Gasp\The Gasp\obj\Debug\The Gasp.vbprojAssemblyReference.cache
+E:\Dev\Visual Studio 2017\Projects\Le Gasp\The Gasp\obj\Debug\The_Gasp.Form4.resources
+E:\Dev\Visual Studio 2017\Projects\Le Gasp\The Gasp\obj\Debug\The_Gasp.Form5.resources

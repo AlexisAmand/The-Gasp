@@ -9,9 +9,13 @@ E:\Dev\Visual Studio 2017\Projects\Le Gasp\The Gasp\obj\Release\The Gasp.vbproj.
 E:\Dev\Visual Studio 2017\Projects\Le Gasp\The Gasp\obj\Release\The Gasp.exe
 E:\Dev\Visual Studio 2017\Projects\Le Gasp\The Gasp\obj\Release\The Gasp.xml
 E:\Dev\Visual Studio 2017\Projects\Le Gasp\The Gasp\obj\Release\The Gasp.pdb
-E:\Dev\Visual Studio 2017\Projects\Le Gasp\The Gasp\obj\Release\The Gasp.vbprojResolveAssemblyReference.cache
 E:\Dev\Visual Studio 2017\Projects\Le Gasp\The Gasp\obj\Release\The_Gasp.AboutBox1.resources
 E:\Dev\Visual Studio 2017\Projects\Le Gasp\The Gasp\obj\Release\The_Gasp.aide.resources
 E:\Dev\Visual Studio 2017\Projects\Le Gasp\The Gasp\obj\Release\The_Gasp.Form2.resources
 E:\Dev\Visual Studio 2017\Projects\Le Gasp\The Gasp\obj\Release\The Gasp.vbproj.CoreCompileInputs.cache
 E:\Dev\Visual Studio 2017\Projects\Le Gasp\The Gasp\obj\Release\The_Gasp.Form3.resources
+E:\Dev\Visual Studio 2017\Projects\Le Gasp\The Gasp\bin\Release\The Gasp.exe.manifest
+E:\Dev\Visual Studio 2017\Projects\Le Gasp\The Gasp\bin\Release\The Gasp.application
+E:\Dev\Visual Studio 2017\Projects\Le Gasp\The Gasp\obj\Release\The_Gasp.Form4.resources
+E:\Dev\Visual Studio 2017\Projects\Le Gasp\The Gasp\obj\Release\The Gasp.exe.manifest
+E:\Dev\Visual Studio 2017\Projects\Le Gasp\The Gasp\obj\Release\The Gasp.application

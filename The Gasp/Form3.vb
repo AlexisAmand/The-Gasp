@@ -406,7 +406,7 @@ Public Class Form3
 
     Private Sub TestToolStripMenuItem_Click(sender As Object, e As EventArgs)
 
-        Form5.Visible = vbTrue
+        ' Form5.Visible = vbTrue
 
     End Sub
 End Class

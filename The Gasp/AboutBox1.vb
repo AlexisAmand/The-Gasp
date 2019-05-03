@@ -30,4 +30,8 @@ Public NotInheritable Class AboutBox1
     Private Sub LabelVersion_Click(sender As Object, e As EventArgs) Handles LabelVersion.Click
 
     End Sub
+
+    Private Sub LabelCopyright_Click(sender As Object, e As EventArgs) Handles LabelCopyright.Click
+
+    End Sub
 End Class

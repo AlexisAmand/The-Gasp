@@ -2,7 +2,7 @@
 
 Module Module1
 
-    ' CE module sert du retournement des cartes
+    ' sert au retournement des cartes
 
     Public VersoCarte = The_Gasp.My.Resources.Resource1.carte
 

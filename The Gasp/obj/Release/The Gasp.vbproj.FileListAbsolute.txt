@@ -19,3 +19,4 @@ E:\Dev\Visual Studio 2017\Projects\Le Gasp\The Gasp\bin\Release\The Gasp.applica
 E:\Dev\Visual Studio 2017\Projects\Le Gasp\The Gasp\obj\Release\The_Gasp.Form4.resources
 E:\Dev\Visual Studio 2017\Projects\Le Gasp\The Gasp\obj\Release\The Gasp.exe.manifest
 E:\Dev\Visual Studio 2017\Projects\Le Gasp\The Gasp\obj\Release\The Gasp.application
+E:\Dev\Visual Studio 2017\Projects\Le Gasp\The Gasp\obj\Release\The Gasp.vbprojAssemblyReference.cache

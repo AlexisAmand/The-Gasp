@@ -34,7 +34,6 @@ Partial Class Form1
         Me.RadioButton1 = New System.Windows.Forms.RadioButton()
         Me.RadioButton2 = New System.Windows.Forms.RadioButton()
         Me.RadioButton3 = New System.Windows.Forms.RadioButton()
-        Me.Button3 = New System.Windows.Forms.Button()
         Me.PictureBox3 = New System.Windows.Forms.PictureBox()
         Me.PictureBox10 = New System.Windows.Forms.PictureBox()
         Me.PictureBox2 = New System.Windows.Forms.PictureBox()
@@ -57,7 +56,7 @@ Partial Class Form1
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(25, 449)
+        Me.Button1.Location = New System.Drawing.Point(99, 451)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(75, 23)
         Me.Button1.TabIndex = 0
@@ -66,7 +65,7 @@ Partial Class Form1
         '
         'Button2
         '
-        Me.Button2.Location = New System.Drawing.Point(261, 449)
+        Me.Button2.Location = New System.Drawing.Point(180, 451)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(75, 23)
         Me.Button2.TabIndex = 1
@@ -166,15 +165,6 @@ Partial Class Form1
         Me.RadioButton3.Text = "Boat"
         Me.RadioButton3.UseVisualStyleBackColor = True
         '
-        'Button3
-        '
-        Me.Button3.Location = New System.Drawing.Point(142, 449)
-        Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(75, 23)
-        Me.Button3.TabIndex = 26
-        Me.Button3.Text = "Appliquer"
-        Me.Button3.UseVisualStyleBackColor = True
-        '
         'PictureBox3
         '
         Me.PictureBox3.BackgroundImage = Global.The_Gasp.My.Resources.Resource1.bateau_vintage
@@ -271,7 +261,6 @@ Partial Class Form1
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(360, 486)
-        Me.Controls.Add(Me.Button3)
         Me.Controls.Add(Me.PictureBox3)
         Me.Controls.Add(Me.RadioButton3)
         Me.Controls.Add(Me.RadioButton10)
@@ -331,5 +320,4 @@ Partial Class Form1
     Friend WithEvents PictureBox5 As PictureBox
     Friend WithEvents PictureBox3 As PictureBox
     Friend WithEvents RadioButton3 As RadioButton
-    Friend WithEvents Button3 As Button
 End Class

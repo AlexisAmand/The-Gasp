@@ -31,6 +31,7 @@ Partial Class Form4
         Me.PictureBox3 = New System.Windows.Forms.PictureBox()
         Me.PictureBox2 = New System.Windows.Forms.PictureBox()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+        Me.Button2 = New System.Windows.Forms.Button()
         CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -83,9 +84,9 @@ Partial Class Form4
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(232, 482)
+        Me.Button1.Location = New System.Drawing.Point(197, 482)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(70, 20)
+        Me.Button1.Size = New System.Drawing.Size(73, 23)
         Me.Button1.TabIndex = 8
         Me.Button1.Text = "Ok"
         Me.Button1.UseVisualStyleBackColor = True
@@ -125,11 +126,21 @@ Partial Class Form4
         Me.PictureBox1.TabIndex = 0
         Me.PictureBox1.TabStop = False
         '
+        'Button2
+        '
+        Me.Button2.Location = New System.Drawing.Point(276, 482)
+        Me.Button2.Name = "Button2"
+        Me.Button2.Size = New System.Drawing.Size(75, 23)
+        Me.Button2.TabIndex = 9
+        Me.Button2.Text = "Annuler"
+        Me.Button2.UseVisualStyleBackColor = True
+        '
         'Form4
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(546, 508)
+        Me.ClientSize = New System.Drawing.Size(546, 514)
+        Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.RadioButton4)
         Me.Controls.Add(Me.RadioButton3)
@@ -160,4 +171,5 @@ Partial Class Form4
     Friend WithEvents RadioButton3 As RadioButton
     Friend WithEvents RadioButton4 As RadioButton
     Friend WithEvents Button1 As Button
+    Friend WithEvents Button2 As Button
 End Class

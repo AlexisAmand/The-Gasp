@@ -13,7 +13,7 @@ Imports System.Runtime.InteropServices
 <Assembly: AssemblyDescription("")>
 <Assembly: AssemblyCompany("")>
 <Assembly: AssemblyProduct("The Gasp")>
-<Assembly: AssemblyCopyright("Copyright © Alexis AMAND 2017")>
+<Assembly: AssemblyCopyright("Copyright © Alexis AMAND 2017-2019")>
 <Assembly: AssemblyTrademark("")>
 
 <Assembly: ComVisible(False)>
@@ -32,6 +32,6 @@ Imports System.Runtime.InteropServices
 ' en utilisant '*', comme indiqué ci-dessous :
 ' <Assembly: AssemblyVersion("1.0.*")>
 
-<Assembly: AssemblyVersion("0.5.68.0")>
-<Assembly: AssemblyFileVersion("0.5.68.0")>
+<Assembly: AssemblyVersion("0.5.86.0")>
+<Assembly: AssemblyFileVersion("0.5.86.0")>
 <Assembly: NeutralResourcesLanguage("fr-FR")>

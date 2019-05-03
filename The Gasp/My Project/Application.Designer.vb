@@ -34,5 +34,10 @@ Namespace My
         Protected Overrides Sub OnCreateMainForm()
             Me.MainForm = Global.The_Gasp.Form3
         End Sub
+
+        <Global.System.Diagnostics.DebuggerStepThroughAttribute()>
+        Protected Overrides Sub OnCreateSplashScreen()
+            Me.SplashScreen = Global.The_Gasp.SplashScreen1
+        End Sub
     End Class
 End Namespace

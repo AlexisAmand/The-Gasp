@@ -20,25 +20,48 @@ E:\Dev\Visual Studio 2017\Projects\The Gasp\obj\Debug\The Gasp.vbproj.GenerateRe
 E:\Dev\Visual Studio 2017\Projects\The Gasp\obj\Debug\The Gasp.exe
 E:\Dev\Visual Studio 2017\Projects\The Gasp\obj\Debug\The Gasp.xml
 E:\Dev\Visual Studio 2017\Projects\The Gasp\obj\Debug\The Gasp.pdb
-E:\Dev\Visual Studio 2017\Projects\Le Gasp\The Gasp\bin\Debug\The Gasp.exe.config
-E:\Dev\Visual Studio 2017\Projects\Le Gasp\The Gasp\bin\Debug\The Gasp.exe
-E:\Dev\Visual Studio 2017\Projects\Le Gasp\The Gasp\bin\Debug\The Gasp.pdb
-E:\Dev\Visual Studio 2017\Projects\Le Gasp\The Gasp\bin\Debug\The Gasp.xml
+E:\Dev\Visual Studio 2017\Projects\Le Gasp\The Gasp\obj\Debug\The_Gasp.AboutBox1.resources
+E:\Dev\Visual Studio 2017\Projects\Le Gasp\The Gasp\obj\Debug\The_Gasp.aide.resources
+E:\Dev\Visual Studio 2017\Projects\Le Gasp\The Gasp\obj\Debug\The_Gasp.Form1.resources
+E:\Dev\Visual Studio 2017\Projects\Le Gasp\The Gasp\obj\Debug\The_Gasp.Form2.resources
+E:\Dev\Visual Studio 2017\Projects\Le Gasp\The Gasp\obj\Debug\The_Gasp.Form3.resources
+E:\Dev\Visual Studio 2017\Projects\Le Gasp\The Gasp\obj\Debug\The_Gasp.Form4.resources
 E:\Dev\Visual Studio 2017\Projects\Le Gasp\The Gasp\obj\Debug\The_Gasp.Resources.resources
-E:\Dev\Visual Studio 2017\Projects\Le Gasp\The Gasp\obj\Debug\The Gasp.vbproj.GenerateResource.Cache
+E:\Dev\Visual Studio 2017\Projects\Le Gasp\The Gasp\obj\Debug\The_Gasp.Resource1.resources
+E:\Dev\Visual Studio 2017\Projects\Le Gasp\The Gasp\obj\Debug\The Gasp.vbproj.GenerateResource.cache
+E:\Dev\Visual Studio 2017\Projects\Le Gasp\The Gasp\obj\Debug\The Gasp.vbproj.CoreCompileInputs.cache
 E:\Dev\Visual Studio 2017\Projects\Le Gasp\The Gasp\obj\Debug\The Gasp.exe
 E:\Dev\Visual Studio 2017\Projects\Le Gasp\The Gasp\obj\Debug\The Gasp.xml
 E:\Dev\Visual Studio 2017\Projects\Le Gasp\The Gasp\obj\Debug\The Gasp.pdb
-E:\Dev\Visual Studio 2017\Projects\Le Gasp\The Gasp\obj\Debug\The_Gasp.Resource1.resources
-E:\Dev\Visual Studio 2017\Projects\Le Gasp\The Gasp\obj\Debug\The_Gasp.aide.resources
-E:\Dev\Visual Studio 2017\Projects\Le Gasp\The Gasp\obj\Debug\The_Gasp.Form2.resources
-E:\Dev\Visual Studio 2017\Projects\Le Gasp\The Gasp\obj\Debug\The Gasp.vbproj.CoreCompileInputs.cache
-E:\Dev\Visual Studio 2017\Projects\Le Gasp\The Gasp\obj\Debug\The_Gasp.AboutBox1.resources
-E:\Dev\Visual Studio 2017\Projects\Le Gasp\The Gasp\obj\Debug\The_Gasp.Form3.resources
-E:\Dev\Visual Studio 2017\Projects\Le Gasp\The Gasp\obj\Debug\The_Gasp.Form1.resources
+E:\Dev\Visual Studio 2017\Projects\Le Gasp\The Gasp\bin\Debug\The Gasp.exe.config
 E:\Dev\Visual Studio 2017\Projects\Le Gasp\The Gasp\bin\Debug\The Gasp.exe.manifest
 E:\Dev\Visual Studio 2017\Projects\Le Gasp\The Gasp\bin\Debug\The Gasp.application
+E:\Dev\Visual Studio 2017\Projects\Le Gasp\The Gasp\bin\Debug\The Gasp.exe
+E:\Dev\Visual Studio 2017\Projects\Le Gasp\The Gasp\bin\Debug\The Gasp.pdb
+E:\Dev\Visual Studio 2017\Projects\Le Gasp\The Gasp\bin\Debug\The Gasp.xml
+E:\Dev\Visual Studio 2017\Projects\Le Gasp\The Gasp\obj\Debug\The Gasp.vbprojAssemblyReference.cache
 E:\Dev\Visual Studio 2017\Projects\Le Gasp\The Gasp\obj\Debug\The Gasp.exe.manifest
 E:\Dev\Visual Studio 2017\Projects\Le Gasp\The Gasp\obj\Debug\The Gasp.application
-E:\Dev\Visual Studio 2017\Projects\Le Gasp\The Gasp\obj\Debug\The Gasp.vbprojAssemblyReference.cache
-E:\Dev\Visual Studio 2017\Projects\Le Gasp\The Gasp\obj\Debug\The_Gasp.Form4.resources
+E:\Dev\Visual Studio 2019\Le Gasp\The Gasp\bin\Debug\The Gasp.exe.config
+E:\Dev\Visual Studio 2019\Le Gasp\The Gasp\bin\Debug\The Gasp.exe.manifest
+E:\Dev\Visual Studio 2019\Le Gasp\The Gasp\bin\Debug\The Gasp.application
+E:\Dev\Visual Studio 2019\Le Gasp\The Gasp\bin\Debug\The Gasp.exe
+E:\Dev\Visual Studio 2019\Le Gasp\The Gasp\bin\Debug\The Gasp.pdb
+E:\Dev\Visual Studio 2019\Le Gasp\The Gasp\bin\Debug\The Gasp.xml
+E:\Dev\Visual Studio 2019\Le Gasp\The Gasp\obj\Debug\The Gasp.vbprojAssemblyReference.cache
+E:\Dev\Visual Studio 2019\Le Gasp\The Gasp\obj\Debug\The_Gasp.AboutBox1.resources
+E:\Dev\Visual Studio 2019\Le Gasp\The Gasp\obj\Debug\The_Gasp.aide.resources
+E:\Dev\Visual Studio 2019\Le Gasp\The Gasp\obj\Debug\The_Gasp.Form1.resources
+E:\Dev\Visual Studio 2019\Le Gasp\The Gasp\obj\Debug\The_Gasp.Form2.resources
+E:\Dev\Visual Studio 2019\Le Gasp\The Gasp\obj\Debug\The_Gasp.Form3.resources
+E:\Dev\Visual Studio 2019\Le Gasp\The Gasp\obj\Debug\The_Gasp.Form4.resources
+E:\Dev\Visual Studio 2019\Le Gasp\The Gasp\obj\Debug\The_Gasp.Resources.resources
+E:\Dev\Visual Studio 2019\Le Gasp\The Gasp\obj\Debug\The_Gasp.Resource1.resources
+E:\Dev\Visual Studio 2019\Le Gasp\The Gasp\obj\Debug\The Gasp.vbproj.GenerateResource.cache
+E:\Dev\Visual Studio 2019\Le Gasp\The Gasp\obj\Debug\The Gasp.vbproj.CoreCompileInputs.cache
+E:\Dev\Visual Studio 2019\Le Gasp\The Gasp\obj\Debug\The Gasp.exe.manifest
+E:\Dev\Visual Studio 2019\Le Gasp\The Gasp\obj\Debug\The Gasp.application
+E:\Dev\Visual Studio 2019\Le Gasp\The Gasp\obj\Debug\The Gasp.exe
+E:\Dev\Visual Studio 2019\Le Gasp\The Gasp\obj\Debug\The Gasp.xml
+E:\Dev\Visual Studio 2019\Le Gasp\The Gasp\obj\Debug\The Gasp.pdb
+E:\Dev\Visual Studio 2017\Projects\Le Gasp\The Gasp\obj\Debug\The_Gasp.SplashScreen1.resources

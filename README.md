@@ -10,5 +10,7 @@ La règle de ce jeu jouable en solo est simple.
 - Le but est de retourner toutes les cartes.
 
 
-![alt text](http://thegasp.genealexis.fr/images/captures/thegasp-01.jpg)     
-![alt text](http://thegasp.genealexis.fr/images/captures/thegasp-04.jpg) 
+![alt text](http://thegasp.genealexis.fr/images/captures/thegasp-01.jpg)   
+
+![alt text](http://thegasp.genealexis.fr/images/captures/thegasp-04.jpg)  
+

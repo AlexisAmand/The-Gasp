@@ -29,15 +29,11 @@ Namespace My
             Me.SaveMySettingsOnExit = true
             Me.ShutDownStyle = Global.Microsoft.VisualBasic.ApplicationServices.ShutdownMode.AfterMainFormCloses
         End Sub
-        
-        <Global.System.Diagnostics.DebuggerStepThroughAttribute()>  _
+
+        <Global.System.Diagnostics.DebuggerStepThroughAttribute()>
         Protected Overrides Sub OnCreateMainForm()
             Me.MainForm = Global.The_Gasp.Form3
         End Sub
 
-        <Global.System.Diagnostics.DebuggerStepThroughAttribute()>
-        Protected Overrides Sub OnCreateSplashScreen()
-            Me.SplashScreen = Global.The_Gasp.SplashScreen1
-        End Sub
     End Class
 End Namespace

@@ -30,11 +30,11 @@ Partial Class aide
         '
         'RichTextBox1
         '
-        Me.RichTextBox1.Location = New System.Drawing.Point(3, 13)
+        Me.RichTextBox1.Location = New System.Drawing.Point(3, 1)
         Me.RichTextBox1.Margin = New System.Windows.Forms.Padding(4)
         Me.RichTextBox1.Name = "RichTextBox1"
         Me.RichTextBox1.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.None
-        Me.RichTextBox1.Size = New System.Drawing.Size(789, 569)
+        Me.RichTextBox1.Size = New System.Drawing.Size(789, 581)
         Me.RichTextBox1.TabIndex = 0
         Me.RichTextBox1.Text = resources.GetString("RichTextBox1.Text")
         '
@@ -55,7 +55,7 @@ Partial Class aide
         Me.Margin = New System.Windows.Forms.Padding(4)
         Me.Name = "aide"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "Form2"
+        Me.Text = "Règles"
         Me.ResumeLayout(False)
 
     End Sub

@@ -4,7 +4,7 @@
   <description asmv2:iconFile="cards.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
   <application />
   <entryPoint>
-    <assemblyIdentity name="The Gasp" version="0.5.68.0" language="neutral" processorArchitecture="msil" />
+    <assemblyIdentity name="The Gasp" version="0.5.86.0" language="neutral" processorArchitecture="msil" />
     <commandLine file="The Gasp.exe" parameters="" />
   </entryPoint>
   <trustInfo>
@@ -43,14 +43,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="The Gasp.exe" size="16877496">
-      <assemblyIdentity name="The Gasp" version="0.5.68.0" language="neutral" processorArchitecture="msil" />
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="The Gasp.exe" size="16876544">
+      <assemblyIdentity name="The Gasp" version="0.5.86.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>zMjakoV3nwyOfOFi7pHnItkZ1W/rXK4Gwy7SM03r+84=</dsig:DigestValue>
+        <dsig:DigestValue>gOry7a++9OxPlzBgw+HNRzGbEx9awnpNFfY0nJA4Wpg=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

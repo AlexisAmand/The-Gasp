@@ -13,7 +13,7 @@ Imports System.Runtime.InteropServices
 <Assembly: AssemblyDescription("")>
 <Assembly: AssemblyCompany("")>
 <Assembly: AssemblyProduct("The Gasp")>
-<Assembly: AssemblyCopyright("Copyright © Alexis AMAND 2017-2019")>
+<Assembly: AssemblyCopyright("Copyright © Alexis AMAND 2017-2020")>
 <Assembly: AssemblyTrademark("")>
 
 <Assembly: ComVisible(False)>

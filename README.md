@@ -1,19 +1,15 @@
-# The Gasp
+The Gasp
+-
 
-Version pour VB.net, d'aprés un article sur le basic paru dans Jeux & Stratégie n°38 (Avril/Mai 1986).
+Version pour VB.net, d'après un article sur le basic paru dans Jeux & Stratégie n°38 (Avril/Mai 1986).
 
-La régle de ce jeu en solitaire est simple.
+La règle de ce jeu jouable en solo est simple.
 
 - Sur une grille 4x4, on dispose des 16 cartes.
-- On désigne ensuite une carte quelconque, toutes ses voisins sont retournées sauf elle.
+- On désigne ensuite une carte quelconque, toutes ses voisines sont retournées sauf elle.
 - Le but est de retourner toutes les cartes.
 
-Site (provisoire) : http://thegasp.genealexis.fr/
-
-![alt text](http://thegasp.genealexis.fr/images/thumbs/thegasp-01.jpg)
-
-![alt text](http://thegasp.genealexis.fr/images/thumbs/thegasp-03.jpg)
-
-
-
-
+| Column1 | Column2 | Column3 | 
+|---------|---------|---------|
+|  ![alt text](http://thegasp.genealexis.fr/images/captures/thegasp-01.jpg)       |  ![alt text](http://thegasp.genealexis.fr/images/captures/thegasp-04.jpg)       |         |
+|         |         |         |

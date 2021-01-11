@@ -1,0 +1,6 @@
+﻿- soucis avec l'incrémentation des numéros des versions 0.5.86.0
+
+- Ajout de 5 fonds : la version aurait du être 0.5.136.0
+
+
+

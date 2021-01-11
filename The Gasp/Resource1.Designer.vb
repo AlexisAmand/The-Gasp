@@ -377,6 +377,16 @@ Namespace My.Resources
         '''<summary>
         '''  Recherche une ressource localisée de type System.Drawing.Bitmap.
         '''</summary>
+        Public Shared ReadOnly Property eau() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("eau", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Recherche une ressource localisée de type System.Drawing.Bitmap.
+        '''</summary>
         Public Shared ReadOnly Property fond() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("fond", resourceCulture)
@@ -387,9 +397,29 @@ Namespace My.Resources
         '''<summary>
         '''  Recherche une ressource localisée de type System.Drawing.Bitmap.
         '''</summary>
+        Public Shared ReadOnly Property galets() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("galets", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Recherche une ressource localisée de type System.Drawing.Bitmap.
+        '''</summary>
         Public Shared ReadOnly Property herbe() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("herbe", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Recherche une ressource localisée de type System.Drawing.Bitmap.
+        '''</summary>
+        Public Shared ReadOnly Property nuages() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("nuages", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property
@@ -417,6 +447,16 @@ Namespace My.Resources
         '''<summary>
         '''  Recherche une ressource localisée de type System.Drawing.Bitmap.
         '''</summary>
+        Public Shared ReadOnly Property rock() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("rock", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Recherche une ressource localisée de type System.Drawing.Bitmap.
+        '''</summary>
         Public Shared ReadOnly Property russian() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("russian", resourceCulture)
@@ -430,6 +470,16 @@ Namespace My.Resources
         Public Shared ReadOnly Property suisse() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("suisse", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Recherche une ressource localisée de type System.Drawing.Bitmap.
+        '''</summary>
+        Public Shared ReadOnly Property woman() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("woman", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property

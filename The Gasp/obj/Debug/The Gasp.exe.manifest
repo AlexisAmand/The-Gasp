@@ -43,14 +43,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="The Gasp.exe" size="15839232">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="The Gasp.exe" size="18110976">
       <assemblyIdentity name="The Gasp" version="0.5.86.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>8HZJKOWSBKSLO1V/5Yo2i9aaclx8NoC2BzbFQNWeS0U=</dsig:DigestValue>
+        <dsig:DigestValue>umGHnXPwmtara/Oi7lyZ6lZCHBApBI0ehD0/AXbLgjw=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -70,6 +70,15 @@
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
       <dsig:DigestValue>W3FZXfp6nic/JgBKAphnz5YgZAGfG4Qip/tcfHJexlE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="todoperso.txt" size="138">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>RzvJ5U6MOA00sfAMoRhuNvC+FgHnxKXVFmOFzyyJQ6Y=</dsig:DigestValue>
     </hash>
   </file>
   <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">

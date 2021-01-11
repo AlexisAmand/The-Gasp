@@ -228,6 +228,12 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="cards.ico" />
+    <Content Include="todoperso.txt" />
+    <None Include="Resources\woman.jpg" />
+    <None Include="Resources\galets.jpg" />
+    <None Include="Resources\rock.jpg" />
+    <None Include="Resources\nuages.jpg" />
+    <None Include="Resources\eau.jpg" />
     <None Include="Resources\herbe.jpg" />
     <None Include="Resources\suisse.png" />
     <None Include="Resources\suisse.tif" />

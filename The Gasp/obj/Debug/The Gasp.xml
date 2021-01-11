@@ -193,12 +193,27 @@ The Gasp
   Recherche une ressource localisée de type System.Drawing.Bitmap.
 </summary>
 </member>
+<member name="P:The_Gasp.My.Resources.Resource1.eau">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
 <member name="P:The_Gasp.My.Resources.Resource1.fond">
 <summary>
   Recherche une ressource localisée de type System.Drawing.Bitmap.
 </summary>
 </member>
+<member name="P:The_Gasp.My.Resources.Resource1.galets">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
 <member name="P:The_Gasp.My.Resources.Resource1.herbe">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:The_Gasp.My.Resources.Resource1.nuages">
 <summary>
   Recherche une ressource localisée de type System.Drawing.Bitmap.
 </summary>
@@ -213,12 +228,22 @@ The Gasp
   Recherche une ressource localisée de type System.Drawing.Bitmap.
 </summary>
 </member>
+<member name="P:The_Gasp.My.Resources.Resource1.rock">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
 <member name="P:The_Gasp.My.Resources.Resource1.russian">
 <summary>
   Recherche une ressource localisée de type System.Drawing.Bitmap.
 </summary>
 </member>
 <member name="P:The_Gasp.My.Resources.Resource1.suisse">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:The_Gasp.My.Resources.Resource1.woman">
 <summary>
   Recherche une ressource localisée de type System.Drawing.Bitmap.
 </summary>

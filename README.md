@@ -15,11 +15,11 @@ If you have an idea on how to make the installation easier, I am at your disposa
 
 To install and play, go to the following folder:
 
-https://github.com/AlexisAmand/The-Gasp/tree/master/The%20Gasp/bin/Release
+https://github.com/AlexisAmand/The-Gasp/tree/master/Setup1/Release
 
 Download everything and run :
 
-The Gasp.exe
+setup.exe
 
 ### Screenshots
 

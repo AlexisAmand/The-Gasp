@@ -26,7 +26,6 @@ C:\Users\Alex\Google Drive\Visual Studio 2017\Le Gasp\The Gasp\bin\Release\The G
 C:\Users\Alex\Google Drive\Visual Studio 2017\Le Gasp\The Gasp\bin\Release\The Gasp.exe
 C:\Users\Alex\Google Drive\Visual Studio 2017\Le Gasp\The Gasp\bin\Release\The Gasp.pdb
 C:\Users\Alex\Google Drive\Visual Studio 2017\Le Gasp\The Gasp\bin\Release\The Gasp.xml
-C:\Users\Alex\Google Drive\Visual Studio 2017\Le Gasp\The Gasp\obj\Release\The Gasp.vbprojAssemblyReference.cache
 C:\Users\Alex\Google Drive\Visual Studio 2017\Le Gasp\The Gasp\obj\Release\The_Gasp.AboutBox1.resources
 C:\Users\Alex\Google Drive\Visual Studio 2017\Le Gasp\The Gasp\obj\Release\The_Gasp.aide.resources
 C:\Users\Alex\Google Drive\Visual Studio 2017\Le Gasp\The Gasp\obj\Release\The_Gasp.Form1.resources

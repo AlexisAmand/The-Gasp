@@ -1,0 +1,17 @@
+﻿- Trouver icône un peu plus moderne
+
+CHOIX DU DOS
+------------
+
+- dans la fenêtre des dos, le bouton annuler ne sert à rien
+- dans la fenêtre des dos, le bouton ok doit être remplacé par un bouton fermer, comme pour les fonds
+- faire comme pour les fonds, mettre les textes dans le form load
+
+VERSION
+-------
+
+- soucis avec l'incrémentation des numéros des versions 0.5.86.0
+- Ajout de 5 fonds : la version aurait du être 0.5.136.0
+
+
+

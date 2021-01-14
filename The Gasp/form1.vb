@@ -64,7 +64,7 @@ Public Class Form1
 
     End Sub
 
-    Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
+    Private Sub Button2_Click(sender As Object, e As EventArgs)
 
         Me.Close()
 
@@ -72,13 +72,30 @@ Public Class Form1
 
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
-    End Sub
+        ' Titre de la Form1
 
-    Private Sub PictureBox1_Click(sender As Object, e As EventArgs) Handles PictureBox1.Click
+        Me.Text = "Choix du deck"
 
-    End Sub
+        ' Textes des boutons radios sous les images
 
-    Private Sub PictureBox4_Click(sender As Object, e As EventArgs) Handles PictureBox4.Click
+        RadioButton1.Text = "Defaut"
+        RadioButton2.Text = "Railways"
+        RadioButton3.Text = "Boat"
+        RadioButton4.Text = "Red"
+        RadioButton5.Text = "Russian"
+        RadioButton6.Text = "Meeting"
+        RadioButton7.Text = "Suisse"
+        RadioButton9.Text = "Vintage"
+        RadioButton10.Text = "Disco"
+
+        ' Textes des boutons
+
+        Button1.Text = "Valider"
+        Button2.Text = "Annuler"
+
+        ' La fenêtre est centrée quand elle s'ouvre
+
+        Me.StartPosition = FormStartPosition.CenterScreen
 
     End Sub
 

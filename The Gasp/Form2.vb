@@ -787,4 +787,10 @@ Public Class Form2
         Form1.Visible = vbTrue
 
     End Sub
+
+    Private Sub ChoixDuFondToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ChoixDuFondToolStripMenuItem.Click
+
+        Form4.Visible = vbTrue
+
+    End Sub
 End Class

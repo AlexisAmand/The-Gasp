@@ -43,14 +43,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="The Gasp.exe" size="18103296">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="The Gasp.exe" size="18103808">
       <assemblyIdentity name="The Gasp" version="0.5.86.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>ttu+Njn29Je4wWps1RMHkd71K5K+PxZpIngrb5EDOXk=</dsig:DigestValue>
+        <dsig:DigestValue>RrbGUHq2zBy1NeVpSQ1U6ODuwnhlFdrJKT1GFiVaIso=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

@@ -31,6 +31,7 @@
         ' Choix de l'image "wood" comme fond pour la fenêtre de jeu
 
         Form3.BackgroundImage = The_Gasp.My.Resources.Resource1.wood
+        Form2.BackgroundImage = The_Gasp.My.Resources.Resource1.wood
 
     End Sub
 
@@ -39,6 +40,7 @@
         ' Choix de l'image "dégradé" comme fond pour la fenêtre de jeu
 
         Form3.BackgroundImage = The_Gasp.My.Resources.Resource1.fond
+        Form2.BackgroundImage = The_Gasp.My.Resources.Resource1.fond
 
     End Sub
 
@@ -47,6 +49,7 @@
         ' Choix de l'image "herbe" comme fond pour la fenêtre de jeu
 
         Form3.BackgroundImage = The_Gasp.My.Resources.Resource1.herbe
+        Form2.BackgroundImage = The_Gasp.My.Resources.Resource1.herbe
 
     End Sub
 
@@ -55,6 +58,7 @@
         ' Choix de l'image "eau" comme fond pour la fenêtre de jeu
 
         Form3.BackgroundImage = The_Gasp.My.Resources.Resource1.eau
+        Form2.BackgroundImage = The_Gasp.My.Resources.Resource1.eau
 
     End Sub
 
@@ -63,6 +67,7 @@
         ' Choix de l'image "nuages" comme fond pour la fenêtre de jeu
 
         Form3.BackgroundImage = The_Gasp.My.Resources.Resource1.nuages
+        Form2.BackgroundImage = The_Gasp.My.Resources.Resource1.nuages
 
     End Sub
 
@@ -71,6 +76,7 @@
         ' Choix de l'image "rock" comme fond pour la fenêtre de jeu
 
         Form3.BackgroundImage = The_Gasp.My.Resources.Resource1.rock
+        Form2.BackgroundImage = The_Gasp.My.Resources.Resource1.rock
 
     End Sub
 
@@ -79,6 +85,7 @@
         ' Choix de l'image "galets" comme fond pour la fenêtre de jeu
 
         Form3.BackgroundImage = The_Gasp.My.Resources.Resource1.galets
+        Form2.BackgroundImage = The_Gasp.My.Resources.Resource1.galets
 
     End Sub
 
@@ -87,6 +94,7 @@
         ' Choix de l'image "woman" comme fond pour la fenêtre de jeu
 
         Form3.BackgroundImage = The_Gasp.My.Resources.Resource1.woman
+        Form2.BackgroundImage = The_Gasp.My.Resources.Resource1.woman
 
     End Sub
 

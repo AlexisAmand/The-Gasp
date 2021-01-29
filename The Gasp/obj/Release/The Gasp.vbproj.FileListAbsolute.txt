@@ -41,3 +41,4 @@ C:\Users\Alex\Google Drive\Visual Studio 2017\Le Gasp\The Gasp\obj\Release\The G
 C:\Users\Alex\Google Drive\Visual Studio 2017\Le Gasp\The Gasp\obj\Release\The Gasp.exe
 C:\Users\Alex\Google Drive\Visual Studio 2017\Le Gasp\The Gasp\obj\Release\The Gasp.xml
 C:\Users\Alex\Google Drive\Visual Studio 2017\Le Gasp\The Gasp\obj\Release\The Gasp.pdb
+C:\Users\Alex\Google Drive\Visual Studio 2017\Le Gasp\The Gasp\obj\Release\The Gasp.vbprojAssemblyReference.cache

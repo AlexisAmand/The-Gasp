@@ -133,7 +133,7 @@ Partial Class Form1
         Me.RadioButton1.Size = New System.Drawing.Size(57, 17)
         Me.RadioButton1.TabIndex = 2
         Me.RadioButton1.TabStop = True
-        Me.RadioButton1.Text = "Defaut"
+        Me.RadioButton1.Text = "Défaut"
         Me.RadioButton1.UseVisualStyleBackColor = True
         '
         'RadioButton2

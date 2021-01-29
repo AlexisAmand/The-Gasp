@@ -78,7 +78,7 @@ Public Class Form1
 
         ' Textes des boutons radios sous les images
 
-        RadioButton1.Text = "Defaut"
+        RadioButton1.Text = "Défaut"
         RadioButton2.Text = "Railways"
         RadioButton3.Text = "Boat"
         RadioButton4.Text = "Red"

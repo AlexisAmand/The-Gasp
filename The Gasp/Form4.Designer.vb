@@ -116,12 +116,12 @@ Partial Class Form4
         'RadioButton6
         '
         Me.RadioButton6.AutoSize = True
-        Me.RadioButton6.Location = New System.Drawing.Point(157, 435)
+        Me.RadioButton6.Location = New System.Drawing.Point(179, 435)
         Me.RadioButton6.Name = "RadioButton6"
-        Me.RadioButton6.Size = New System.Drawing.Size(62, 17)
+        Me.RadioButton6.Size = New System.Drawing.Size(56, 17)
         Me.RadioButton6.TabIndex = 15
         Me.RadioButton6.TabStop = True
-        Me.RadioButton6.Text = "Nuages"
+        Me.RadioButton6.Text = "Rocks"
         Me.RadioButton6.UseVisualStyleBackColor = True
         '
         'RadioButton7

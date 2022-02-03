@@ -11,7 +11,7 @@
     <deploymentProvider codebase="http://boitasite.test/thegasp/download/The%20Gasp.application" />
   </deployment>
   <compatibleFrameworks xmlns="urn:schemas-microsoft-com:clickonce.v2">
-    <framework targetVersion="4.5.2" profile="Full" supportedRuntime="4.0.30319" />
+    <framework targetVersion="4.8" profile="Full" supportedRuntime="4.0.30319" />
   </compatibleFrameworks>
   <dependency>
     <dependentAssembly dependencyType="install" codebase="The Gasp.exe.manifest" size="5521">
@@ -21,7 +21,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>ErIEBXevDd52QQKoNH4p8FiDMEkNkLEfQJOv6MOLAAk=</dsig:DigestValue>
+        <dsig:DigestValue>A4R7hnUD80EhjhiXTU3p08aeiNVNpKmdU/2LD74Iepo=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

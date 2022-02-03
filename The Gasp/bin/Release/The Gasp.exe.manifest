@@ -50,7 +50,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>KHXucpzb2EnPpNI0UKg/BfW7d+zUXu9ztqNytqmo/LY=</dsig:DigestValue>
+        <dsig:DigestValue>DzNuJHLp7IFfhHD2Rc77ZggxH91aRsvdmqGuoDnGDWM=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -69,7 +69,7 @@
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>W3FZXfp6nic/JgBKAphnz5YgZAGfG4Qip/tcfHJexlE=</dsig:DigestValue>
+      <dsig:DigestValue>5fljkQxgDgBFFP14ojkzfsNTjg7sxH0IKTIbkyfMSgw=</dsig:DigestValue>
     </hash>
   </file>
   <file name="todoperso.txt" size="464">

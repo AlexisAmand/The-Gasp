@@ -230,7 +230,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="cards.ico" />
-    <Content Include="todoperso.txt" />
+    <Content Include="TodoList.txt" />
     <None Include="Resources\woman.jpg" />
     <None Include="Resources\galets.jpg" />
     <None Include="Resources\rock.jpg" />

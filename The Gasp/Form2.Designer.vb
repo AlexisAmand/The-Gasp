@@ -1,9 +1,9 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class Form2
     Inherits System.Windows.Forms.Form
 
     'Form remplace la méthode Dispose pour nettoyer la liste des composants.
-    <System.Diagnostics.DebuggerNonUserCode()> _
+    <System.Diagnostics.DebuggerNonUserCode()>
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,7 +20,7 @@ Partial Class Form2
     'REMARQUE : la procédure suivante est requise par le Concepteur Windows Form
     'Elle peut être modifiée à l'aide du Concepteur Windows Form.  
     'Ne la modifiez pas à l'aide de l'éditeur de code.
-    <System.Diagnostics.DebuggerStepThrough()> _
+    <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form2))
         Me.MenuStrip1 = New System.Windows.Forms.MenuStrip()
@@ -32,6 +32,7 @@ Partial Class Form2
         Me.Grille5X5ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.OptionsToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ChoixDuDeckToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ChoixDuFondToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.AideToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.RéglesToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.AProposToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
@@ -62,7 +63,6 @@ Partial Class Form2
         Me.PictureBox25 = New System.Windows.Forms.PictureBox()
         Me.StatusStrip1 = New System.Windows.Forms.StatusStrip()
         Me.ToolStripStatusLabel1 = New System.Windows.Forms.ToolStripStatusLabel()
-        Me.ChoixDuFondToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.MenuStrip1.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -111,13 +111,13 @@ Partial Class Form2
         'NouvellePartieToolStripMenuItem
         '
         Me.NouvellePartieToolStripMenuItem.Name = "NouvellePartieToolStripMenuItem"
-        Me.NouvellePartieToolStripMenuItem.Size = New System.Drawing.Size(154, 22)
+        Me.NouvellePartieToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.NouvellePartieToolStripMenuItem.Text = "Nouvelle partie"
         '
         'QuitterToolStripMenuItem
         '
         Me.QuitterToolStripMenuItem.Name = "QuitterToolStripMenuItem"
-        Me.QuitterToolStripMenuItem.Size = New System.Drawing.Size(154, 22)
+        Me.QuitterToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.QuitterToolStripMenuItem.Text = "Quitter"
         '
         'NiveauToolStripMenuItem
@@ -151,8 +151,14 @@ Partial Class Form2
         'ChoixDuDeckToolStripMenuItem
         '
         Me.ChoixDuDeckToolStripMenuItem.Name = "ChoixDuDeckToolStripMenuItem"
-        Me.ChoixDuDeckToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.ChoixDuDeckToolStripMenuItem.Size = New System.Drawing.Size(150, 22)
         Me.ChoixDuDeckToolStripMenuItem.Text = "Choix du deck"
+        '
+        'ChoixDuFondToolStripMenuItem
+        '
+        Me.ChoixDuFondToolStripMenuItem.Name = "ChoixDuFondToolStripMenuItem"
+        Me.ChoixDuFondToolStripMenuItem.Size = New System.Drawing.Size(150, 22)
+        Me.ChoixDuFondToolStripMenuItem.Text = "Choix du fond"
         '
         'AideToolStripMenuItem
         '
@@ -461,12 +467,6 @@ Partial Class Form2
         Me.ToolStripStatusLabel1.Name = "ToolStripStatusLabel1"
         Me.ToolStripStatusLabel1.Size = New System.Drawing.Size(119, 17)
         Me.ToolStripStatusLabel1.Text = "ToolStripStatusLabel1"
-        '
-        'ChoixDuFondToolStripMenuItem
-        '
-        Me.ChoixDuFondToolStripMenuItem.Name = "ChoixDuFondToolStripMenuItem"
-        Me.ChoixDuFondToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
-        Me.ChoixDuFondToolStripMenuItem.Text = "Choix du fond"
         '
         'Form2
         '

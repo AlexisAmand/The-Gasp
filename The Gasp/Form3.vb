@@ -44,7 +44,7 @@ Public Class Form3
         End If
 
         NombreCoups = NombreCoups + 1
-        ToolStripStatusLabel1.Text = "Nombre de coups : " & NombreCoups
+        ToolStripStatusLabel1.Text = Module1.NombreCoupsTexte & NombreCoups
 
         afficher(VersoCarte)
 
@@ -59,21 +59,15 @@ Public Class Form3
             ' afficher les pions de la 1ere ligne
 
             If Damier(i, 1) = "X" Then
-
                 Controls("PictureBox" & (i).ToString).BackgroundImage = VersoCarte
-
             Else
-
                 Controls("PictureBox" & (i).ToString).BackgroundImage = TableauDesImages(i)
-
             End If
 
             ' afficher les pions de la 2e ligne
 
             If Damier(i, 2) = "X" Then
-
                 Controls("PictureBox" & (i + 4).ToString).BackgroundImage = VersoCarte
-
             Else
                 Controls("PictureBox" & (i + 4).ToString).BackgroundImage = TableauDesImages(i + 4)
             End If
@@ -81,9 +75,7 @@ Public Class Form3
             ' afficher les pions de la 3e ligne
 
             If Damier(i, 3) = "X" Then
-
                 Controls("PictureBox" & (i + 8).ToString).BackgroundImage = VersoCarte
-
             Else
                 Controls("PictureBox" & (i + 8).ToString).BackgroundImage = TableauDesImages(i + 8)
             End If
@@ -91,9 +83,7 @@ Public Class Form3
             ' afficher les pions de la 4e ligne
 
             If Damier(i, 4) = "X" Then
-
                 Controls("PictureBox" & (i + 12).ToString).BackgroundImage = VersoCarte
-
             Else
                 Controls("PictureBox" & (i + 12).ToString).BackgroundImage = TableauDesImages(i + 12)
             End If
@@ -114,7 +104,7 @@ Public Class Form3
             Next
         Next
 
-        ToolStripStatusLabel1.Text = "Nombre de coups : " & NombreCoups
+        ToolStripStatusLabel1.Text = Module1.NombreCoupsTexte & NombreCoups
 
         afficher(VersoCarte)
 
@@ -189,13 +179,13 @@ Public Class Form3
 
     Private Sub Form3_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
-        Me.Text = "The Gasp"
+        Me.Text = Module1.GameTitle
 
         ' Background du jeu
 
         Me.BackgroundImage = The_Gasp.My.Resources.Resource1.wood
 
-        ToolStripStatusLabel1.Text = "Nombre de coups : " & NombreCoups
+        ToolStripStatusLabel1.Text = NombreCoupsTexte & NombreCoups
 
         MaximizeBox = vbFalse
         MinimizeBox = vbFalse
@@ -404,9 +394,4 @@ Public Class Form3
 
     End Sub
 
-    Private Sub TestToolStripMenuItem_Click(sender As Object, e As EventArgs)
-
-        ' Form5.Visible = vbTrue
-
-    End Sub
 End Class

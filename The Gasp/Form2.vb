@@ -23,9 +23,6 @@ Public Class Form2
 
     Dim TableauDesImages(27) As Image
 
-
-
-
     ' fonction qui retourne les pions
 
     Private Sub retourne(xb, yb)
@@ -47,7 +44,8 @@ Public Class Form2
         End If
 
         NombreCoups = NombreCoups + 1
-        ToolStripStatusLabel1.Text = "Nombre de coups : " & NombreCoups
+
+        ToolStripStatusLabel1.Text = Module1.NombreCoupsTexte & NombreCoups
 
         afficher(VersoCarte)
 
@@ -145,9 +143,9 @@ Public Class Form2
 
     Private Sub Form2_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
-        Me.Text = "The Gasp"
+        Me.Text = Module1.GameTitle
 
-        ToolStripStatusLabel1.Text = "Nombre de coups : " & NombreCoups
+        ToolStripStatusLabel1.Text = Module1.NombreCoupsTexte & NombreCoups
 
         MaximizeBox = vbFalse
         MinimizeBox = vbFalse
@@ -793,4 +791,5 @@ Public Class Form2
         Form4.Visible = vbTrue
 
     End Sub
+
 End Class

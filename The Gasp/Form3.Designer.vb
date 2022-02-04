@@ -287,7 +287,7 @@ Partial Class Form3
         '
         Me.NiveauToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.Grille4X4ToolStripMenuItem, Me.Grille5X5ToolStripMenuItem})
         Me.NiveauToolStripMenuItem.Name = "NiveauToolStripMenuItem"
-        Me.NiveauToolStripMenuItem.Size = New System.Drawing.Size(61, 20)
+        Me.NiveauToolStripMenuItem.Size = New System.Drawing.Size(62, 20)
         Me.NiveauToolStripMenuItem.Text = "Niveaux"
         '
         'Grille4X4ToolStripMenuItem
@@ -295,13 +295,13 @@ Partial Class Form3
         Me.Grille4X4ToolStripMenuItem.Checked = True
         Me.Grille4X4ToolStripMenuItem.CheckState = System.Windows.Forms.CheckState.Checked
         Me.Grille4X4ToolStripMenuItem.Name = "Grille4X4ToolStripMenuItem"
-        Me.Grille4X4ToolStripMenuItem.Size = New System.Drawing.Size(127, 22)
+        Me.Grille4X4ToolStripMenuItem.Size = New System.Drawing.Size(128, 22)
         Me.Grille4X4ToolStripMenuItem.Text = "Grille 4 x 4"
         '
         'Grille5X5ToolStripMenuItem
         '
         Me.Grille5X5ToolStripMenuItem.Name = "Grille5X5ToolStripMenuItem"
-        Me.Grille5X5ToolStripMenuItem.Size = New System.Drawing.Size(127, 22)
+        Me.Grille5X5ToolStripMenuItem.Size = New System.Drawing.Size(128, 22)
         Me.Grille5X5ToolStripMenuItem.Text = "Grille 5 x 5"
         '
         'OptionsToolStripMenuItem
@@ -314,13 +314,13 @@ Partial Class Form3
         'ChoixDuDeckToolStripMenuItem
         '
         Me.ChoixDuDeckToolStripMenuItem.Name = "ChoixDuDeckToolStripMenuItem"
-        Me.ChoixDuDeckToolStripMenuItem.Size = New System.Drawing.Size(149, 22)
+        Me.ChoixDuDeckToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.ChoixDuDeckToolStripMenuItem.Text = "Choix du deck"
         '
         'ToolStripMenuItem1
         '
         Me.ToolStripMenuItem1.Name = "ToolStripMenuItem1"
-        Me.ToolStripMenuItem1.Size = New System.Drawing.Size(149, 22)
+        Me.ToolStripMenuItem1.Size = New System.Drawing.Size(180, 22)
         Me.ToolStripMenuItem1.Text = "Choix du fond"
         '
         'AideToolStripMenuItem
@@ -334,14 +334,14 @@ Partial Class Form3
         '
         Me.RéglesToolStripMenuItem.Name = "RéglesToolStripMenuItem"
         Me.RéglesToolStripMenuItem.ShortcutKeys = CType((System.Windows.Forms.Keys.Alt Or System.Windows.Forms.Keys.R), System.Windows.Forms.Keys)
-        Me.RéglesToolStripMenuItem.Size = New System.Drawing.Size(160, 22)
+        Me.RéglesToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.RéglesToolStripMenuItem.Text = "Règles"
         '
         'AProposToolStripMenuItem
         '
         Me.AProposToolStripMenuItem.Name = "AProposToolStripMenuItem"
         Me.AProposToolStripMenuItem.ShortcutKeys = CType((System.Windows.Forms.Keys.Alt Or System.Windows.Forms.Keys.A), System.Windows.Forms.Keys)
-        Me.AProposToolStripMenuItem.Size = New System.Drawing.Size(160, 22)
+        Me.AProposToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.AProposToolStripMenuItem.Text = "A propos"
         '
         'ToolStripMenuItem2
@@ -360,7 +360,7 @@ Partial Class Form3
         'ToolStripStatusLabel1
         '
         Me.ToolStripStatusLabel1.Name = "ToolStripStatusLabel1"
-        Me.ToolStripStatusLabel1.Size = New System.Drawing.Size(121, 17)
+        Me.ToolStripStatusLabel1.Size = New System.Drawing.Size(119, 17)
         Me.ToolStripStatusLabel1.Text = "ToolStripStatusLabel1"
         '
         'Form3

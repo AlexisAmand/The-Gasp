@@ -495,7 +495,7 @@ Public Class Form2
 
     Private Sub QuitterToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles QuitterToolStripMenuItem.Click
 
-        Me.Close()
+        Application.Exit()
 
     End Sub
 

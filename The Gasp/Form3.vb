@@ -394,4 +394,9 @@ Public Class Form3
 
     End Sub
 
+    Private Sub QuitterToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles QuitterToolStripMenuItem.Click
+
+        Application.Exit()
+
+    End Sub
 End Class

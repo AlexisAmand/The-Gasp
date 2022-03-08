@@ -314,13 +314,13 @@ Partial Class Form3
         'ChoixDuDeckToolStripMenuItem
         '
         Me.ChoixDuDeckToolStripMenuItem.Name = "ChoixDuDeckToolStripMenuItem"
-        Me.ChoixDuDeckToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.ChoixDuDeckToolStripMenuItem.Size = New System.Drawing.Size(150, 22)
         Me.ChoixDuDeckToolStripMenuItem.Text = "Choix du deck"
         '
         'ToolStripMenuItem1
         '
         Me.ToolStripMenuItem1.Name = "ToolStripMenuItem1"
-        Me.ToolStripMenuItem1.Size = New System.Drawing.Size(180, 22)
+        Me.ToolStripMenuItem1.Size = New System.Drawing.Size(150, 22)
         Me.ToolStripMenuItem1.Text = "Choix du fond"
         '
         'AideToolStripMenuItem
@@ -334,14 +334,14 @@ Partial Class Form3
         '
         Me.RéglesToolStripMenuItem.Name = "RéglesToolStripMenuItem"
         Me.RéglesToolStripMenuItem.ShortcutKeys = CType((System.Windows.Forms.Keys.Alt Or System.Windows.Forms.Keys.R), System.Windows.Forms.Keys)
-        Me.RéglesToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.RéglesToolStripMenuItem.Size = New System.Drawing.Size(160, 22)
         Me.RéglesToolStripMenuItem.Text = "Règles"
         '
         'AProposToolStripMenuItem
         '
         Me.AProposToolStripMenuItem.Name = "AProposToolStripMenuItem"
         Me.AProposToolStripMenuItem.ShortcutKeys = CType((System.Windows.Forms.Keys.Alt Or System.Windows.Forms.Keys.A), System.Windows.Forms.Keys)
-        Me.AProposToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.AProposToolStripMenuItem.Size = New System.Drawing.Size(160, 22)
         Me.AProposToolStripMenuItem.Text = "A propos"
         '
         'ToolStripMenuItem2
